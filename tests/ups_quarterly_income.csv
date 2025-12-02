@@ -1,0 +1,196 @@
+ticker,statement,metric,date,value
+UPS,quarterly_income,Tax Effect Of Unusual Items,2025-06-30,17784000.0
+UPS,quarterly_income,Tax Rate For Calcs,2025-06-30,0.228
+UPS,quarterly_income,Normalized EBITDA,2025-06-30,2758000000.0
+UPS,quarterly_income,Total Unusual Items,2025-06-30,78000000.0
+UPS,quarterly_income,Total Unusual Items Excluding Goodwill,2025-06-30,78000000.0
+UPS,quarterly_income,Net Income From Continuing Operation Net Minority Interest,2025-06-30,1283000000.0
+UPS,quarterly_income,Reconciled Depreciation,2025-06-30,936000000.0
+UPS,quarterly_income,Reconciled Cost Of Revenue,2025-06-30,17441000000.0
+UPS,quarterly_income,EBITDA,2025-06-30,2836000000.0
+UPS,quarterly_income,EBIT,2025-06-30,1900000000.0
+UPS,quarterly_income,Net Interest Income,2025-06-30,-238000000.0
+UPS,quarterly_income,Interest Expense,2025-06-30,238000000.0
+UPS,quarterly_income,Normalized Income,2025-06-30,1222784000.0
+UPS,quarterly_income,Net Income From Continuing And Discontinued Operation,2025-06-30,1283000000.0
+UPS,quarterly_income,Total Expenses,2025-06-30,19399000000.0
+UPS,quarterly_income,Rent Expense Supplemental,2025-06-30,544000000.0
+UPS,quarterly_income,Total Operating Income As Reported,2025-06-30,1822000000.0
+UPS,quarterly_income,Diluted Average Shares,2025-06-30,847000000.0
+UPS,quarterly_income,Basic Average Shares,2025-06-30,847000000.0
+UPS,quarterly_income,Diluted EPS,2025-06-30,1.51
+UPS,quarterly_income,Basic EPS,2025-06-30,1.51
+UPS,quarterly_income,Diluted NI Availto Com Stockholders,2025-06-30,1283000000.0
+UPS,quarterly_income,Net Income Common Stockholders,2025-06-30,1283000000.0
+UPS,quarterly_income,Net Income,2025-06-30,1283000000.0
+UPS,quarterly_income,Net Income Including Noncontrolling Interests,2025-06-30,1283000000.0
+UPS,quarterly_income,Net Income Continuous Operations,2025-06-30,1283000000.0
+UPS,quarterly_income,Tax Provision,2025-06-30,379000000.0
+UPS,quarterly_income,Pretax Income,2025-06-30,1662000000.0
+UPS,quarterly_income,Other Income Expense,2025-06-30,78000000.0
+UPS,quarterly_income,Gain On Sale Of Security,2025-06-30,78000000.0
+UPS,quarterly_income,Net Non Operating Interest Income Expense,2025-06-30,-238000000.0
+UPS,quarterly_income,Interest Expense Non Operating,2025-06-30,238000000.0
+UPS,quarterly_income,Operating Income,2025-06-30,1822000000.0
+UPS,quarterly_income,Operating Expense,2025-06-30,1958000000.0
+UPS,quarterly_income,Other Operating Expenses,2025-06-30,1958000000.0
+UPS,quarterly_income,Gross Profit,2025-06-30,3780000000.0
+UPS,quarterly_income,Cost Of Revenue,2025-06-30,17441000000.0
+UPS,quarterly_income,Total Revenue,2025-06-30,21221000000.0
+UPS,quarterly_income,Operating Revenue,2025-06-30,21221000000.0
+UPS,quarterly_income,Tax Effect Of Unusual Items,2025-03-31,17459000.0
+UPS,quarterly_income,Tax Rate For Calcs,2025-03-31,0.221
+UPS,quarterly_income,Normalized EBITDA,2025-03-31,2578000000.0
+UPS,quarterly_income,Total Unusual Items,2025-03-31,79000000.0
+UPS,quarterly_income,Total Unusual Items Excluding Goodwill,2025-03-31,79000000.0
+UPS,quarterly_income,Net Income From Continuing Operation Net Minority Interest,2025-03-31,1187000000.0
+UPS,quarterly_income,Reconciled Depreciation,2025-03-31,912000000.0
+UPS,quarterly_income,Reconciled Cost Of Revenue,2025-03-31,17866000000.0
+UPS,quarterly_income,EBITDA,2025-03-31,2657000000.0
+UPS,quarterly_income,EBIT,2025-03-31,1745000000.0
+UPS,quarterly_income,Net Interest Income,2025-03-31,-222000000.0
+UPS,quarterly_income,Interest Expense,2025-03-31,222000000.0
+UPS,quarterly_income,Normalized Income,2025-03-31,1125459000.0
+UPS,quarterly_income,Net Income From Continuing And Discontinued Operation,2025-03-31,1187000000.0
+UPS,quarterly_income,Total Expenses,2025-03-31,19880000000.0
+UPS,quarterly_income,Rent Expense Supplemental,2025-03-31,607000000.0
+UPS,quarterly_income,Total Operating Income As Reported,2025-03-31,1666000000.0
+UPS,quarterly_income,Diluted Average Shares,2025-03-31,850000000.0
+UPS,quarterly_income,Basic Average Shares,2025-03-31,850000000.0
+UPS,quarterly_income,Diluted EPS,2025-03-31,1.4
+UPS,quarterly_income,Basic EPS,2025-03-31,1.4
+UPS,quarterly_income,Diluted NI Availto Com Stockholders,2025-03-31,1187000000.0
+UPS,quarterly_income,Net Income Common Stockholders,2025-03-31,1187000000.0
+UPS,quarterly_income,Net Income,2025-03-31,1187000000.0
+UPS,quarterly_income,Net Income Including Noncontrolling Interests,2025-03-31,1187000000.0
+UPS,quarterly_income,Net Income Continuous Operations,2025-03-31,1187000000.0
+UPS,quarterly_income,Tax Provision,2025-03-31,336000000.0
+UPS,quarterly_income,Pretax Income,2025-03-31,1523000000.0
+UPS,quarterly_income,Other Income Expense,2025-03-31,79000000.0
+UPS,quarterly_income,Gain On Sale Of Security,2025-03-31,79000000.0
+UPS,quarterly_income,Net Non Operating Interest Income Expense,2025-03-31,-222000000.0
+UPS,quarterly_income,Interest Expense Non Operating,2025-03-31,222000000.0
+UPS,quarterly_income,Operating Income,2025-03-31,1666000000.0
+UPS,quarterly_income,Operating Expense,2025-03-31,2014000000.0
+UPS,quarterly_income,Other Operating Expenses,2025-03-31,2014000000.0
+UPS,quarterly_income,Gross Profit,2025-03-31,3680000000.0
+UPS,quarterly_income,Cost Of Revenue,2025-03-31,17866000000.0
+UPS,quarterly_income,Total Revenue,2025-03-31,21546000000.0
+UPS,quarterly_income,Operating Revenue,2025-03-31,21546000000.0
+UPS,quarterly_income,Tax Effect Of Unusual Items,2024-12-31,-108801128.349788
+UPS,quarterly_income,Tax Rate For Calcs,2024-12-31,0.190879
+UPS,quarterly_income,Normalized EBITDA,2024-12-31,3845000000.0
+UPS,quarterly_income,Total Unusual Items,2024-12-31,-570000000.0
+UPS,quarterly_income,Total Unusual Items Excluding Goodwill,2024-12-31,-570000000.0
+UPS,quarterly_income,Net Income From Continuing Operation Net Minority Interest,2024-12-31,1721000000.0
+UPS,quarterly_income,Reconciled Depreciation,2024-12-31,919000000.0
+UPS,quarterly_income,Reconciled Cost Of Revenue,2024-12-31,20041000000.0
+UPS,quarterly_income,EBITDA,2024-12-31,3275000000.0
+UPS,quarterly_income,EBIT,2024-12-31,2356000000.0
+UPS,quarterly_income,Net Interest Income,2024-12-31,-229000000.0
+UPS,quarterly_income,Interest Expense,2024-12-31,229000000.0
+UPS,quarterly_income,Normalized Income,2024-12-31,2182198871.650212
+UPS,quarterly_income,Net Income From Continuing And Discontinued Operation,2024-12-31,1721000000.0
+UPS,quarterly_income,Total Expenses,2024-12-31,22375000000.0
+UPS,quarterly_income,Rent Expense Supplemental,2024-12-31,544000000.0
+UPS,quarterly_income,Total Operating Income As Reported,2024-12-31,2926000000.0
+UPS,quarterly_income,Diluted Average Shares,2024-12-31,858000000.0
+UPS,quarterly_income,Basic Average Shares,2024-12-31,854000000.0
+UPS,quarterly_income,Diluted EPS,2024-12-31,2.01
+UPS,quarterly_income,Basic EPS,2024-12-31,2.02
+UPS,quarterly_income,Diluted NI Availto Com Stockholders,2024-12-31,1721000000.0
+UPS,quarterly_income,Net Income Common Stockholders,2024-12-31,1721000000.0
+UPS,quarterly_income,Net Income,2024-12-31,1721000000.0
+UPS,quarterly_income,Net Income Including Noncontrolling Interests,2024-12-31,1721000000.0
+UPS,quarterly_income,Net Income Continuous Operations,2024-12-31,1721000000.0
+UPS,quarterly_income,Tax Provision,2024-12-31,406000000.0
+UPS,quarterly_income,Pretax Income,2024-12-31,2127000000.0
+UPS,quarterly_income,Other Income Expense,2024-12-31,-570000000.0
+UPS,quarterly_income,Gain On Sale Of Security,2024-12-31,-570000000.0
+UPS,quarterly_income,Net Non Operating Interest Income Expense,2024-12-31,-229000000.0
+UPS,quarterly_income,Interest Expense Non Operating,2024-12-31,229000000.0
+UPS,quarterly_income,Operating Income,2024-12-31,2926000000.0
+UPS,quarterly_income,Operating Expense,2024-12-31,2334000000.0
+UPS,quarterly_income,Other Operating Expenses,2024-12-31,2334000000.0
+UPS,quarterly_income,Gross Profit,2024-12-31,5260000000.0
+UPS,quarterly_income,Cost Of Revenue,2024-12-31,20041000000.0
+UPS,quarterly_income,Total Revenue,2024-12-31,25301000000.0
+UPS,quarterly_income,Operating Revenue,2024-12-31,25301000000.0
+UPS,quarterly_income,Tax Effect Of Unusual Items,2024-09-30,30070000.0
+UPS,quarterly_income,Tax Rate For Calcs,2024-09-30,0.194
+UPS,quarterly_income,Normalized EBITDA,2024-09-30,2890000000.0
+UPS,quarterly_income,Total Unusual Items,2024-09-30,155000000.0
+UPS,quarterly_income,Total Unusual Items Excluding Goodwill,2024-09-30,155000000.0
+UPS,quarterly_income,Net Income From Continuing Operation Net Minority Interest,2024-09-30,1539000000.0
+UPS,quarterly_income,Reconciled Depreciation,2024-09-30,905000000.0
+UPS,quarterly_income,Reconciled Cost Of Revenue,2024-09-30,18533000000.0
+UPS,quarterly_income,EBITDA,2024-09-30,3045000000.0
+UPS,quarterly_income,EBIT,2024-09-30,2140000000.0
+UPS,quarterly_income,Net Interest Income,2024-09-30,-230000000.0
+UPS,quarterly_income,Interest Expense,2024-09-30,230000000.0
+UPS,quarterly_income,Normalized Income,2024-09-30,1414070000.0
+UPS,quarterly_income,Net Income From Continuing And Discontinued Operation,2024-09-30,1539000000.0
+UPS,quarterly_income,Total Expenses,2024-09-30,20260000000.0
+UPS,quarterly_income,Rent Expense Supplemental,2024-09-30,517000000.0
+UPS,quarterly_income,Total Operating Income As Reported,2024-09-30,1985000000.0
+UPS,quarterly_income,Diluted Average Shares,2024-09-30,855000000.0
+UPS,quarterly_income,Basic Average Shares,2024-09-30,852900000.0
+UPS,quarterly_income,Diluted EPS,2024-09-30,1.8
+UPS,quarterly_income,Basic EPS,2024-09-30,1.8
+UPS,quarterly_income,Diluted NI Availto Com Stockholders,2024-09-30,1539000000.0
+UPS,quarterly_income,Net Income Common Stockholders,2024-09-30,1539000000.0
+UPS,quarterly_income,Net Income,2024-09-30,1539000000.0
+UPS,quarterly_income,Net Income Including Noncontrolling Interests,2024-09-30,1539000000.0
+UPS,quarterly_income,Net Income Continuous Operations,2024-09-30,1539000000.0
+UPS,quarterly_income,Tax Provision,2024-09-30,371000000.0
+UPS,quarterly_income,Pretax Income,2024-09-30,1910000000.0
+UPS,quarterly_income,Other Income Expense,2024-09-30,155000000.0
+UPS,quarterly_income,Gain On Sale Of Security,2024-09-30,155000000.0
+UPS,quarterly_income,Net Non Operating Interest Income Expense,2024-09-30,-230000000.0
+UPS,quarterly_income,Interest Expense Non Operating,2024-09-30,230000000.0
+UPS,quarterly_income,Operating Income,2024-09-30,1985000000.0
+UPS,quarterly_income,Operating Expense,2024-09-30,1727000000.0
+UPS,quarterly_income,Other Operating Expenses,2024-09-30,1727000000.0
+UPS,quarterly_income,Gross Profit,2024-09-30,3712000000.0
+UPS,quarterly_income,Cost Of Revenue,2024-09-30,18533000000.0
+UPS,quarterly_income,Total Revenue,2024-09-30,22245000000.0
+UPS,quarterly_income,Operating Revenue,2024-09-30,22245000000.0
+UPS,quarterly_income,Tax Effect Of Unusual Items,2024-06-30,33702000.0
+UPS,quarterly_income,Tax Rate For Calcs,2024-06-30,0.246
+UPS,quarterly_income,Normalized EBITDA,2024-06-30,2831000000.0
+UPS,quarterly_income,Total Unusual Items,2024-06-30,137000000.0
+UPS,quarterly_income,Total Unusual Items Excluding Goodwill,2024-06-30,137000000.0
+UPS,quarterly_income,Net Income From Continuing Operation Net Minority Interest,2024-06-30,1409000000.0
+UPS,quarterly_income,Reconciled Depreciation,2024-06-30,887000000.0
+UPS,quarterly_income,Reconciled Cost Of Revenue,2024-06-30,18015000000.0
+UPS,quarterly_income,EBITDA,2024-06-30,2968000000.0
+UPS,quarterly_income,EBIT,2024-06-30,2081000000.0
+UPS,quarterly_income,Net Interest Income,2024-06-30,-212000000.0
+UPS,quarterly_income,Interest Expense,2024-06-30,212000000.0
+UPS,quarterly_income,Normalized Income,2024-06-30,1305702000.0
+UPS,quarterly_income,Net Income From Continuing And Discontinued Operation,2024-06-30,1409000000.0
+UPS,quarterly_income,Total Expenses,2024-06-30,19874000000.0
+UPS,quarterly_income,Rent Expense Supplemental,2024-06-30,492000000.0
+UPS,quarterly_income,Total Operating Income As Reported,2024-06-30,1944000000.0
+UPS,quarterly_income,Diluted Average Shares,2024-06-30,857000000.0
+UPS,quarterly_income,Basic Average Shares,2024-06-30,856000000.0
+UPS,quarterly_income,Diluted EPS,2024-06-30,1.65
+UPS,quarterly_income,Basic EPS,2024-06-30,1.65
+UPS,quarterly_income,Diluted NI Availto Com Stockholders,2024-06-30,1409000000.0
+UPS,quarterly_income,Net Income Common Stockholders,2024-06-30,1409000000.0
+UPS,quarterly_income,Net Income,2024-06-30,1409000000.0
+UPS,quarterly_income,Net Income Including Noncontrolling Interests,2024-06-30,1409000000.0
+UPS,quarterly_income,Net Income Continuous Operations,2024-06-30,1409000000.0
+UPS,quarterly_income,Tax Provision,2024-06-30,460000000.0
+UPS,quarterly_income,Pretax Income,2024-06-30,1869000000.0
+UPS,quarterly_income,Other Income Expense,2024-06-30,137000000.0
+UPS,quarterly_income,Gain On Sale Of Security,2024-06-30,137000000.0
+UPS,quarterly_income,Net Non Operating Interest Income Expense,2024-06-30,-212000000.0
+UPS,quarterly_income,Interest Expense Non Operating,2024-06-30,212000000.0
+UPS,quarterly_income,Operating Income,2024-06-30,1944000000.0
+UPS,quarterly_income,Operating Expense,2024-06-30,1859000000.0
+UPS,quarterly_income,Other Operating Expenses,2024-06-30,1859000000.0
+UPS,quarterly_income,Gross Profit,2024-06-30,3803000000.0
+UPS,quarterly_income,Cost Of Revenue,2024-06-30,18015000000.0
+UPS,quarterly_income,Total Revenue,2024-06-30,21818000000.0
+UPS,quarterly_income,Operating Revenue,2024-06-30,21818000000.0

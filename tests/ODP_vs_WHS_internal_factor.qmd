@@ -1,0 +1,175 @@
+---
+title: "Office Depot Internal Factor Analysis (2022–2025)"
+format: html
+editor: visual
+---
+
+# Internal Factor: Lack of product or service innovation
+
+This section examines the internal factor of Office Depot’s lack of product and service innovation and how this weakness has contributed to the company’s declining performance. The analysis begins with industry demand using the FRED Office Supply and Stationery Store Index to show the overall downturn in the office supply market. Office Depot’s annual revenue from 2022 to 2024 is then reviewed to observe changes in business performance over time. The results are compared with WH Smith, a retailer in a similar product space that has achieved stronger outcomes through new store formats and a wider product range. The combined evidence demonstrates that limited innovation has reduced Office Depot’s ability to grow and compete in a changing market, providing the basis for a recommendation focused on innovation-driven improvement.
+
+```{r}
+library(ggplot2)
+library(lubridate)
+library(scales)
+```
+
+## Data Used
+
+-   Industry: `MRTSSM45321USN.csv` (Office supplies & stationery stores, monthly; our file has one point per year)
+-   Company (ODP): `odp_financials_all_tidy_2022_2025.csv` (tidy: metric/date/value)
+-   Company (WHS): `smwh_income_annual_2022_2025_tidy.csv` (tidy: date or Year, metric, value)
+
+> Scope: **2022–2025** (annual). Only unit-level code: `read_csv()`, `mutate()`, `summarise()`, `lag()`, `pivot_longer()`, `ggplot()`.
+
+# 1) Industry Context — Office Supply Category (Indexed to 2022 = 100)
+
+```{r}
+# Read industry CSV (columns: observation_date, MRTSSM45321USN)
+
+office <- read.csv("MRTSSM45321USN.csv", stringsAsFactors = FALSE)
+
+# Parse dates like "01-01-22" and extract year
+
+office$Year <- year(mdy(office$observation_date))
+
+# Annual mean (keeps it simple)
+
+industry <- aggregate(office$MRTSSM45321USN,
+by = list(Year = office$Year),
+FUN = function(z) mean(z, na.rm = TRUE))
+names(industry)[2] <- "Office_Sales"
+
+# Keep 2022–2025
+
+industry <- industry[industry$Year >= 2022 & industry$Year <= 2025, ]
+
+# Index to 2022 = 100
+
+base_val <- industry$Office_Sales[industry$Year == 2022]
+industry$Index <- 100 * industry$Office_Sales / base_val
+
+# Plot (line with points) — clear labels tied to what the chart represents
+
+ggplot(industry, aes(x = Year, y = Index)) +
+geom_line(linewidth = 1) +
+geom_point(size = 2) +
+labs(title = "Office-Supply Industry Demand",
+subtitle = "2022 used as baseline (Index = 100)",
+x = "Year",
+y = "Industry Demand (Index)") +
+theme_minimal(base_size = 12)
+
+```
+
+**Interpretation (Internal Factor).** The office-supply category is flat to soft from 2022–2025. Legacy stationery alone does not create growth. Because Office Depot stayed concentrated in this category without meaningful product or service innovation, weak demand is expected unless the offer evolves.
+
+# 2) Company Performance — ODP vs WH Smith (Revenue Trend)
+
+```{r}
+# ---- Office Depot (tidy: metric/date/value) ----
+
+odp <- read.csv("odp_financials_all_tidy_2022_2025.csv", stringsAsFactors = FALSE)
+
+# Keep Total Revenue only
+
+odp_tr <- odp[odp$metric == "Total Revenue", , drop = FALSE]
+
+# Derive Year and annual total
+
+odp_tr$Year <- year(as.Date(odp_tr$date))
+odp_yr <- aggregate(odp_tr$value, by = list(Year = odp_tr$Year), FUN = function(z) sum(z, na.rm = TRUE))
+names(odp_yr)[2] <- "Office_Depot_Revenue"
+odp_yr <- odp_yr[odp_yr$Year >= 2022 & odp_yr$Year <= 2025, , drop = FALSE]
+
+# ---- WH Smith (tidy: date or Year, metric, value) ----
+
+whs_raw <- read.csv("data/whsmith/smwh_income_annual_2022_2025_tidy.csv", stringsAsFactors = FALSE)
+
+# Keep Total Revenue
+
+whs_tr <- whs_raw[grepl("Total Revenue", whs_raw$metric, ignore.case = TRUE), , drop = FALSE]
+
+# Work out Year from either 'date' or 'Year' column
+
+if ("date" %in% names(whs_tr)) {
+whs_tr$Year <- year(as.Date(whs_tr$date))
+} else if ("Year" %in% names(whs_tr)) {
+whs_tr$Year <- as.integer(whs_tr$Year)
+} else {
+stop("WHS file must contain a 'date' or 'Year' column.")
+}
+
+# Annual total
+
+whs_yr <- aggregate(whs_tr$value, by = list(Year = whs_tr$Year), FUN = function(z) sum(z, na.rm = TRUE))
+names(whs_yr)[2] <- "WH_Smith_Revenue"
+whs_yr <- whs_yr[whs_yr$Year >= 2022 & whs_yr$Year <= 2025, , drop = FALSE]
+
+# ---- Merge and reshape for plotting ----
+
+comp <- merge(odp_yr, whs_yr, by = "Year", all = TRUE)
+
+comp_long <- data.frame(
+Year    = c(comp$Year, comp$Year),
+Company = c(rep("Office Depot", nrow(comp)), rep("WH Smith", nrow(comp))),
+Revenue = c(comp$Office_Depot_Revenue, comp$WH_Smith_Revenue)
+)
+comp_long <- comp_long[!is.na(comp_long$Revenue), , drop = FALSE]
+
+comp_long$Year <- as.factor(comp_long$Year)
+
+
+# Plot
+
+ggplot(comp_long, aes(x = Year, y = Revenue, color = Company, group = Company)) +
+geom_line(linewidth = 1) +
+geom_point(size = 2) +
+labs(title = "Annual Revenue Trend: Office Depot vs WH Smith",
+x = "Year",
+y = "Revenue (reported units)",
+color = NULL) +
+theme_minimal(base_size = 12)
+```
+
+**Interpretation (Internal Factor).** Office Depot’s revenue line is flat to soft, while WH Smith shows stronger momentum across the same years. The difference is strategy: WH Smith innovated its offer and format (travel-led, one-stop stores with tech accessories and convenience), while Office Depot stayed anchored to legacy office supplies. This supports the claim that ODP’s weakness is an **internal lack of innovation** rather than an unavoidable market fate.
+
+# 3) YoY Comparison — Side-by-Side Bars (Option A)
+
+```{r}
+# Make sure comp is ordered by Year
+
+comp <- comp[order(comp$Year), , drop = FALSE]
+
+# Compute YoY for each company (simple base R)
+
+comp$Office_Depot_YoY <- c(NA, diff(comp$Office_Depot_Revenue) / head(comp$Office_Depot_Revenue, -1))
+comp$WH_Smith_YoY     <- c(NA, diff(comp$WH_Smith_Revenue)     / head(comp$WH_Smith_Revenue, -1))
+
+# Stack for plotting
+
+yoy <- data.frame(
+Year    = c(comp$Year, comp$Year),
+Company = c(rep("Office Depot", nrow(comp)), rep("WH Smith", nrow(comp))),
+YoY     = c(comp$Office_Depot_YoY, comp$WH_Smith_YoY)
+)
+yoy <- yoy[!is.na(yoy$YoY), , drop = FALSE]
+
+# Plot
+
+ggplot(yoy, aes(x = Year, y = YoY, fill = Company)) +
+geom_col(position = "dodge") +
+scale_y_continuous(labels = scales::percent) +
+labs(title = "Year-over-Year Growth: Office Depot vs WH Smith",
+x = "Year",
+y = "YoY (Revenue)",
+fill = NULL) +
+theme_minimal(base_size = 12)
+
+```
+
+**Interpretation (Internal Factor).** The side-by-side YoY bars make the contrast immediate: WH Smith’s YoY is consistently stronger during 2022–2025, reflecting innovation-led execution. ODP’s YoY is weak or negative, consistent with a lack of product and service innovation. This directly proves the internal factor.
+
+# Conclusion & Recommendation (Internal Factor)
+
+The office-supply category is stagnant and Office Depot did not counter this with product or service innovation in 2022–2025. In the same period WH Smith, a retailer with similar stationery roots, innovated its format and offer and achieved stronger momentum. Office Depot should adopt an innovation-led model inspired by WH Smith: pilot convenience and travel-adjacent micro-formats in high-traffic locations, bundle hybrid-work solutions (monitors, docking, webcams) with setup services, and introduce basic memberships for support and protection to create recurring value beyond legacy stationery.

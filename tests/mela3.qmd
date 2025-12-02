@@ -1,0 +1,49 @@
+---
+title: "a3etw"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+library(readr); 
+library(dplyr); 
+library(stringr); 
+library(tidyr); 
+library(lubridate); 
+library(ggplot2)
+
+inc <- read_csv("ups_quarterly_income.csv")
+bs  <- read_csv("ups_quarterly_balance.csv")
+cf  <- read_csv("ups_quarterly_cashflow.csv")
+all <- read_csv("ups_quarterly_all_statements.csv")
+
+# peek
+glimpse(all)
+all %>% count(statement) # should show quarterly_income / quarterly_balance / quarterly_cashflow
+all %>% distinct(metric) %>% arrange(metric) %>% print(n = 50)
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+# Show first 6 rows of each
+head(inc)
+head(bs)
+head(cf)
+head(all)
+```

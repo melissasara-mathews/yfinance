@@ -1,0 +1,193 @@
+ticker,statement,period,date,metric,value
+SMWH.L,balance_sheet,quarterly,2024-02-29,Accounts Payable,268000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Accounts Receivable,108000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Accumulated Depreciation,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Additional Paid In Capital,329000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Buildings And Improvements,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Capital Lease Obligations,602000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Capital Stock,29000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Cash And Cash Equivalents,44000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Cash Cash Equivalents And Short Term Investments,44000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Common Stock,29000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Common Stock Equity,304000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Current Assets,365000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Current Capital Lease Obligation,124000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Current Debt,176000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Current Debt And Capital Lease Obligation,300000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Current Liabilities,571000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Current Provisions,3000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Fixed Assets Revaluation Reserve,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Goodwill,437000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Goodwill And Other Intangible Assets,505000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Gross PPE,779000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Hedging Assets Current,0.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Inventory,207000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Invested Capital,785000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Investmentsin Joint Venturesat Cost,2000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Land And Improvements,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Long Term Capital Lease Obligation,478000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Long Term Debt,305000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Long Term Debt And Capital Lease Obligation,783000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Long Term Equity Investment,2000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Long Term Provisions,15000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Machinery Furniture Equipment,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Minority Interest,28000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Net Debt,437000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Net PPE,779000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Net Tangible Assets,-201000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Non Current Deferred Taxes Assets,41000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Non Current Prepaid Assets,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Ordinary Shares Number,129880510.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Other Current Assets,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Other Equity Interest,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Other Intangible Assets,68000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Other Investments,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Other Payable,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Other Properties,779000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Other Receivables,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Payables,268000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Prepaid Assets,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Properties,
+SMWH.L,balance_sheet,quarterly,2024-02-29,Retained Earnings,207000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Share Issued,130912453.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Stockholders Equity,304000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Tangible Book Value,-201000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Taxes Receivable,6000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Total Assets,1701000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Total Capitalization,609000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Total Debt,1083000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Total Equity Gross Minority Interest,332000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Total Liabilities Net Minority Interest,1369000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Total Non Current Assets,1336000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Total Non Current Liabilities Net Minority Interest,798000000.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Total Tax Payable,0.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Treasury Shares Number,1031943.0
+SMWH.L,balance_sheet,quarterly,2024-02-29,Working Capital,-206000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Accounts Payable,153000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Accounts Receivable,81000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Accumulated Depreciation,-582000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Additional Paid In Capital,329000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Buildings And Improvements,936000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Capital Lease Obligations,626000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Capital Stock,29000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Cash And Cash Equivalents,56000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Cash Cash Equivalents And Short Term Investments,56000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Common Stock,29000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Common Stock Equity,416000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Current Assets,511000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Current Capital Lease Obligation,125000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Current Debt,117000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Current Debt And Capital Lease Obligation,242000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Current Liabilities,599000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Current Provisions,4000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Fixed Assets Revaluation Reserve,2000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Goodwill,426000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Goodwill And Other Intangible Assets,490000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Gross PPE,1403000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Hedging Assets Current,0.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Inventory,217000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Invested Capital,843000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Investmentsin Joint Venturesat Cost,2000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Land And Improvements,18000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Long Term Capital Lease Obligation,501000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Long Term Debt,310000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Long Term Debt And Capital Lease Obligation,811000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Long Term Equity Investment,2000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Long Term Provisions,13000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Machinery Furniture Equipment,447000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Minority Interest,30000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Net Debt,371000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Net PPE,821000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Net Tangible Assets,-74000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Non Current Deferred Taxes Assets,33000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Non Current Prepaid Assets,5000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Ordinary Shares Number,129019483.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Other Current Assets,87000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Other Equity Interest,13000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Other Intangible Assets,64000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Other Investments,
+SMWH.L,balance_sheet,quarterly,2024-08-31,Other Payable,85000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Other Properties,2000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Other Receivables,52000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Payables,273000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Prepaid Assets,17000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Properties,0.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Retained Earnings,335000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Share Issued,130912453.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Stockholders Equity,416000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Tangible Book Value,-74000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Taxes Receivable,1000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Total Assets,1869000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Total Capitalization,726000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Total Debt,1053000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Total Equity Gross Minority Interest,446000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Total Liabilities Net Minority Interest,1423000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Total Non Current Assets,1358000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Total Non Current Liabilities Net Minority Interest,824000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Total Tax Payable,35000000.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Treasury Shares Number,1892970.0
+SMWH.L,balance_sheet,quarterly,2024-08-31,Working Capital,-88000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Accounts Payable,259000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Accounts Receivable,133000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Accumulated Depreciation,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Additional Paid In Capital,330000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Buildings And Improvements,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Capital Lease Obligations,601000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Capital Stock,28000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Cash And Cash Equivalents,39000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Cash Cash Equivalents And Short Term Investments,39000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Common Stock,28000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Common Stock Equity,346000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Current Assets,413000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Current Capital Lease Obligation,120000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Current Debt,178000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Current Debt And Capital Lease Obligation,298000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Current Liabilities,559000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Current Provisions,2000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Fixed Assets Revaluation Reserve,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Goodwill,428000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Goodwill And Other Intangible Assets,488000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Gross PPE,788000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Hedging Assets Current,0.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Inventory,225000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Invested Capital,839000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Investmentsin Joint Venturesat Cost,2000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Land And Improvements,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Long Term Capital Lease Obligation,481000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Long Term Debt,315000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Long Term Debt And Capital Lease Obligation,796000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Long Term Equity Investment,2000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Long Term Provisions,15000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Machinery Furniture Equipment,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Minority Interest,34000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Net Debt,454000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Net PPE,788000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Net Tangible Assets,-142000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Non Current Deferred Taxes Assets,38000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Non Current Prepaid Assets,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Ordinary Shares Number,127156928.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Other Current Assets,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Other Equity Interest,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Other Intangible Assets,60000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Other Investments,10000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Other Payable,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Other Properties,788000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Other Receivables,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Payables,259000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Prepaid Assets,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Properties,
+SMWH.L,balance_sheet,quarterly,2025-02-28,Retained Earnings,245000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Share Issued,129049898.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Stockholders Equity,346000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Tangible Book Value,-142000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Taxes Receivable,16000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Total Assets,1750000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Total Capitalization,661000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Total Debt,1094000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Total Equity Gross Minority Interest,380000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Total Liabilities Net Minority Interest,1370000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Total Non Current Assets,1337000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Total Non Current Liabilities Net Minority Interest,811000000.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Total Tax Payable,0.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Treasury Shares Number,1892970.0
+SMWH.L,balance_sheet,quarterly,2025-02-28,Working Capital,-146000000.0

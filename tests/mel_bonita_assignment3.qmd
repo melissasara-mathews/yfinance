@@ -1,0 +1,479 @@
+```{r}
+library(readr)
+library(dplyr)
+library(lubridate)
+library(tidyr)
+library(ggplot2)
+
+# ==== 1) Load the tidy (long) file ====
+fin <- read_csv("odp_financials_all_tidy_2022_2025.csv", show_col_types = FALSE)
+
+# Quick preview
+glimpse(fin)
+fin %>% slice_head(n = 10)
+fin %>% count(statement, period)
+
+# ==== 2) Load the raw (wide) files ====
+inc_q_raw <- read_csv("odp_raw_income_quarterly_2022_2025.csv", show_col_types = FALSE)
+inc_a_raw <- read_csv("odp_raw_income_annual_2022_2025.csv",   show_col_types = FALSE)
+bs_q_raw  <- read_csv("odp_raw_balance_quarterly_2022_2025.csv", show_col_types = FALSE)
+bs_a_raw  <- read_csv("odp_raw_balance_annual_2022_2025.csv",   show_col_types = FALSE)
+cf_q_raw  <- read_csv("odp_raw_cashflow_quarterly_2022_2025.csv", show_col_types = FALSE)
+cf_a_raw  <- read_csv("odp_raw_cashflow_annual_2022_2025.csv",   show_col_types = FALSE)
+
+# Quick heads
+head(inc_q_raw); head(inc_a_raw)
+head(bs_q_raw);  head(bs_a_raw)
+head(cf_q_raw);  head(cf_a_raw)
+
+# ==== 3) (Optional) Tidy one of the raw files on the fly ====
+# Example: quarterly income wide -> long
+inc_q_long <- inc_q_raw %>%
+  pivot_longer(-1, names_to = "date", values_to = "value") %>%
+  mutate(date = ymd(date))
+
+head(inc_q_long)
+
+# ==== 4) (Optional) a couple of quick checks/plots from the tidy file ====
+# Quarterly Total Revenue
+fin %>%
+  filter(statement=="income_statement", period=="quarterly", metric=="Total Revenue") %>%
+  mutate(date = as.Date(date)) %>%
+  arrange(date) %>%
+  ggplot(aes(date, value/1e6)) +
+  geom_line() + geom_point() +
+  labs(title="ODP Quarterly Total Revenue (2022–2025)", x=NULL, y="USD (Millions)")
+
+# Annual Net Income
+fin %>%
+  filter(statement=="income_statement", period=="annual", metric=="Net Income") %>%
+  mutate(date = as.Date(date)) %>%
+  ggplot(aes(date, value/1e6)) +
+  geom_col() +
+  labs(title="ODP Annual Net Income (2022–2025)", x=NULL, y="USD (Millions)")
+
+
+```
+
+```{r}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(lubridate)
+library(ggplot2)
+
+# Read the raw quarterly statements (wide: metrics as rows, dates as columns)
+income_data   <- read_csv("odp_raw_income_quarterly_2022_2025.csv", show_col_types = FALSE)
+balance_data  <- read_csv("odp_raw_balance_quarterly_2022_2025.csv", show_col_types = FALSE)
+cashflow_data <- read_csv("odp_raw_cashflow_quarterly_2022_2025.csv", show_col_types = FALSE)
+
+# The first column is the metric name (often called '...1' or 'Unnamed: 0' depending on writer)
+metric_col <- names(income_data)[1]  # whatever the first column is called
+
+# Make income statement tidy: metric, date, value
+income_long <- income_data %>%
+  rename(metric = !!metric_col) %>%
+  pivot_longer(-metric, names_to = "date", values_to = "value") %>%
+  mutate(
+    date  = suppressWarnings(as.Date(date)),      # columns are period-end dates like 2024-12-31
+    value = as.numeric(value)
+  ) %>%
+  filter(!is.na(date))
+
+# Helper to pick the first metric row that roughly matches a pattern (case-insensitive)
+pick_metric <- function(df, patterns) {
+  # patterns: character vector, we try them in order
+  for (p in patterns) {
+    hit <- df %>% filter(str_detect(metric, regex(p, ignore_case = TRUE)))
+    if (nrow(hit)) return(hit)
+  }
+  # if nothing matched, return empty tibble with same cols
+  df %>% slice(0)
+}
+
+# Try common EBITDA label variants first; fall back to Operating Income if EBITDA missing
+ebitda_long <- pick_metric(
+  income_long,
+  patterns = c("^Normalized\\s*EBITDA$", "^EBITDA$", "EBITDA")  # flexible matches
+)
+if (nrow(ebitda_long) == 0) {
+  message("EBITDA not found; using Operating Income as proxy.")
+  ebitda_long <- pick_metric(income_long, patterns = c("^Operating\\s*Income$", "Operating\\s*Income"))
+}
+
+# Try revenue label variants
+revenue_long <- pick_metric(
+  income_long,
+  patterns = c("^Total\\s*Revenue$", "^Revenue$", "Total\\s*Sales", "Sales")
+)
+
+# ---- Plot EBITDA over time ----
+if (nrow(ebitda_long)) {
+  ggplot(ebitda_long, aes(date, value)) +
+    geom_line() + geom_point() +
+    labs(title = "ODP – EBITDA (or Operating Income proxy) by Quarter",
+         x = "Quarter End", y = "USD") +
+    scale_x_date(date_breaks = "3 months", date_labels = "%Y-%m") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+} else {
+  message("No EBITDA/Operating Income metric found to plot.")
+}
+
+# ---- Compute EBITDA margin = EBITDA / Revenue (if both exist) ----
+if (nrow(ebitda_long) && nrow(revenue_long)) {
+  margin <- ebitda_long %>%
+    select(date, ebitda = value) %>%
+    inner_join(revenue_long %>% select(date, revenue = value), by = "date") %>%
+    mutate(ebitda_margin_pct = (ebitda / revenue) * 100)
+
+  ggplot(margin, aes(date, ebitda_margin_pct)) +
+    geom_col() +
+    geom_hline(yintercept = 0, linewidth = 0.3) +
+    labs(title = "ODP – EBITDA Margin by Quarter",
+         x = "Quarter End", y = "Percent") +
+    scale_x_date(date_breaks = "3 months", date_labels = "%Y-%m") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+  # quick head preview
+  print(head(margin))
+} else {
+  message("Cannot compute EBITDA margin (missing EBITDA or Revenue).")
+}
+
+```
+
+```{r}
+# inspect_amzn_wmt.R
+library(readr)
+library(dplyr)
+library(stringr)
+library(lubridate)
+
+# ---- helper: pick a file if multiple match (prefer 2022_2025 subset) ----
+pick_one <- function(files) {
+  if (length(files) == 0) return(NA_character_)
+  # prefer files that contain _2022_2025 in the name
+  preferred <- files[str_detect(files, "_2022_2025\\.csv$")]
+  if (length(preferred) >= 1) return(preferred[1])
+  return(files[1])
+}
+
+# ---- read all relevant files for a ticker dir (e.g., "amzn_fin") ----
+read_outputs <- function(dir_path, ticker) {
+  tl <- tolower(ticker)
+
+  # tidy (long) financials
+  tidy_candidates <- list.files(dir_path, pattern = paste0("^", tl, "_financials_all_tidy.*\\.csv$"),
+                                full.names = TRUE, ignore.case = TRUE)
+  tidy_path <- pick_one(tidy_candidates)
+
+  # raw wide files
+  income_q_path <- pick_one(list.files(dir_path, pattern = paste0("^", tl, "_raw_income_quarterly.*\\.csv$"),
+                                       full.names = TRUE, ignore.case = TRUE))
+  income_a_path <- pick_one(list.files(dir_path, pattern = paste0("^", tl, "_raw_income_annual.*\\.csv$"),
+                                       full.names = TRUE, ignore.case = TRUE))
+  balance_q_path <- pick_one(list.files(dir_path, pattern = paste0("^", tl, "_raw_balance_quarterly.*\\.csv$"),
+                                        full.names = TRUE, ignore.case = TRUE))
+  balance_a_path <- pick_one(list.files(dir_path, pattern = paste0("^", tl, "_raw_balance_annual.*\\.csv$"),
+                                        full.names = TRUE, ignore.case = TRUE))
+  cashflow_q_path <- pick_one(list.files(dir_path, pattern = paste0("^", tl, "_raw_cashflow_quarterly.*\\.csv$"),
+                                         full.names = TRUE, ignore.case = TRUE))
+  cashflow_a_path <- pick_one(list.files(dir_path, pattern = paste0("^", tl, "_raw_cashflow_annual.*\\.csv$"),
+                                         full.names = TRUE, ignore.case = TRUE))
+
+  # prices (optional)
+  price_path <- pick_one(list.files(dir_path, pattern = paste0("^", tl, "_prices_monthly.*\\.csv$"),
+                                    full.names = TRUE, ignore.case = TRUE))
+
+  list(
+    tidy = tidy_path,
+    income_q = income_q_path,
+    income_a = income_a_path,
+    balance_q = balance_q_path,
+    balance_a = balance_a_path,
+    cashflow_q = cashflow_q_path,
+    cashflow_a = cashflow_a_path,
+    prices = price_path
+  )
+}
+
+# ---- preview utility: print head with a label if file exists ----
+preview <- function(path, n = 6) {
+  if (is.na(path) || !file.exists(path)) {
+    cat("  (missing)\n")
+    return(invisible(NULL))
+  }
+  df <- read_csv(path, show_col_types = FALSE)
+  print(utils::head(df, n))
+  invisible(df)
+}
+
+# ====== RUN FOR AMAZON ======
+amzn_files <- read_outputs("amzn_fin", "AMZN")
+cat("\n=== AMZN (Amazon) ===\n")
+
+cat("\n-- tidy financials:", amzn_files$tidy, "\n")
+amzn_tidy <- preview(amzn_files$tidy)
+
+cat("\n-- raw income (quarterly):", amzn_files$income_q, "\n")
+preview(amzn_files$income_q)
+
+cat("\n-- raw income (annual):", amzn_files$income_a, "\n")
+preview(amzn_files$income_a)
+
+cat("\n-- raw balance (quarterly):", amzn_files$balance_q, "\n")
+preview(amzn_files$balance_q)
+
+cat("\n-- raw balance (annual):", amzn_files$balance_a, "\n")
+preview(amzn_files$balance_a)
+
+cat("\n-- raw cashflow (quarterly):", amzn_files$cashflow_q, "\n")
+preview(amzn_files$cashflow_q)
+
+cat("\n-- raw cashflow (annual):", amzn_files$cashflow_a, "\n")
+preview(amzn_files$cashflow_a)
+
+cat("\n-- prices (monthly):", amzn_files$prices, "\n")
+preview(amzn_files$prices)
+
+# ====== RUN FOR WALMART ======
+wmt_files <- read_outputs("wmt_fin", "WMT")
+cat("\n=== WMT (Walmart) ===\n")
+
+cat("\n-- tidy financials:", wmt_files$tidy, "\n")
+wmt_tidy <- preview(wmt_files$tidy)
+
+cat("\n-- raw income (quarterly):", wmt_files$income_q, "\n")
+preview(wmt_files$income_q)
+
+cat("\n-- raw income (annual):", wmt_files$income_a, "\n")
+preview(wmt_files$income_a)
+
+cat("\n-- raw balance (quarterly):", wmt_files$balance_q, "\n")
+preview(wmt_files$balance_q)
+
+cat("\n-- raw balance (annual):", wmt_files$balance_a, "\n")
+preview(wmt_files$balance_a)
+
+cat("\n-- raw cashflow (quarterly):", wmt_files$cashflow_q, "\n")
+preview(wmt_files$cashflow_q)
+
+cat("\n-- raw cashflow (annual):", wmt_files$cashflow_a, "\n")
+preview(wmt_files$cashflow_a)
+
+cat("\n-- prices (monthly):", wmt_files$prices, "\n")
+preview(wmt_files$prices)
+
+# ====== Optional: enforce 2022–2025 window just in case ======
+filter_window <- function(df, date_col = "date",
+                          start = as.Date("2022-01-01"),
+                          end = as.Date("2025-12-31")) {
+  if (is.null(df) || !date_col %in% names(df)) return(df)
+  df %>%
+    mutate(!!date_col := as.Date(.data[[date_col]])) %>%
+    filter(!is.na(.data[[date_col]]),
+           .data[[date_col]] >= start,
+           .data[[date_col]] <= end)
+}
+
+# Example: show filtered head for tidy files (if you want)
+if (exists("amzn_tidy") && !is.null(amzn_tidy)) {
+  cat("\n-- AMZN tidy (2022–2025) preview --\n")
+  amzn_tidy %>% filter_window("date") %>% head() %>% print()
+}
+if (exists("wmt_tidy") && !is.null(wmt_tidy)) {
+  cat("\n-- WMT tidy (2022–2025) preview --\n")
+  wmt_tidy %>% filter_window("date") %>% head() %>% print()
+}
+
+```
+
+Setup
+
+```{r}
+need <- c("readr","dplyr","tidyr","lubridate","ggplot2","scales")
+to_install <- setdiff(need, rownames(installed.packages()))
+if (length(to_install)) install.packages(to_install, dependencies = TRUE)
+invisible(lapply(need, library, character.only = TRUE))
+
+# Compact label helper for y-axis
+lab_short <- function() scales::label_number(scale_cut = scales::cut_short_scale())
+
+# -------- Robust FRED reader --------
+# Auto-detects date column and value column.
+read_fred_series <- function(path, series_hint = NULL) {
+  df <- readr::read_csv(path, show_col_types = FALSE)
+  # find date column
+  date_col <- intersect(names(df), c("observation_date","DATE"))
+  if (length(date_col) == 0) stop("No date column found in: ", path)
+  date_col <- date_col[1]
+
+  # find value column
+  if (!is.null(series_hint) && series_hint %in% names(df)) {
+    val_col <- series_hint
+  } else if ("VALUE" %in% names(df)) {
+    val_col <- "VALUE"
+  } else {
+    # take the first non-date column
+    val_col <- setdiff(names(df), date_col)[1]
+  }
+  out <- df |>
+    transmute(Date = as.Date(.data[[date_col]]),
+              Value = suppressWarnings(as.numeric(.data[[val_col]])))
+  out <- out |> filter(!is.na(Date)) |> arrange(Date)
+  attr(out, "series_col") <- val_col
+  out
+}
+
+# -------- 1) Load & clean each series --------
+office      <- read_fred_series("MRTSSM45321USN.csv", "MRTSSM45321USN") |>
+               rename(Office_Sales = Value)
+electronics <- read_fred_series("MRTSSM443USS.csv",  "MRTSSM443USS")  |>
+               rename(Electronics_Sales = Value)
+ecom        <- read_fred_series("ECOMPCTSA.csv",     "ECOMPCTSA")     |>
+               rename(Ecom_Share_pct = Value)
+emp         <- read_fred_series("CES4244600001.csv", "CES4244600001") |>
+               rename(OfficeStore_Employees = Value)
+```
+
+Standardise, join, derive YoY and export the internal factor csv:
+
+```{r}
+# ---- (2) Standardize to Year/Quarter, join, compute YoY, export ----
+
+# -------- 2) Harmonize to quarterly (align with ECOMPCTSA’s quarter starts) --------
+office_q <- office      |> mutate(Q = floor_date(Date, "quarter")) |> group_by(Q) |> 
+             summarise(Office_Sales = mean(Office_Sales, na.rm = TRUE), .groups="drop") |>
+             rename(Date = Q)
+electronics_q <- electronics |> mutate(Q = floor_date(Date, "quarter")) |> group_by(Q) |> 
+                 summarise(Electronics_Sales = mean(Electronics_Sales, na.rm = TRUE), .groups="drop") |>
+                 rename(Date = Q)
+emp_q <- emp |> mutate(Q = floor_date(Date, "quarter")) |> group_by(Q) |>
+          summarise(OfficeStore_Employees = mean(OfficeStore_Employees, na.rm = TRUE), .groups="drop") |>
+          rename(Date = Q)
+
+q <- ecom |>
+  left_join(office_q, by = "Date") |>
+  left_join(electronics_q, by = "Date") |>
+  left_join(emp_q, by = "Date") |>
+  filter(Date >= as.Date("2022-01-01"), Date <= as.Date("2024-12-31")) |>
+  arrange(Date)
+
+# -------- 3) YoY calculations --------
+q <- q |>
+  mutate(
+    OfficeSales_YoY_pct      = 100 * (Office_Sales      / lag(Office_Sales, 4)      - 1),
+    ElectronicsSales_YoY_pct = 100 * (Electronics_Sales / lag(Electronics_Sales, 4) - 1),
+    # E-commerce series is itself a percent; YoY change in percentage points
+    EcomShare_YoY_pp         = Ecom_Share_pct - lag(Ecom_Share_pct, 4),
+    Employees_YoY_pct        = 100 * (OfficeStore_Employees / lag(OfficeStore_Employees, 4) - 1)
+  )
+
+# Write combined data for Shiny / Quarto
+readr::write_csv(q, "internal_factor_quarterly_2022_2024.csv")
+
+```
+
+**Data Analysis (Internal Factor):**\
+To analyse Office Depot’s lack of product and service innovation, by comparing U.S. retail sales trends across three segments — office supplies, electronics, and e-commerce — along with employment in office-supply stores.
+
+The data show that office-supply sales have remained largely stagnant from 2022 to 2024, while electronics sales and e-commerce penetration have continued to grow. Employment within the office-supply sector has also been flat or negative, indicating industry contraction.
+
+This pattern suggests that Office Depot’s traditional business model has failed to adapt to changing consumer behavior and technology-driven retail innovation. The company remains heavily dependent on declining office categories while competitors gain from tech-oriented products and digital sales channels.
+
+## 1. Category Levels (Quarterly Averages, 2022–2024)
+
+**What it shows:**
+
+The green line (Electronics_Sales) sits far above others, remaining stable with minor fluctuation.
+
+The blue line (Office_Sales) appears much lower — meaning office-supply store sales are flat and not growing.
+
+The red line (Ecom_Share_pct) remains close to zero only because it’s plotted on a different scale (it’s a percentage, not USD). But its gradual rise still matters.
+
+**Interpretation:**
+
+-   Electronics and hybrid-work product segments maintain steady or improving performance.
+
+-   Office-supply sales, representing ODP’s core product line, have stagnated — showing no growth even through post-pandemic recovery.
+
+-   Meanwhile, e-commerce’s share of total retail continues to rise, signaling that innovation and digital adaptation are key growth drivers — yet ODP hasn’t captured this trend.
+
+```{r}
+q_levels <- q |>
+  select(Date, Office_Sales, Electronics_Sales, Ecom_Share_pct) |>
+  pivot_longer(-Date, names_to = "Series", values_to = "Value")
+
+ggplot(q_levels, aes(Date, Value, color = Series)) +
+  geom_line(linewidth = 1.05) +
+  scale_y_continuous(labels = lab_short()) +
+  labs(title = "Category Levels (Quarterly Averages, 2022–2024)",
+       subtitle = "Legacy office sales vs electronics sales vs e-commerce share of retail",
+       x = NULL, y = "Value / %", color = NULL) +
+  theme_minimal()
+```
+
+## 2. YoY Changes (Quarterly, 2022–2024)
+
+**What it shows:**
+
+-   The green (ElectronicsSales_YoY_pct) line swings sharply, showing occasional positive spikes but also major declines. This reflects volatility in tech sales due to cyclical upgrades or supply shifts.
+
+-   The red (EcomShare_YoY_pp) line is slightly positive and steady — e-commerce keeps expanding its market share each quarter.
+
+-   Office sales (blue) likely hover close to zero or slightly negative (flat YoY growth).
+
+**Interpretation:**
+
+-   E-commerce growth has been *consistently positive*, showing innovation momentum in digital channels.
+
+-   The absence of similar growth for office-supply categories means ODP isn’t innovating to match evolving consumer demand.
+
+-   The divergence between rising e-commerce share and weak office category growth visually proves the *innovation gap*.
+
+**Internal factor deduction:**\
+ODP’s core product performance is disconnected from market trends. The company is missing growth opportunities in the tech and digital retail ecosystem, reinforcing its reputation as a traditional office-supply brand in a tech-driven market.
+
+```{r}
+q_yoy <- q |>
+  select(Date, OfficeSales_YoY_pct, ElectronicsSales_YoY_pct, EcomShare_YoY_pp) |>
+  pivot_longer(-Date, names_to = "Series", values_to = "YoY")
+
+ggplot(q_yoy, aes(Date, YoY, color = Series)) +
+  geom_line(linewidth = 1.05) +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(title = "YoY Changes (Quarterly, 2022–2024)",
+       subtitle = "Office category declines as e-commerce penetration rises",
+       x = NULL, y = "YoY Change (% or pp)", color = NULL) +
+  theme_minimal()
+```
+
+## 3. Office-Supply Store Employment (YoY %)
+
+**What it shows:**
+
+-   Bars alternate between slightly positive and negative growth, but overall hover around or below zero.
+
+-   The lowest point (≈ -1.5%) occurs in early 2024, followed by a weak partial recovery.
+
+**Interpretation:**
+
+-   Employment in the office-supply retail sector is *shrinking or stagnant*.
+
+-   This implies store closures, reduced staffing, and a decline in physical retail presence — aligning with ODP’s own downsizing initiatives (e.g., “Project Core”).
+
+-   It reflects industry contraction, not expansion or innovation investment.
+
+**Internal factor deduction:**\
+Rather than hiring for new service or product lines (e.g., tech solutions or hybrid-work setups), ODP’s sector is shrinking its labor base — another sign of retrenchment instead of innovation.
+
+```{r}
+ggplot(q, aes(Date, Employees_YoY_pct)) +
+  geom_col(fill = "#5DADE2") +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(title = "Office-Supply Store Employment (YoY %)",
+       subtitle = "Consistently negative/flat growth indicates category contraction",
+       x = NULL, y = "YoY %") +
+  theme_minimal()
+```

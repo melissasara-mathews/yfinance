@@ -1,0 +1,1474 @@
+ticker,statement,period,metric,date,value
+ODP,income_statement,quarterly,TaxEffectOfUnusualItems,2025-06-30,-3360000.0
+ODP,income_statement,quarterly,TaxRateForCalcs,2025-06-30,0.21
+ODP,income_statement,quarterly,NormalizedEBITDA,2025-06-30,53000000.0
+ODP,income_statement,quarterly,TotalUnusualItems,2025-06-30,-16000000.0
+ODP,income_statement,quarterly,TotalUnusualItemsExcludingGoodwill,2025-06-30,-16000000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingOperationNetMinorityInterest,2025-06-30,0.0
+ODP,income_statement,quarterly,ReconciledDepreciation,2025-06-30,29000000.0
+ODP,income_statement,quarterly,ReconciledCostOfRevenue,2025-06-30,1276000000.0
+ODP,income_statement,quarterly,EBITDA,2025-06-30,37000000.0
+ODP,income_statement,quarterly,EBIT,2025-06-30,8000000.0
+ODP,income_statement,quarterly,NetInterestIncome,2025-06-30,-3000000.0
+ODP,income_statement,quarterly,InterestExpense,2025-06-30,6000000.0
+ODP,income_statement,quarterly,InterestIncome,2025-06-30,3000000.0
+ODP,income_statement,quarterly,NormalizedIncome,2025-06-30,12640000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingAndDiscontinuedOperation,2025-06-30,0.0
+ODP,income_statement,quarterly,TotalExpenses,2025-06-30,1561000000.0
+ODP,income_statement,quarterly,TotalOperatingIncomeAsReported,2025-06-30,9000000.0
+ODP,income_statement,quarterly,DilutedAverageShares,2025-06-30,30084433.0
+ODP,income_statement,quarterly,BasicAverageShares,2025-06-30,30084433.0
+ODP,income_statement,quarterly,DilutedEPS,2025-06-30,0.0
+ODP,income_statement,quarterly,BasicEPS,2025-06-30,0.0
+ODP,income_statement,quarterly,DilutedNIAvailtoComStockholders,2025-06-30,0.0
+ODP,income_statement,quarterly,NetIncomeCommonStockholders,2025-06-30,0.0
+ODP,income_statement,quarterly,NetIncome,2025-06-30,0.0
+ODP,income_statement,quarterly,NetIncomeIncludingNoncontrollingInterests,2025-06-30,0.0
+ODP,income_statement,quarterly,NetIncomeDiscontinuousOperations,2025-06-30,0.0
+ODP,income_statement,quarterly,NetIncomeContinuousOperations,2025-06-30,0.0
+ODP,income_statement,quarterly,TaxProvision,2025-06-30,2000000.0
+ODP,income_statement,quarterly,PretaxIncome,2025-06-30,2000000.0
+ODP,income_statement,quarterly,OtherIncomeExpense,2025-06-30,-20000000.0
+ODP,income_statement,quarterly,OtherNonOperatingIncomeExpenses,2025-06-30,-4000000.0
+ODP,income_statement,quarterly,SpecialIncomeCharges,2025-06-30,-16000000.0
+ODP,income_statement,quarterly,OtherSpecialCharges,2025-06-30,
+ODP,income_statement,quarterly,WriteOff,2025-06-30,3000000.0
+ODP,income_statement,quarterly,RestructuringAndMergernAcquisition,2025-06-30,13000000.0
+ODP,income_statement,quarterly,NetNonOperatingInterestIncomeExpense,2025-06-30,-3000000.0
+ODP,income_statement,quarterly,InterestExpenseNonOperating,2025-06-30,6000000.0
+ODP,income_statement,quarterly,InterestIncomeNonOperating,2025-06-30,3000000.0
+ODP,income_statement,quarterly,OperatingIncome,2025-06-30,25000000.0
+ODP,income_statement,quarterly,OperatingExpense,2025-06-30,285000000.0
+ODP,income_statement,quarterly,SellingGeneralAndAdministration,2025-06-30,285000000.0
+ODP,income_statement,quarterly,GeneralAndAdministrativeExpense,2025-06-30,
+ODP,income_statement,quarterly,OtherGandA,2025-06-30,
+ODP,income_statement,quarterly,GrossProfit,2025-06-30,310000000.0
+ODP,income_statement,quarterly,CostOfRevenue,2025-06-30,1276000000.0
+ODP,income_statement,quarterly,TotalRevenue,2025-06-30,1586000000.0
+ODP,income_statement,quarterly,OperatingRevenue,2025-06-30,1586000000.0
+ODP,income_statement,quarterly,TaxEffectOfUnusualItems,2025-03-31,-22360000.0
+ODP,income_statement,quarterly,TaxRateForCalcs,2025-03-31,0.26
+ODP,income_statement,quarterly,NormalizedEBITDA,2025-03-31,81000000.0
+ODP,income_statement,quarterly,TotalUnusualItems,2025-03-31,-86000000.0
+ODP,income_statement,quarterly,TotalUnusualItemsExcludingGoodwill,2025-03-31,-86000000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingOperationNetMinorityInterest,2025-03-31,-29000000.0
+ODP,income_statement,quarterly,ReconciledDepreciation,2025-03-31,27000000.0
+ODP,income_statement,quarterly,ReconciledCostOfRevenue,2025-03-31,1339000000.0
+ODP,income_statement,quarterly,EBITDA,2025-03-31,-5000000.0
+ODP,income_statement,quarterly,EBIT,2025-03-31,-32000000.0
+ODP,income_statement,quarterly,NetInterestIncome,2025-03-31,-5000000.0
+ODP,income_statement,quarterly,InterestExpense,2025-03-31,7000000.0
+ODP,income_statement,quarterly,InterestIncome,2025-03-31,2000000.0
+ODP,income_statement,quarterly,NormalizedIncome,2025-03-31,34640000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingAndDiscontinuedOperation,2025-03-31,-29000000.0
+ODP,income_statement,quarterly,TotalExpenses,2025-03-31,1645000000.0
+ODP,income_statement,quarterly,TotalOperatingIncomeAsReported,2025-03-31,-32000000.0
+ODP,income_statement,quarterly,DilutedAverageShares,2025-03-31,29896907.0
+ODP,income_statement,quarterly,BasicAverageShares,2025-03-31,29896907.0
+ODP,income_statement,quarterly,DilutedEPS,2025-03-31,-0.97
+ODP,income_statement,quarterly,BasicEPS,2025-03-31,-0.97
+ODP,income_statement,quarterly,DilutedNIAvailtoComStockholders,2025-03-31,-29000000.0
+ODP,income_statement,quarterly,NetIncomeCommonStockholders,2025-03-31,-29000000.0
+ODP,income_statement,quarterly,NetIncome,2025-03-31,-29000000.0
+ODP,income_statement,quarterly,NetIncomeIncludingNoncontrollingInterests,2025-03-31,-29000000.0
+ODP,income_statement,quarterly,NetIncomeDiscontinuousOperations,2025-03-31,0.0
+ODP,income_statement,quarterly,NetIncomeContinuousOperations,2025-03-31,-29000000.0
+ODP,income_statement,quarterly,TaxProvision,2025-03-31,-10000000.0
+ODP,income_statement,quarterly,PretaxIncome,2025-03-31,-39000000.0
+ODP,income_statement,quarterly,OtherIncomeExpense,2025-03-31,-88000000.0
+ODP,income_statement,quarterly,OtherNonOperatingIncomeExpenses,2025-03-31,-2000000.0
+ODP,income_statement,quarterly,SpecialIncomeCharges,2025-03-31,-86000000.0
+ODP,income_statement,quarterly,OtherSpecialCharges,2025-03-31,
+ODP,income_statement,quarterly,WriteOff,2025-03-31,38000000.0
+ODP,income_statement,quarterly,RestructuringAndMergernAcquisition,2025-03-31,48000000.0
+ODP,income_statement,quarterly,NetNonOperatingInterestIncomeExpense,2025-03-31,-5000000.0
+ODP,income_statement,quarterly,InterestExpenseNonOperating,2025-03-31,7000000.0
+ODP,income_statement,quarterly,InterestIncomeNonOperating,2025-03-31,2000000.0
+ODP,income_statement,quarterly,OperatingIncome,2025-03-31,54000000.0
+ODP,income_statement,quarterly,OperatingExpense,2025-03-31,306000000.0
+ODP,income_statement,quarterly,SellingGeneralAndAdministration,2025-03-31,306000000.0
+ODP,income_statement,quarterly,GeneralAndAdministrativeExpense,2025-03-31,
+ODP,income_statement,quarterly,OtherGandA,2025-03-31,
+ODP,income_statement,quarterly,GrossProfit,2025-03-31,360000000.0
+ODP,income_statement,quarterly,CostOfRevenue,2025-03-31,1339000000.0
+ODP,income_statement,quarterly,TotalRevenue,2025-03-31,1699000000.0
+ODP,income_statement,quarterly,OperatingRevenue,2025-03-31,1699000000.0
+ODP,income_statement,quarterly,TaxEffectOfUnusualItems,2024-12-31,-3750000.0
+ODP,income_statement,quarterly,TaxRateForCalcs,2024-12-31,0.3125
+ODP,income_statement,quarterly,NormalizedEBITDA,2024-12-31,59000000.0
+ODP,income_statement,quarterly,TotalUnusualItems,2024-12-31,-12000000.0
+ODP,income_statement,quarterly,TotalUnusualItemsExcludingGoodwill,2024-12-31,-12000000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingOperationNetMinorityInterest,2024-12-31,11000000.0
+ODP,income_statement,quarterly,ReconciledDepreciation,2024-12-31,24000000.0
+ODP,income_statement,quarterly,ReconciledCostOfRevenue,2024-12-31,1293000000.0
+ODP,income_statement,quarterly,EBITDA,2024-12-31,47000000.0
+ODP,income_statement,quarterly,EBIT,2024-12-31,23000000.0
+ODP,income_statement,quarterly,NetInterestIncome,2024-12-31,-5000000.0
+ODP,income_statement,quarterly,InterestExpense,2024-12-31,7000000.0
+ODP,income_statement,quarterly,InterestIncome,2024-12-31,2000000.0
+ODP,income_statement,quarterly,NormalizedIncome,2024-12-31,19250000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingAndDiscontinuedOperation,2024-12-31,-3000000.0
+ODP,income_statement,quarterly,TotalExpenses,2024-12-31,1591000000.0
+ODP,income_statement,quarterly,TotalOperatingIncomeAsReported,2024-12-31,20000000.0
+ODP,income_statement,quarterly,DilutedAverageShares,2024-12-31,27272727.0
+ODP,income_statement,quarterly,BasicAverageShares,2024-12-31,27272727.0
+ODP,income_statement,quarterly,DilutedEPS,2024-12-31,-0.11
+ODP,income_statement,quarterly,BasicEPS,2024-12-31,-0.11
+ODP,income_statement,quarterly,DilutedNIAvailtoComStockholders,2024-12-31,-3000000.0
+ODP,income_statement,quarterly,NetIncomeCommonStockholders,2024-12-31,-3000000.0
+ODP,income_statement,quarterly,NetIncome,2024-12-31,-3000000.0
+ODP,income_statement,quarterly,NetIncomeIncludingNoncontrollingInterests,2024-12-31,-3000000.0
+ODP,income_statement,quarterly,NetIncomeDiscontinuousOperations,2024-12-31,-14000000.0
+ODP,income_statement,quarterly,NetIncomeContinuousOperations,2024-12-31,11000000.0
+ODP,income_statement,quarterly,TaxProvision,2024-12-31,5000000.0
+ODP,income_statement,quarterly,PretaxIncome,2024-12-31,16000000.0
+ODP,income_statement,quarterly,OtherIncomeExpense,2024-12-31,-11000000.0
+ODP,income_statement,quarterly,OtherNonOperatingIncomeExpenses,2024-12-31,1000000.0
+ODP,income_statement,quarterly,SpecialIncomeCharges,2024-12-31,-12000000.0
+ODP,income_statement,quarterly,OtherSpecialCharges,2024-12-31,0.0
+ODP,income_statement,quarterly,WriteOff,2024-12-31,12000000.0
+ODP,income_statement,quarterly,RestructuringAndMergernAcquisition,2024-12-31,0.0
+ODP,income_statement,quarterly,NetNonOperatingInterestIncomeExpense,2024-12-31,-5000000.0
+ODP,income_statement,quarterly,InterestExpenseNonOperating,2024-12-31,7000000.0
+ODP,income_statement,quarterly,InterestIncomeNonOperating,2024-12-31,2000000.0
+ODP,income_statement,quarterly,OperatingIncome,2024-12-31,32000000.0
+ODP,income_statement,quarterly,OperatingExpense,2024-12-31,298000000.0
+ODP,income_statement,quarterly,SellingGeneralAndAdministration,2024-12-31,298000000.0
+ODP,income_statement,quarterly,GeneralAndAdministrativeExpense,2024-12-31,
+ODP,income_statement,quarterly,OtherGandA,2024-12-31,
+ODP,income_statement,quarterly,GrossProfit,2024-12-31,330000000.0
+ODP,income_statement,quarterly,CostOfRevenue,2024-12-31,1293000000.0
+ODP,income_statement,quarterly,TotalRevenue,2024-12-31,1623000000.0
+ODP,income_statement,quarterly,OperatingRevenue,2024-12-31,1623000000.0
+ODP,income_statement,quarterly,TaxEffectOfUnusualItems,2024-09-30,17080000.0
+ODP,income_statement,quarterly,TaxRateForCalcs,2024-09-30,0.28
+ODP,income_statement,quarterly,NormalizedEBITDA,2024-09-30,64000000.0
+ODP,income_statement,quarterly,TotalUnusualItems,2024-09-30,61000000.0
+ODP,income_statement,quarterly,TotalUnusualItemsExcludingGoodwill,2024-09-30,61000000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingOperationNetMinorityInterest,2024-09-30,68000000.0
+ODP,income_statement,quarterly,ReconciledDepreciation,2024-09-30,24000000.0
+ODP,income_statement,quarterly,ReconciledCostOfRevenue,2024-09-30,1416000000.0
+ODP,income_statement,quarterly,EBITDA,2024-09-30,125000000.0
+ODP,income_statement,quarterly,EBIT,2024-09-30,101000000.0
+ODP,income_statement,quarterly,NetInterestIncome,2024-09-30,-4000000.0
+ODP,income_statement,quarterly,InterestExpense,2024-09-30,6000000.0
+ODP,income_statement,quarterly,InterestIncome,2024-09-30,2000000.0
+ODP,income_statement,quarterly,NormalizedIncome,2024-09-30,24080000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingAndDiscontinuedOperation,2024-09-30,58000000.0
+ODP,income_statement,quarterly,TotalExpenses,2024-09-30,1739000000.0
+ODP,income_statement,quarterly,TotalOperatingIncomeAsReported,2024-09-30,102000000.0
+ODP,income_statement,quarterly,DilutedAverageShares,2024-09-30,33526012.0
+ODP,income_statement,quarterly,BasicAverageShares,2024-09-30,33142857.0
+ODP,income_statement,quarterly,DilutedEPS,2024-09-30,1.73
+ODP,income_statement,quarterly,BasicEPS,2024-09-30,1.75
+ODP,income_statement,quarterly,DilutedNIAvailtoComStockholders,2024-09-30,58000000.0
+ODP,income_statement,quarterly,NetIncomeCommonStockholders,2024-09-30,58000000.0
+ODP,income_statement,quarterly,NetIncome,2024-09-30,58000000.0
+ODP,income_statement,quarterly,NetIncomeIncludingNoncontrollingInterests,2024-09-30,58000000.0
+ODP,income_statement,quarterly,NetIncomeDiscontinuousOperations,2024-09-30,-10000000.0
+ODP,income_statement,quarterly,NetIncomeContinuousOperations,2024-09-30,68000000.0
+ODP,income_statement,quarterly,TaxProvision,2024-09-30,27000000.0
+ODP,income_statement,quarterly,PretaxIncome,2024-09-30,95000000.0
+ODP,income_statement,quarterly,OtherIncomeExpense,2024-09-30,58000000.0
+ODP,income_statement,quarterly,OtherNonOperatingIncomeExpenses,2024-09-30,-3000000.0
+ODP,income_statement,quarterly,SpecialIncomeCharges,2024-09-30,61000000.0
+ODP,income_statement,quarterly,OtherSpecialCharges,2024-09-30,-70000000.0
+ODP,income_statement,quarterly,WriteOff,2024-09-30,7000000.0
+ODP,income_statement,quarterly,RestructuringAndMergernAcquisition,2024-09-30,2000000.0
+ODP,income_statement,quarterly,NetNonOperatingInterestIncomeExpense,2024-09-30,-4000000.0
+ODP,income_statement,quarterly,InterestExpenseNonOperating,2024-09-30,6000000.0
+ODP,income_statement,quarterly,InterestIncomeNonOperating,2024-09-30,2000000.0
+ODP,income_statement,quarterly,OperatingIncome,2024-09-30,41000000.0
+ODP,income_statement,quarterly,OperatingExpense,2024-09-30,323000000.0
+ODP,income_statement,quarterly,SellingGeneralAndAdministration,2024-09-30,323000000.0
+ODP,income_statement,quarterly,GeneralAndAdministrativeExpense,2024-09-30,
+ODP,income_statement,quarterly,OtherGandA,2024-09-30,
+ODP,income_statement,quarterly,GrossProfit,2024-09-30,364000000.0
+ODP,income_statement,quarterly,CostOfRevenue,2024-09-30,1416000000.0
+ODP,income_statement,quarterly,TotalRevenue,2024-09-30,1780000000.0
+ODP,income_statement,quarterly,OperatingRevenue,2024-09-30,1780000000.0
+ODP,income_statement,quarterly,TaxEffectOfUnusualItems,2024-06-30,0.0
+ODP,income_statement,quarterly,TaxRateForCalcs,2024-06-30,0.0
+ODP,income_statement,quarterly,NormalizedEBITDA,2024-06-30,58000000.0
+ODP,income_statement,quarterly,TotalUnusualItems,2024-06-30,-33000000.0
+ODP,income_statement,quarterly,TotalUnusualItemsExcludingGoodwill,2024-06-30,-33000000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingOperationNetMinorityInterest,2024-06-30,-4000000.0
+ODP,income_statement,quarterly,ReconciledDepreciation,2024-06-30,24000000.0
+ODP,income_statement,quarterly,ReconciledCostOfRevenue,2024-06-30,1375000000.0
+ODP,income_statement,quarterly,EBITDA,2024-06-30,25000000.0
+ODP,income_statement,quarterly,EBIT,2024-06-30,1000000.0
+ODP,income_statement,quarterly,NetInterestIncome,2024-06-30,-3000000.0
+ODP,income_statement,quarterly,InterestExpense,2024-06-30,5000000.0
+ODP,income_statement,quarterly,InterestIncome,2024-06-30,2000000.0
+ODP,income_statement,quarterly,NormalizedIncome,2024-06-30,29000000.0
+ODP,income_statement,quarterly,NetIncomeFromContinuingAndDiscontinuedOperation,2024-06-30,-73000000.0
+ODP,income_statement,quarterly,TotalExpenses,2024-06-30,1684000000.0
+ODP,income_statement,quarterly,TotalOperatingIncomeAsReported,2024-06-30,0.0
+ODP,income_statement,quarterly,DilutedAverageShares,2024-06-30,35609756.0
+ODP,income_statement,quarterly,BasicAverageShares,2024-06-30,35609756.0
+ODP,income_statement,quarterly,DilutedEPS,2024-06-30,-2.05
+ODP,income_statement,quarterly,BasicEPS,2024-06-30,-2.05
+ODP,income_statement,quarterly,DilutedNIAvailtoComStockholders,2024-06-30,-73000000.0
+ODP,income_statement,quarterly,NetIncomeCommonStockholders,2024-06-30,-73000000.0
+ODP,income_statement,quarterly,NetIncome,2024-06-30,-73000000.0
+ODP,income_statement,quarterly,NetIncomeIncludingNoncontrollingInterests,2024-06-30,-73000000.0
+ODP,income_statement,quarterly,NetIncomeDiscontinuousOperations,2024-06-30,-69000000.0
+ODP,income_statement,quarterly,NetIncomeContinuousOperations,2024-06-30,-4000000.0
+ODP,income_statement,quarterly,TaxProvision,2024-06-30,0.0
+ODP,income_statement,quarterly,PretaxIncome,2024-06-30,-4000000.0
+ODP,income_statement,quarterly,OtherIncomeExpense,2024-06-30,-34000000.0
+ODP,income_statement,quarterly,OtherNonOperatingIncomeExpenses,2024-06-30,-1000000.0
+ODP,income_statement,quarterly,SpecialIncomeCharges,2024-06-30,-33000000.0
+ODP,income_statement,quarterly,OtherSpecialCharges,2024-06-30,
+ODP,income_statement,quarterly,WriteOff,2024-06-30,8000000.0
+ODP,income_statement,quarterly,RestructuringAndMergernAcquisition,2024-06-30,25000000.0
+ODP,income_statement,quarterly,NetNonOperatingInterestIncomeExpense,2024-06-30,-3000000.0
+ODP,income_statement,quarterly,InterestExpenseNonOperating,2024-06-30,5000000.0
+ODP,income_statement,quarterly,InterestIncomeNonOperating,2024-06-30,2000000.0
+ODP,income_statement,quarterly,OperatingIncome,2024-06-30,33000000.0
+ODP,income_statement,quarterly,OperatingExpense,2024-06-30,309000000.0
+ODP,income_statement,quarterly,SellingGeneralAndAdministration,2024-06-30,309000000.0
+ODP,income_statement,quarterly,GeneralAndAdministrativeExpense,2024-06-30,
+ODP,income_statement,quarterly,OtherGandA,2024-06-30,
+ODP,income_statement,quarterly,GrossProfit,2024-06-30,342000000.0
+ODP,income_statement,quarterly,CostOfRevenue,2024-06-30,1375000000.0
+ODP,income_statement,quarterly,TotalRevenue,2024-06-30,1717000000.0
+ODP,income_statement,quarterly,OperatingRevenue,2024-06-30,1717000000.0
+ODP,income_statement,quarterly,TaxEffectOfUnusualItems,2024-03-31,
+ODP,income_statement,quarterly,TaxRateForCalcs,2024-03-31,
+ODP,income_statement,quarterly,NormalizedEBITDA,2024-03-31,
+ODP,income_statement,quarterly,TotalUnusualItems,2024-03-31,
+ODP,income_statement,quarterly,TotalUnusualItemsExcludingGoodwill,2024-03-31,
+ODP,income_statement,quarterly,NetIncomeFromContinuingOperationNetMinorityInterest,2024-03-31,
+ODP,income_statement,quarterly,ReconciledDepreciation,2024-03-31,
+ODP,income_statement,quarterly,ReconciledCostOfRevenue,2024-03-31,
+ODP,income_statement,quarterly,EBITDA,2024-03-31,
+ODP,income_statement,quarterly,EBIT,2024-03-31,
+ODP,income_statement,quarterly,NetInterestIncome,2024-03-31,
+ODP,income_statement,quarterly,InterestExpense,2024-03-31,
+ODP,income_statement,quarterly,InterestIncome,2024-03-31,
+ODP,income_statement,quarterly,NormalizedIncome,2024-03-31,
+ODP,income_statement,quarterly,NetIncomeFromContinuingAndDiscontinuedOperation,2024-03-31,
+ODP,income_statement,quarterly,TotalExpenses,2024-03-31,
+ODP,income_statement,quarterly,TotalOperatingIncomeAsReported,2024-03-31,
+ODP,income_statement,quarterly,DilutedAverageShares,2024-03-31,
+ODP,income_statement,quarterly,BasicAverageShares,2024-03-31,
+ODP,income_statement,quarterly,DilutedEPS,2024-03-31,
+ODP,income_statement,quarterly,BasicEPS,2024-03-31,
+ODP,income_statement,quarterly,DilutedNIAvailtoComStockholders,2024-03-31,
+ODP,income_statement,quarterly,NetIncomeCommonStockholders,2024-03-31,
+ODP,income_statement,quarterly,NetIncome,2024-03-31,
+ODP,income_statement,quarterly,NetIncomeIncludingNoncontrollingInterests,2024-03-31,
+ODP,income_statement,quarterly,NetIncomeDiscontinuousOperations,2024-03-31,
+ODP,income_statement,quarterly,NetIncomeContinuousOperations,2024-03-31,
+ODP,income_statement,quarterly,TaxProvision,2024-03-31,
+ODP,income_statement,quarterly,PretaxIncome,2024-03-31,
+ODP,income_statement,quarterly,OtherIncomeExpense,2024-03-31,
+ODP,income_statement,quarterly,OtherNonOperatingIncomeExpenses,2024-03-31,
+ODP,income_statement,quarterly,SpecialIncomeCharges,2024-03-31,
+ODP,income_statement,quarterly,OtherSpecialCharges,2024-03-31,
+ODP,income_statement,quarterly,WriteOff,2024-03-31,
+ODP,income_statement,quarterly,RestructuringAndMergernAcquisition,2024-03-31,
+ODP,income_statement,quarterly,NetNonOperatingInterestIncomeExpense,2024-03-31,
+ODP,income_statement,quarterly,InterestExpenseNonOperating,2024-03-31,
+ODP,income_statement,quarterly,InterestIncomeNonOperating,2024-03-31,
+ODP,income_statement,quarterly,OperatingIncome,2024-03-31,
+ODP,income_statement,quarterly,OperatingExpense,2024-03-31,
+ODP,income_statement,quarterly,SellingGeneralAndAdministration,2024-03-31,
+ODP,income_statement,quarterly,GeneralAndAdministrativeExpense,2024-03-31,365000000.0
+ODP,income_statement,quarterly,OtherGandA,2024-03-31,365000000.0
+ODP,income_statement,quarterly,GrossProfit,2024-03-31,
+ODP,income_statement,quarterly,CostOfRevenue,2024-03-31,
+ODP,income_statement,quarterly,TotalRevenue,2024-03-31,
+ODP,income_statement,quarterly,OperatingRevenue,2024-03-31,
+ODP,income_statement,annual,Tax Effect Of Unusual Items,2024-12-31,-2700000.0
+ODP,income_statement,annual,Tax Rate For Calcs,2024-12-31,0.27
+ODP,income_statement,annual,Normalized EBITDA,2024-12-31,276000000.0
+ODP,income_statement,annual,Total Unusual Items,2024-12-31,-10000000.0
+ODP,income_statement,annual,Total Unusual Items Excluding Goodwill,2024-12-31,-10000000.0
+ODP,income_statement,annual,Net Income From Continuing Operation Net Minority Interest,2024-12-31,106000000.0
+ODP,income_statement,annual,Reconciled Depreciation,2024-12-31,97000000.0
+ODP,income_statement,annual,Reconciled Cost Of Revenue,2024-12-31,5545000000.0
+ODP,income_statement,annual,EBITDA,2024-12-31,266000000.0
+ODP,income_statement,annual,EBIT,2024-12-31,169000000.0
+ODP,income_statement,annual,Net Interest Income,2024-12-31,-14000000.0
+ODP,income_statement,annual,Interest Expense,2024-12-31,23000000.0
+ODP,income_statement,annual,Interest Income,2024-12-31,9000000.0
+ODP,income_statement,annual,Normalized Income,2024-12-31,113300000.0
+ODP,income_statement,annual,Net Income From Continuing And Discontinued Operation,2024-12-31,-3000000.0
+ODP,income_statement,annual,Total Expenses,2024-12-31,6817000000.0
+ODP,income_statement,annual,Total Operating Income As Reported,2024-12-31,163000000.0
+ODP,income_statement,annual,Diluted Average Shares,2024-12-31,37500000.0
+ODP,income_statement,annual,Basic Average Shares,2024-12-31,37500000.0
+ODP,income_statement,annual,Diluted EPS,2024-12-31,-0.08
+ODP,income_statement,annual,Basic EPS,2024-12-31,-0.08
+ODP,income_statement,annual,Diluted NI Availto Com Stockholders,2024-12-31,-3000000.0
+ODP,income_statement,annual,Net Income Common Stockholders,2024-12-31,-3000000.0
+ODP,income_statement,annual,Net Income,2024-12-31,-3000000.0
+ODP,income_statement,annual,Net Income Including Noncontrolling Interests,2024-12-31,-3000000.0
+ODP,income_statement,annual,Net Income Discontinuous Operations,2024-12-31,-109000000.0
+ODP,income_statement,annual,Net Income Continuous Operations,2024-12-31,106000000.0
+ODP,income_statement,annual,Tax Provision,2024-12-31,40000000.0
+ODP,income_statement,annual,Pretax Income,2024-12-31,146000000.0
+ODP,income_statement,annual,Other Income Expense,2024-12-31,-13000000.0
+ODP,income_statement,annual,Other Non Operating Income Expenses,2024-12-31,-3000000.0
+ODP,income_statement,annual,Special Income Charges,2024-12-31,-10000000.0
+ODP,income_statement,annual,Other Special Charges,2024-12-31,-70000000.0
+ODP,income_statement,annual,Write Off,2024-12-31,33000000.0
+ODP,income_statement,annual,Impairment Of Capital Assets,2024-12-31,
+ODP,income_statement,annual,Restructuring And Mergern Acquisition,2024-12-31,47000000.0
+ODP,income_statement,annual,Net Non Operating Interest Income Expense,2024-12-31,-14000000.0
+ODP,income_statement,annual,Interest Expense Non Operating,2024-12-31,23000000.0
+ODP,income_statement,annual,Interest Income Non Operating,2024-12-31,9000000.0
+ODP,income_statement,annual,Operating Income,2024-12-31,173000000.0
+ODP,income_statement,annual,Operating Expense,2024-12-31,1272000000.0
+ODP,income_statement,annual,Selling General And Administration,2024-12-31,1272000000.0
+ODP,income_statement,annual,General And Administrative Expense,2024-12-31,1272000000.0
+ODP,income_statement,annual,Other Gand A,2024-12-31,1272000000.0
+ODP,income_statement,annual,Gross Profit,2024-12-31,1445000000.0
+ODP,income_statement,annual,Cost Of Revenue,2024-12-31,5545000000.0
+ODP,income_statement,annual,Total Revenue,2024-12-31,6990000000.0
+ODP,income_statement,annual,Operating Revenue,2024-12-31,6990000000.0
+ODP,income_statement,annual,Tax Effect Of Unusual Items,2023-12-31,-5250000.0
+ODP,income_statement,annual,Tax Rate For Calcs,2023-12-31,0.25
+ODP,income_statement,annual,Normalized EBITDA,2023-12-31,469000000.0
+ODP,income_statement,annual,Total Unusual Items,2023-12-31,-21000000.0
+ODP,income_statement,annual,Total Unusual Items Excluding Goodwill,2023-12-31,-21000000.0
+ODP,income_statement,annual,Net Income From Continuing Operation Net Minority Interest,2023-12-31,247000000.0
+ODP,income_statement,annual,Reconciled Depreciation,2023-12-31,99000000.0
+ODP,income_statement,annual,Reconciled Cost Of Revenue,2023-12-31,6062000000.0
+ODP,income_statement,annual,EBITDA,2023-12-31,448000000.0
+ODP,income_statement,annual,EBIT,2023-12-31,349000000.0
+ODP,income_statement,annual,Net Interest Income,2023-12-31,-10000000.0
+ODP,income_statement,annual,Interest Expense,2023-12-31,20000000.0
+ODP,income_statement,annual,Interest Income,2023-12-31,10000000.0
+ODP,income_statement,annual,Normalized Income,2023-12-31,262750000.0
+ODP,income_statement,annual,Net Income From Continuing And Discontinued Operation,2023-12-31,139000000.0
+ODP,income_statement,annual,Total Expenses,2023-12-31,7472000000.0
+ODP,income_statement,annual,Total Operating Income As Reported,2023-12-31,330000000.0
+ODP,income_statement,annual,Diluted Average Shares,2023-12-31,40000000.0
+ODP,income_statement,annual,Basic Average Shares,2023-12-31,39000000.0
+ODP,income_statement,annual,Diluted EPS,2023-12-31,3.5
+ODP,income_statement,annual,Basic EPS,2023-12-31,3.61
+ODP,income_statement,annual,Diluted NI Availto Com Stockholders,2023-12-31,139000000.0
+ODP,income_statement,annual,Net Income Common Stockholders,2023-12-31,139000000.0
+ODP,income_statement,annual,Net Income,2023-12-31,139000000.0
+ODP,income_statement,annual,Net Income Including Noncontrolling Interests,2023-12-31,139000000.0
+ODP,income_statement,annual,Net Income Discontinuous Operations,2023-12-31,-108000000.0
+ODP,income_statement,annual,Net Income Continuous Operations,2023-12-31,247000000.0
+ODP,income_statement,annual,Tax Provision,2023-12-31,82000000.0
+ODP,income_statement,annual,Pretax Income,2023-12-31,329000000.0
+ODP,income_statement,annual,Other Income Expense,2023-12-31,-12000000.0
+ODP,income_statement,annual,Other Non Operating Income Expenses,2023-12-31,9000000.0
+ODP,income_statement,annual,Special Income Charges,2023-12-31,-21000000.0
+ODP,income_statement,annual,Other Special Charges,2023-12-31,
+ODP,income_statement,annual,Write Off,2023-12-31,17000000.0
+ODP,income_statement,annual,Impairment Of Capital Assets,2023-12-31,68000000.0
+ODP,income_statement,annual,Restructuring And Mergern Acquisition,2023-12-31,4000000.0
+ODP,income_statement,annual,Net Non Operating Interest Income Expense,2023-12-31,-10000000.0
+ODP,income_statement,annual,Interest Expense Non Operating,2023-12-31,20000000.0
+ODP,income_statement,annual,Interest Income Non Operating,2023-12-31,10000000.0
+ODP,income_statement,annual,Operating Income,2023-12-31,351000000.0
+ODP,income_statement,annual,Operating Expense,2023-12-31,1410000000.0
+ODP,income_statement,annual,Selling General And Administration,2023-12-31,1410000000.0
+ODP,income_statement,annual,General And Administrative Expense,2023-12-31,1410000000.0
+ODP,income_statement,annual,Other Gand A,2023-12-31,1410000000.0
+ODP,income_statement,annual,Gross Profit,2023-12-31,1761000000.0
+ODP,income_statement,annual,Cost Of Revenue,2023-12-31,6062000000.0
+ODP,income_statement,annual,Total Revenue,2023-12-31,7823000000.0
+ODP,income_statement,annual,Operating Revenue,2023-12-31,7823000000.0
+ODP,income_statement,annual,Tax Effect Of Unusual Items,2022-12-31,260000.0
+ODP,income_statement,annual,Tax Rate For Calcs,2022-12-31,0.26
+ODP,income_statement,annual,Normalized EBITDA,2022-12-31,438000000.0
+ODP,income_statement,annual,Total Unusual Items,2022-12-31,1000000.0
+ODP,income_statement,annual,Total Unusual Items Excluding Goodwill,2022-12-31,1000000.0
+ODP,income_statement,annual,Net Income From Continuing Operation Net Minority Interest,2022-12-31,226000000.0
+ODP,income_statement,annual,Reconciled Depreciation,2022-12-31,118000000.0
+ODP,income_statement,annual,Reconciled Cost Of Revenue,2022-12-31,6639000000.0
+ODP,income_statement,annual,EBITDA,2022-12-31,439000000.0
+ODP,income_statement,annual,EBIT,2022-12-31,321000000.0
+ODP,income_statement,annual,Net Interest Income,2022-12-31,-11000000.0
+ODP,income_statement,annual,Interest Expense,2022-12-31,16000000.0
+ODP,income_statement,annual,Interest Income,2022-12-31,5000000.0
+ODP,income_statement,annual,Normalized Income,2022-12-31,225260000.0
+ODP,income_statement,annual,Net Income From Continuing And Discontinued Operation,2022-12-31,166000000.0
+ODP,income_statement,annual,Total Expenses,2022-12-31,8179000000.0
+ODP,income_statement,annual,Total Operating Income As Reported,2022-12-31,306000000.0
+ODP,income_statement,annual,Diluted Average Shares,2022-12-31,49258160.0
+ODP,income_statement,annual,Basic Average Shares,2022-12-31,47701149.0
+ODP,income_statement,annual,Diluted EPS,2022-12-31,3.37
+ODP,income_statement,annual,Basic EPS,2022-12-31,3.48
+ODP,income_statement,annual,Diluted NI Availto Com Stockholders,2022-12-31,166000000.0
+ODP,income_statement,annual,Net Income Common Stockholders,2022-12-31,166000000.0
+ODP,income_statement,annual,Net Income,2022-12-31,166000000.0
+ODP,income_statement,annual,Net Income Including Noncontrolling Interests,2022-12-31,166000000.0
+ODP,income_statement,annual,Net Income Discontinuous Operations,2022-12-31,-60000000.0
+ODP,income_statement,annual,Net Income Continuous Operations,2022-12-31,226000000.0
+ODP,income_statement,annual,Tax Provision,2022-12-31,79000000.0
+ODP,income_statement,annual,Pretax Income,2022-12-31,305000000.0
+ODP,income_statement,annual,Other Income Expense,2022-12-31,11000000.0
+ODP,income_statement,annual,Other Non Operating Income Expenses,2022-12-31,10000000.0
+ODP,income_statement,annual,Special Income Charges,2022-12-31,1000000.0
+ODP,income_statement,annual,Other Special Charges,2022-12-31,
+ODP,income_statement,annual,Write Off,2022-12-31,14000000.0
+ODP,income_statement,annual,Impairment Of Capital Assets,2022-12-31,0.0
+ODP,income_statement,annual,Restructuring And Mergern Acquisition,2022-12-31,-15000000.0
+ODP,income_statement,annual,Net Non Operating Interest Income Expense,2022-12-31,-11000000.0
+ODP,income_statement,annual,Interest Expense Non Operating,2022-12-31,16000000.0
+ODP,income_statement,annual,Interest Income Non Operating,2022-12-31,5000000.0
+ODP,income_statement,annual,Operating Income,2022-12-31,305000000.0
+ODP,income_statement,annual,Operating Expense,2022-12-31,1540000000.0
+ODP,income_statement,annual,Selling General And Administration,2022-12-31,1540000000.0
+ODP,income_statement,annual,General And Administrative Expense,2022-12-31,1540000000.0
+ODP,income_statement,annual,Other Gand A,2022-12-31,1540000000.0
+ODP,income_statement,annual,Gross Profit,2022-12-31,1845000000.0
+ODP,income_statement,annual,Cost Of Revenue,2022-12-31,6639000000.0
+ODP,income_statement,annual,Total Revenue,2022-12-31,8484000000.0
+ODP,income_statement,annual,Operating Revenue,2022-12-31,8484000000.0
+ODP,balance_sheet,quarterly,TreasurySharesNumber,2025-06-30,37599156.0
+ODP,balance_sheet,quarterly,OrdinarySharesNumber,2025-06-30,30084433.0
+ODP,balance_sheet,quarterly,ShareIssued,2025-06-30,67683589.0
+ODP,balance_sheet,quarterly,NetDebt,2025-06-30,68000000.0
+ODP,balance_sheet,quarterly,TotalDebt,2025-06-30,938000000.0
+ODP,balance_sheet,quarterly,TangibleBookValue,2025-06-30,338000000.0
+ODP,balance_sheet,quarterly,InvestedCapital,2025-06-30,1041000000.0
+ODP,balance_sheet,quarterly,WorkingCapital,2025-06-30,-93000000.0
+ODP,balance_sheet,quarterly,NetTangibleAssets,2025-06-30,338000000.0
+ODP,balance_sheet,quarterly,CapitalLeaseObligations,2025-06-30,693000000.0
+ODP,balance_sheet,quarterly,CommonStockEquity,2025-06-30,796000000.0
+ODP,balance_sheet,quarterly,TotalCapitalization,2025-06-30,1033000000.0
+ODP,balance_sheet,quarterly,TotalEquityGrossMinorityInterest,2025-06-30,796000000.0
+ODP,balance_sheet,quarterly,StockholdersEquity,2025-06-30,796000000.0
+ODP,balance_sheet,quarterly,GainsLossesNotAffectingRetainedEarnings,2025-06-30,-116000000.0
+ODP,balance_sheet,quarterly,OtherEquityAdjustments,2025-06-30,-116000000.0
+ODP,balance_sheet,quarterly,TreasuryStock,2025-06-30,1526000000.0
+ODP,balance_sheet,quarterly,RetainedEarnings,2025-06-30,-344000000.0
+ODP,balance_sheet,quarterly,AdditionalPaidInCapital,2025-06-30,2781000000.0
+ODP,balance_sheet,quarterly,CapitalStock,2025-06-30,1000000.0
+ODP,balance_sheet,quarterly,CommonStock,2025-06-30,1000000.0
+ODP,balance_sheet,quarterly,TotalLiabilitiesNetMinorityInterest,2025-06-30,2605000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentLiabilitiesNetMinorityInterest,2025-06-30,1081000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentLiabilities,2025-06-30,136000000.0
+ODP,balance_sheet,quarterly,EmployeeBenefits,2025-06-30,15000000.0
+ODP,balance_sheet,quarterly,NonCurrentPensionAndOtherPostretirementBenefitPlans,2025-06-30,15000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredLiabilities,2025-06-30,
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesLiabilities,2025-06-30,
+ODP,balance_sheet,quarterly,LongTermDebtAndCapitalLeaseObligation,2025-06-30,930000000.0
+ODP,balance_sheet,quarterly,LongTermCapitalLeaseObligation,2025-06-30,693000000.0
+ODP,balance_sheet,quarterly,LongTermDebt,2025-06-30,237000000.0
+ODP,balance_sheet,quarterly,CurrentLiabilities,2025-06-30,1524000000.0
+ODP,balance_sheet,quarterly,OtherCurrentLiabilities,2025-06-30,
+ODP,balance_sheet,quarterly,CurrentDebtAndCapitalLeaseObligation,2025-06-30,8000000.0
+ODP,balance_sheet,quarterly,CurrentCapitalLeaseObligation,2025-06-30,
+ODP,balance_sheet,quarterly,CurrentDebt,2025-06-30,8000000.0
+ODP,balance_sheet,quarterly,PayablesAndAccruedExpenses,2025-06-30,1516000000.0
+ODP,balance_sheet,quarterly,CurrentAccruedExpenses,2025-06-30,817000000.0
+ODP,balance_sheet,quarterly,Payables,2025-06-30,699000000.0
+ODP,balance_sheet,quarterly,TotalTaxPayable,2025-06-30,2000000.0
+ODP,balance_sheet,quarterly,IncomeTaxPayable,2025-06-30,2000000.0
+ODP,balance_sheet,quarterly,AccountsPayable,2025-06-30,697000000.0
+ODP,balance_sheet,quarterly,TotalAssets,2025-06-30,3401000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentAssets,2025-06-30,1970000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentAssets,2025-06-30,273000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredAssets,2025-06-30,122000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesAssets,2025-06-30,122000000.0
+ODP,balance_sheet,quarterly,GoodwillAndOtherIntangibleAssets,2025-06-30,458000000.0
+ODP,balance_sheet,quarterly,OtherIntangibleAssets,2025-06-30,46000000.0
+ODP,balance_sheet,quarterly,Goodwill,2025-06-30,412000000.0
+ODP,balance_sheet,quarterly,NetPPE,2025-06-30,1117000000.0
+ODP,balance_sheet,quarterly,AccumulatedDepreciation,2025-06-30,
+ODP,balance_sheet,quarterly,GrossPPE,2025-06-30,1117000000.0
+ODP,balance_sheet,quarterly,Leases,2025-06-30,
+ODP,balance_sheet,quarterly,ConstructionInProgress,2025-06-30,
+ODP,balance_sheet,quarterly,OtherProperties,2025-06-30,1117000000.0
+ODP,balance_sheet,quarterly,MachineryFurnitureEquipment,2025-06-30,
+ODP,balance_sheet,quarterly,BuildingsAndImprovements,2025-06-30,
+ODP,balance_sheet,quarterly,LandAndImprovements,2025-06-30,
+ODP,balance_sheet,quarterly,Properties,2025-06-30,
+ODP,balance_sheet,quarterly,CurrentAssets,2025-06-30,1431000000.0
+ODP,balance_sheet,quarterly,OtherCurrentAssets,2025-06-30,37000000.0
+ODP,balance_sheet,quarterly,AssetsHeldForSaleCurrent,2025-06-30,12000000.0
+ODP,balance_sheet,quarterly,Inventory,2025-06-30,745000000.0
+ODP,balance_sheet,quarterly,Receivables,2025-06-30,460000000.0
+ODP,balance_sheet,quarterly,OtherReceivables,2025-06-30,
+ODP,balance_sheet,quarterly,AccountsReceivable,2025-06-30,460000000.0
+ODP,balance_sheet,quarterly,AllowanceForDoubtfulAccountsReceivable,2025-06-30,
+ODP,balance_sheet,quarterly,GrossAccountsReceivable,2025-06-30,
+ODP,balance_sheet,quarterly,CashCashEquivalentsAndShortTermInvestments,2025-06-30,177000000.0
+ODP,balance_sheet,quarterly,CashAndCashEquivalents,2025-06-30,177000000.0
+ODP,balance_sheet,quarterly,TreasurySharesNumber,2025-03-31,37599156.0
+ODP,balance_sheet,quarterly,OrdinarySharesNumber,2025-03-31,30074128.0
+ODP,balance_sheet,quarterly,ShareIssued,2025-03-31,67673284.0
+ODP,balance_sheet,quarterly,NetDebt,2025-03-31,77000000.0
+ODP,balance_sheet,quarterly,TotalDebt,2025-03-31,998000000.0
+ODP,balance_sheet,quarterly,TangibleBookValue,2025-03-31,326000000.0
+ODP,balance_sheet,quarterly,InvestedCapital,2025-03-31,1046000000.0
+ODP,balance_sheet,quarterly,WorkingCapital,2025-03-31,-99000000.0
+ODP,balance_sheet,quarterly,NetTangibleAssets,2025-03-31,326000000.0
+ODP,balance_sheet,quarterly,CapitalLeaseObligations,2025-03-31,736000000.0
+ODP,balance_sheet,quarterly,CommonStockEquity,2025-03-31,784000000.0
+ODP,balance_sheet,quarterly,TotalCapitalization,2025-03-31,1037000000.0
+ODP,balance_sheet,quarterly,TotalEquityGrossMinorityInterest,2025-03-31,784000000.0
+ODP,balance_sheet,quarterly,StockholdersEquity,2025-03-31,784000000.0
+ODP,balance_sheet,quarterly,GainsLossesNotAffectingRetainedEarnings,2025-03-31,-123000000.0
+ODP,balance_sheet,quarterly,OtherEquityAdjustments,2025-03-31,-123000000.0
+ODP,balance_sheet,quarterly,TreasuryStock,2025-03-31,1526000000.0
+ODP,balance_sheet,quarterly,RetainedEarnings,2025-03-31,-344000000.0
+ODP,balance_sheet,quarterly,AdditionalPaidInCapital,2025-03-31,2776000000.0
+ODP,balance_sheet,quarterly,CapitalStock,2025-03-31,1000000.0
+ODP,balance_sheet,quarterly,CommonStock,2025-03-31,1000000.0
+ODP,balance_sheet,quarterly,TotalLiabilitiesNetMinorityInterest,2025-03-31,2683000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentLiabilitiesNetMinorityInterest,2025-03-31,1142000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentLiabilities,2025-03-31,138000000.0
+ODP,balance_sheet,quarterly,EmployeeBenefits,2025-03-31,15000000.0
+ODP,balance_sheet,quarterly,NonCurrentPensionAndOtherPostretirementBenefitPlans,2025-03-31,15000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredLiabilities,2025-03-31,
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesLiabilities,2025-03-31,
+ODP,balance_sheet,quarterly,LongTermDebtAndCapitalLeaseObligation,2025-03-31,989000000.0
+ODP,balance_sheet,quarterly,LongTermCapitalLeaseObligation,2025-03-31,736000000.0
+ODP,balance_sheet,quarterly,LongTermDebt,2025-03-31,253000000.0
+ODP,balance_sheet,quarterly,CurrentLiabilities,2025-03-31,1541000000.0
+ODP,balance_sheet,quarterly,OtherCurrentLiabilities,2025-03-31,
+ODP,balance_sheet,quarterly,CurrentDebtAndCapitalLeaseObligation,2025-03-31,9000000.0
+ODP,balance_sheet,quarterly,CurrentCapitalLeaseObligation,2025-03-31,
+ODP,balance_sheet,quarterly,CurrentDebt,2025-03-31,9000000.0
+ODP,balance_sheet,quarterly,PayablesAndAccruedExpenses,2025-03-31,1532000000.0
+ODP,balance_sheet,quarterly,CurrentAccruedExpenses,2025-03-31,831000000.0
+ODP,balance_sheet,quarterly,Payables,2025-03-31,701000000.0
+ODP,balance_sheet,quarterly,TotalTaxPayable,2025-03-31,3000000.0
+ODP,balance_sheet,quarterly,IncomeTaxPayable,2025-03-31,3000000.0
+ODP,balance_sheet,quarterly,AccountsPayable,2025-03-31,698000000.0
+ODP,balance_sheet,quarterly,TotalAssets,2025-03-31,3467000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentAssets,2025-03-31,2025000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentAssets,2025-03-31,280000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredAssets,2025-03-31,118000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesAssets,2025-03-31,118000000.0
+ODP,balance_sheet,quarterly,GoodwillAndOtherIntangibleAssets,2025-03-31,458000000.0
+ODP,balance_sheet,quarterly,OtherIntangibleAssets,2025-03-31,47000000.0
+ODP,balance_sheet,quarterly,Goodwill,2025-03-31,411000000.0
+ODP,balance_sheet,quarterly,NetPPE,2025-03-31,1169000000.0
+ODP,balance_sheet,quarterly,AccumulatedDepreciation,2025-03-31,
+ODP,balance_sheet,quarterly,GrossPPE,2025-03-31,1169000000.0
+ODP,balance_sheet,quarterly,Leases,2025-03-31,
+ODP,balance_sheet,quarterly,ConstructionInProgress,2025-03-31,
+ODP,balance_sheet,quarterly,OtherProperties,2025-03-31,1169000000.0
+ODP,balance_sheet,quarterly,MachineryFurnitureEquipment,2025-03-31,
+ODP,balance_sheet,quarterly,BuildingsAndImprovements,2025-03-31,
+ODP,balance_sheet,quarterly,LandAndImprovements,2025-03-31,
+ODP,balance_sheet,quarterly,Properties,2025-03-31,
+ODP,balance_sheet,quarterly,CurrentAssets,2025-03-31,1442000000.0
+ODP,balance_sheet,quarterly,OtherCurrentAssets,2025-03-31,32000000.0
+ODP,balance_sheet,quarterly,AssetsHeldForSaleCurrent,2025-03-31,6000000.0
+ODP,balance_sheet,quarterly,Inventory,2025-03-31,750000000.0
+ODP,balance_sheet,quarterly,Receivables,2025-03-31,469000000.0
+ODP,balance_sheet,quarterly,OtherReceivables,2025-03-31,
+ODP,balance_sheet,quarterly,AccountsReceivable,2025-03-31,469000000.0
+ODP,balance_sheet,quarterly,AllowanceForDoubtfulAccountsReceivable,2025-03-31,
+ODP,balance_sheet,quarterly,GrossAccountsReceivable,2025-03-31,
+ODP,balance_sheet,quarterly,CashCashEquivalentsAndShortTermInvestments,2025-03-31,185000000.0
+ODP,balance_sheet,quarterly,CashAndCashEquivalents,2025-03-31,185000000.0
+ODP,balance_sheet,quarterly,TreasurySharesNumber,2024-12-31,37599156.0
+ODP,balance_sheet,quarterly,OrdinarySharesNumber,2024-12-31,29814959.0
+ODP,balance_sheet,quarterly,ShareIssued,2024-12-31,67414115.0
+ODP,balance_sheet,quarterly,NetDebt,2024-12-31,85000000.0
+ODP,balance_sheet,quarterly,TotalDebt,2024-12-31,1058000000.0
+ODP,balance_sheet,quarterly,TangibleBookValue,2024-12-31,348000000.0
+ODP,balance_sheet,quarterly,InvestedCapital,2024-12-31,1058000000.0
+ODP,balance_sheet,quarterly,WorkingCapital,2024-12-31,-105000000.0
+ODP,balance_sheet,quarterly,NetTangibleAssets,2024-12-31,348000000.0
+ODP,balance_sheet,quarterly,CapitalLeaseObligations,2024-12-31,807000000.0
+ODP,balance_sheet,quarterly,CommonStockEquity,2024-12-31,807000000.0
+ODP,balance_sheet,quarterly,TotalCapitalization,2024-12-31,1058000000.0
+ODP,balance_sheet,quarterly,TotalEquityGrossMinorityInterest,2024-12-31,807000000.0
+ODP,balance_sheet,quarterly,StockholdersEquity,2024-12-31,807000000.0
+ODP,balance_sheet,quarterly,GainsLossesNotAffectingRetainedEarnings,2024-12-31,-124000000.0
+ODP,balance_sheet,quarterly,OtherEquityAdjustments,2024-12-31,-124000000.0
+ODP,balance_sheet,quarterly,TreasuryStock,2024-12-31,1526000000.0
+ODP,balance_sheet,quarterly,RetainedEarnings,2024-12-31,-315000000.0
+ODP,balance_sheet,quarterly,AdditionalPaidInCapital,2024-12-31,2771000000.0
+ODP,balance_sheet,quarterly,CapitalStock,2024-12-31,1000000.0
+ODP,balance_sheet,quarterly,CommonStock,2024-12-31,1000000.0
+ODP,balance_sheet,quarterly,TotalLiabilitiesNetMinorityInterest,2024-12-31,2722000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentLiabilitiesNetMinorityInterest,2024-12-31,1179000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentLiabilities,2024-12-31,116000000.0
+ODP,balance_sheet,quarterly,EmployeeBenefits,2024-12-31,14000000.0
+ODP,balance_sheet,quarterly,NonCurrentPensionAndOtherPostretirementBenefitPlans,2024-12-31,14000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredLiabilities,2024-12-31,
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesLiabilities,2024-12-31,
+ODP,balance_sheet,quarterly,LongTermDebtAndCapitalLeaseObligation,2024-12-31,1049000000.0
+ODP,balance_sheet,quarterly,LongTermCapitalLeaseObligation,2024-12-31,798000000.0
+ODP,balance_sheet,quarterly,LongTermDebt,2024-12-31,251000000.0
+ODP,balance_sheet,quarterly,CurrentLiabilities,2024-12-31,1543000000.0
+ODP,balance_sheet,quarterly,OtherCurrentLiabilities,2024-12-31,
+ODP,balance_sheet,quarterly,CurrentDebtAndCapitalLeaseObligation,2024-12-31,9000000.0
+ODP,balance_sheet,quarterly,CurrentCapitalLeaseObligation,2024-12-31,9000000.0
+ODP,balance_sheet,quarterly,CurrentDebt,2024-12-31,
+ODP,balance_sheet,quarterly,PayablesAndAccruedExpenses,2024-12-31,1534000000.0
+ODP,balance_sheet,quarterly,CurrentAccruedExpenses,2024-12-31,835000000.0
+ODP,balance_sheet,quarterly,Payables,2024-12-31,699000000.0
+ODP,balance_sheet,quarterly,TotalTaxPayable,2024-12-31,2000000.0
+ODP,balance_sheet,quarterly,IncomeTaxPayable,2024-12-31,2000000.0
+ODP,balance_sheet,quarterly,AccountsPayable,2024-12-31,697000000.0
+ODP,balance_sheet,quarterly,TotalAssets,2024-12-31,3529000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentAssets,2024-12-31,2091000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentAssets,2024-12-31,277000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredAssets,2024-12-31,102000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesAssets,2024-12-31,102000000.0
+ODP,balance_sheet,quarterly,GoodwillAndOtherIntangibleAssets,2024-12-31,459000000.0
+ODP,balance_sheet,quarterly,OtherIntangibleAssets,2024-12-31,48000000.0
+ODP,balance_sheet,quarterly,Goodwill,2024-12-31,411000000.0
+ODP,balance_sheet,quarterly,NetPPE,2024-12-31,1253000000.0
+ODP,balance_sheet,quarterly,AccumulatedDepreciation,2024-12-31,-1859000000.0
+ODP,balance_sheet,quarterly,GrossPPE,2024-12-31,3112000000.0
+ODP,balance_sheet,quarterly,Leases,2024-12-31,542000000.0
+ODP,balance_sheet,quarterly,ConstructionInProgress,2024-12-31,29000000.0
+ODP,balance_sheet,quarterly,OtherProperties,2024-12-31,954000000.0
+ODP,balance_sheet,quarterly,MachineryFurnitureEquipment,2024-12-31,1505000000.0
+ODP,balance_sheet,quarterly,BuildingsAndImprovements,2024-12-31,65000000.0
+ODP,balance_sheet,quarterly,LandAndImprovements,2024-12-31,17000000.0
+ODP,balance_sheet,quarterly,Properties,2024-12-31,0.0
+ODP,balance_sheet,quarterly,CurrentAssets,2024-12-31,1438000000.0
+ODP,balance_sheet,quarterly,OtherCurrentAssets,2024-12-31,30000000.0
+ODP,balance_sheet,quarterly,AssetsHeldForSaleCurrent,2024-12-31,6000000.0
+ODP,balance_sheet,quarterly,Inventory,2024-12-31,770000000.0
+ODP,balance_sheet,quarterly,Receivables,2024-12-31,466000000.0
+ODP,balance_sheet,quarterly,OtherReceivables,2024-12-31,131000000.0
+ODP,balance_sheet,quarterly,AccountsReceivable,2024-12-31,335000000.0
+ODP,balance_sheet,quarterly,AllowanceForDoubtfulAccountsReceivable,2024-12-31,-8000000.0
+ODP,balance_sheet,quarterly,GrossAccountsReceivable,2024-12-31,343000000.0
+ODP,balance_sheet,quarterly,CashCashEquivalentsAndShortTermInvestments,2024-12-31,166000000.0
+ODP,balance_sheet,quarterly,CashAndCashEquivalents,2024-12-31,166000000.0
+ODP,balance_sheet,quarterly,TreasurySharesNumber,2024-09-30,36203474.0
+ODP,balance_sheet,quarterly,OrdinarySharesNumber,2024-09-30,31204701.0
+ODP,balance_sheet,quarterly,ShareIssued,2024-09-30,67408175.0
+ODP,balance_sheet,quarterly,NetDebt,2024-09-30,65000000.0
+ODP,balance_sheet,quarterly,TotalDebt,2024-09-30,1047000000.0
+ODP,balance_sheet,quarterly,TangibleBookValue,2024-09-30,395000000.0
+ODP,balance_sheet,quarterly,InvestedCapital,2024-09-30,1102000000.0
+ODP,balance_sheet,quarterly,WorkingCapital,2024-09-30,-129000000.0
+ODP,balance_sheet,quarterly,NetTangibleAssets,2024-09-30,395000000.0
+ODP,balance_sheet,quarterly,CapitalLeaseObligations,2024-09-30,801000000.0
+ODP,balance_sheet,quarterly,CommonStockEquity,2024-09-30,856000000.0
+ODP,balance_sheet,quarterly,TotalCapitalization,2024-09-30,1092000000.0
+ODP,balance_sheet,quarterly,TotalEquityGrossMinorityInterest,2024-09-30,856000000.0
+ODP,balance_sheet,quarterly,StockholdersEquity,2024-09-30,856000000.0
+ODP,balance_sheet,quarterly,GainsLossesNotAffectingRetainedEarnings,2024-09-30,-114000000.0
+ODP,balance_sheet,quarterly,OtherEquityAdjustments,2024-09-30,-114000000.0
+ODP,balance_sheet,quarterly,TreasuryStock,2024-09-30,1482000000.0
+ODP,balance_sheet,quarterly,RetainedEarnings,2024-09-30,-312000000.0
+ODP,balance_sheet,quarterly,AdditionalPaidInCapital,2024-09-30,2763000000.0
+ODP,balance_sheet,quarterly,CapitalStock,2024-09-30,1000000.0
+ODP,balance_sheet,quarterly,CommonStock,2024-09-30,1000000.0
+ODP,balance_sheet,quarterly,TotalLiabilitiesNetMinorityInterest,2024-09-30,2835000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentLiabilitiesNetMinorityInterest,2024-09-30,1168000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentLiabilities,2024-09-30,118000000.0
+ODP,balance_sheet,quarterly,EmployeeBenefits,2024-09-30,13000000.0
+ODP,balance_sheet,quarterly,NonCurrentPensionAndOtherPostretirementBenefitPlans,2024-09-30,13000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredLiabilities,2024-09-30,
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesLiabilities,2024-09-30,
+ODP,balance_sheet,quarterly,LongTermDebtAndCapitalLeaseObligation,2024-09-30,1037000000.0
+ODP,balance_sheet,quarterly,LongTermCapitalLeaseObligation,2024-09-30,801000000.0
+ODP,balance_sheet,quarterly,LongTermDebt,2024-09-30,236000000.0
+ODP,balance_sheet,quarterly,CurrentLiabilities,2024-09-30,1667000000.0
+ODP,balance_sheet,quarterly,OtherCurrentLiabilities,2024-09-30,6000000.0
+ODP,balance_sheet,quarterly,CurrentDebtAndCapitalLeaseObligation,2024-09-30,10000000.0
+ODP,balance_sheet,quarterly,CurrentCapitalLeaseObligation,2024-09-30,
+ODP,balance_sheet,quarterly,CurrentDebt,2024-09-30,10000000.0
+ODP,balance_sheet,quarterly,PayablesAndAccruedExpenses,2024-09-30,1651000000.0
+ODP,balance_sheet,quarterly,CurrentAccruedExpenses,2024-09-30,874000000.0
+ODP,balance_sheet,quarterly,Payables,2024-09-30,777000000.0
+ODP,balance_sheet,quarterly,TotalTaxPayable,2024-09-30,4000000.0
+ODP,balance_sheet,quarterly,IncomeTaxPayable,2024-09-30,4000000.0
+ODP,balance_sheet,quarterly,AccountsPayable,2024-09-30,773000000.0
+ODP,balance_sheet,quarterly,TotalAssets,2024-09-30,3691000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentAssets,2024-09-30,2153000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentAssets,2024-09-30,277000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredAssets,2024-09-30,128000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesAssets,2024-09-30,128000000.0
+ODP,balance_sheet,quarterly,GoodwillAndOtherIntangibleAssets,2024-09-30,461000000.0
+ODP,balance_sheet,quarterly,OtherIntangibleAssets,2024-09-30,49000000.0
+ODP,balance_sheet,quarterly,Goodwill,2024-09-30,412000000.0
+ODP,balance_sheet,quarterly,NetPPE,2024-09-30,1287000000.0
+ODP,balance_sheet,quarterly,AccumulatedDepreciation,2024-09-30,
+ODP,balance_sheet,quarterly,GrossPPE,2024-09-30,1287000000.0
+ODP,balance_sheet,quarterly,Leases,2024-09-30,
+ODP,balance_sheet,quarterly,ConstructionInProgress,2024-09-30,
+ODP,balance_sheet,quarterly,OtherProperties,2024-09-30,1287000000.0
+ODP,balance_sheet,quarterly,MachineryFurnitureEquipment,2024-09-30,
+ODP,balance_sheet,quarterly,BuildingsAndImprovements,2024-09-30,
+ODP,balance_sheet,quarterly,LandAndImprovements,2024-09-30,
+ODP,balance_sheet,quarterly,Properties,2024-09-30,
+ODP,balance_sheet,quarterly,CurrentAssets,2024-09-30,1538000000.0
+ODP,balance_sheet,quarterly,OtherCurrentAssets,2024-09-30,35000000.0
+ODP,balance_sheet,quarterly,AssetsHeldForSaleCurrent,2024-09-30,12000000.0
+ODP,balance_sheet,quarterly,Inventory,2024-09-30,760000000.0
+ODP,balance_sheet,quarterly,Receivables,2024-09-30,550000000.0
+ODP,balance_sheet,quarterly,OtherReceivables,2024-09-30,
+ODP,balance_sheet,quarterly,AccountsReceivable,2024-09-30,550000000.0
+ODP,balance_sheet,quarterly,AllowanceForDoubtfulAccountsReceivable,2024-09-30,
+ODP,balance_sheet,quarterly,GrossAccountsReceivable,2024-09-30,
+ODP,balance_sheet,quarterly,CashCashEquivalentsAndShortTermInvestments,2024-09-30,181000000.0
+ODP,balance_sheet,quarterly,CashAndCashEquivalents,2024-09-30,181000000.0
+ODP,balance_sheet,quarterly,TreasurySharesNumber,2024-06-30,33060691.0
+ODP,balance_sheet,quarterly,OrdinarySharesNumber,2024-06-30,34321389.0
+ODP,balance_sheet,quarterly,ShareIssued,2024-06-30,67382080.0
+ODP,balance_sheet,quarterly,NetDebt,2024-06-30,3000000.0
+ODP,balance_sheet,quarterly,TotalDebt,2024-06-30,1002000000.0
+ODP,balance_sheet,quarterly,TangibleBookValue,2024-06-30,447000000.0
+ODP,balance_sheet,quarterly,InvestedCapital,2024-06-30,1076000000.0
+ODP,balance_sheet,quarterly,WorkingCapital,2024-06-30,-166000000.0
+ODP,balance_sheet,quarterly,NetTangibleAssets,2024-06-30,447000000.0
+ODP,balance_sheet,quarterly,CapitalLeaseObligations,2024-06-30,819000000.0
+ODP,balance_sheet,quarterly,CommonStockEquity,2024-06-30,893000000.0
+ODP,balance_sheet,quarterly,TotalCapitalization,2024-06-30,1066000000.0
+ODP,balance_sheet,quarterly,TotalEquityGrossMinorityInterest,2024-06-30,893000000.0
+ODP,balance_sheet,quarterly,StockholdersEquity,2024-06-30,893000000.0
+ODP,balance_sheet,quarterly,GainsLossesNotAffectingRetainedEarnings,2024-06-30,-117000000.0
+ODP,balance_sheet,quarterly,OtherEquityAdjustments,2024-06-30,-117000000.0
+ODP,balance_sheet,quarterly,TreasuryStock,2024-06-30,1380000000.0
+ODP,balance_sheet,quarterly,RetainedEarnings,2024-06-30,-370000000.0
+ODP,balance_sheet,quarterly,AdditionalPaidInCapital,2024-06-30,2759000000.0
+ODP,balance_sheet,quarterly,CapitalStock,2024-06-30,1000000.0
+ODP,balance_sheet,quarterly,CommonStock,2024-06-30,1000000.0
+ODP,balance_sheet,quarterly,TotalLiabilitiesNetMinorityInterest,2024-06-30,2760000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentLiabilitiesNetMinorityInterest,2024-06-30,1118000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentLiabilities,2024-06-30,
+ODP,balance_sheet,quarterly,EmployeeBenefits,2024-06-30,13000000.0
+ODP,balance_sheet,quarterly,NonCurrentPensionAndOtherPostretirementBenefitPlans,2024-06-30,13000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredLiabilities,2024-06-30,113000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesLiabilities,2024-06-30,113000000.0
+ODP,balance_sheet,quarterly,LongTermDebtAndCapitalLeaseObligation,2024-06-30,992000000.0
+ODP,balance_sheet,quarterly,LongTermCapitalLeaseObligation,2024-06-30,819000000.0
+ODP,balance_sheet,quarterly,LongTermDebt,2024-06-30,173000000.0
+ODP,balance_sheet,quarterly,CurrentLiabilities,2024-06-30,1642000000.0
+ODP,balance_sheet,quarterly,OtherCurrentLiabilities,2024-06-30,8000000.0
+ODP,balance_sheet,quarterly,CurrentDebtAndCapitalLeaseObligation,2024-06-30,10000000.0
+ODP,balance_sheet,quarterly,CurrentCapitalLeaseObligation,2024-06-30,
+ODP,balance_sheet,quarterly,CurrentDebt,2024-06-30,10000000.0
+ODP,balance_sheet,quarterly,PayablesAndAccruedExpenses,2024-06-30,1624000000.0
+ODP,balance_sheet,quarterly,CurrentAccruedExpenses,2024-06-30,840000000.0
+ODP,balance_sheet,quarterly,Payables,2024-06-30,784000000.0
+ODP,balance_sheet,quarterly,TotalTaxPayable,2024-06-30,5000000.0
+ODP,balance_sheet,quarterly,IncomeTaxPayable,2024-06-30,5000000.0
+ODP,balance_sheet,quarterly,AccountsPayable,2024-06-30,779000000.0
+ODP,balance_sheet,quarterly,TotalAssets,2024-06-30,3653000000.0
+ODP,balance_sheet,quarterly,TotalNonCurrentAssets,2024-06-30,2177000000.0
+ODP,balance_sheet,quarterly,OtherNonCurrentAssets,2024-06-30,273000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredAssets,2024-06-30,158000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesAssets,2024-06-30,158000000.0
+ODP,balance_sheet,quarterly,GoodwillAndOtherIntangibleAssets,2024-06-30,446000000.0
+ODP,balance_sheet,quarterly,OtherIntangibleAssets,2024-06-30,43000000.0
+ODP,balance_sheet,quarterly,Goodwill,2024-06-30,403000000.0
+ODP,balance_sheet,quarterly,NetPPE,2024-06-30,1300000000.0
+ODP,balance_sheet,quarterly,AccumulatedDepreciation,2024-06-30,
+ODP,balance_sheet,quarterly,GrossPPE,2024-06-30,1300000000.0
+ODP,balance_sheet,quarterly,Leases,2024-06-30,
+ODP,balance_sheet,quarterly,ConstructionInProgress,2024-06-30,
+ODP,balance_sheet,quarterly,OtherProperties,2024-06-30,1300000000.0
+ODP,balance_sheet,quarterly,MachineryFurnitureEquipment,2024-06-30,
+ODP,balance_sheet,quarterly,BuildingsAndImprovements,2024-06-30,
+ODP,balance_sheet,quarterly,LandAndImprovements,2024-06-30,
+ODP,balance_sheet,quarterly,Properties,2024-06-30,
+ODP,balance_sheet,quarterly,CurrentAssets,2024-06-30,1476000000.0
+ODP,balance_sheet,quarterly,OtherCurrentAssets,2024-06-30,38000000.0
+ODP,balance_sheet,quarterly,AssetsHeldForSaleCurrent,2024-06-30,15000000.0
+ODP,balance_sheet,quarterly,Inventory,2024-06-30,778000000.0
+ODP,balance_sheet,quarterly,Receivables,2024-06-30,465000000.0
+ODP,balance_sheet,quarterly,OtherReceivables,2024-06-30,
+ODP,balance_sheet,quarterly,AccountsReceivable,2024-06-30,465000000.0
+ODP,balance_sheet,quarterly,AllowanceForDoubtfulAccountsReceivable,2024-06-30,
+ODP,balance_sheet,quarterly,GrossAccountsReceivable,2024-06-30,
+ODP,balance_sheet,quarterly,CashCashEquivalentsAndShortTermInvestments,2024-06-30,180000000.0
+ODP,balance_sheet,quarterly,CashAndCashEquivalents,2024-06-30,180000000.0
+ODP,balance_sheet,quarterly,TreasurySharesNumber,2024-03-31,
+ODP,balance_sheet,quarterly,OrdinarySharesNumber,2024-03-31,
+ODP,balance_sheet,quarterly,ShareIssued,2024-03-31,
+ODP,balance_sheet,quarterly,NetDebt,2024-03-31,
+ODP,balance_sheet,quarterly,TotalDebt,2024-03-31,
+ODP,balance_sheet,quarterly,TangibleBookValue,2024-03-31,
+ODP,balance_sheet,quarterly,InvestedCapital,2024-03-31,
+ODP,balance_sheet,quarterly,WorkingCapital,2024-03-31,
+ODP,balance_sheet,quarterly,NetTangibleAssets,2024-03-31,
+ODP,balance_sheet,quarterly,CapitalLeaseObligations,2024-03-31,
+ODP,balance_sheet,quarterly,CommonStockEquity,2024-03-31,
+ODP,balance_sheet,quarterly,TotalCapitalization,2024-03-31,
+ODP,balance_sheet,quarterly,TotalEquityGrossMinorityInterest,2024-03-31,
+ODP,balance_sheet,quarterly,StockholdersEquity,2024-03-31,
+ODP,balance_sheet,quarterly,GainsLossesNotAffectingRetainedEarnings,2024-03-31,
+ODP,balance_sheet,quarterly,OtherEquityAdjustments,2024-03-31,
+ODP,balance_sheet,quarterly,TreasuryStock,2024-03-31,
+ODP,balance_sheet,quarterly,RetainedEarnings,2024-03-31,
+ODP,balance_sheet,quarterly,AdditionalPaidInCapital,2024-03-31,
+ODP,balance_sheet,quarterly,CapitalStock,2024-03-31,
+ODP,balance_sheet,quarterly,CommonStock,2024-03-31,
+ODP,balance_sheet,quarterly,TotalLiabilitiesNetMinorityInterest,2024-03-31,
+ODP,balance_sheet,quarterly,TotalNonCurrentLiabilitiesNetMinorityInterest,2024-03-31,
+ODP,balance_sheet,quarterly,OtherNonCurrentLiabilities,2024-03-31,
+ODP,balance_sheet,quarterly,EmployeeBenefits,2024-03-31,
+ODP,balance_sheet,quarterly,NonCurrentPensionAndOtherPostretirementBenefitPlans,2024-03-31,
+ODP,balance_sheet,quarterly,NonCurrentDeferredLiabilities,2024-03-31,122000000.0
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesLiabilities,2024-03-31,122000000.0
+ODP,balance_sheet,quarterly,LongTermDebtAndCapitalLeaseObligation,2024-03-31,
+ODP,balance_sheet,quarterly,LongTermCapitalLeaseObligation,2024-03-31,
+ODP,balance_sheet,quarterly,LongTermDebt,2024-03-31,
+ODP,balance_sheet,quarterly,CurrentLiabilities,2024-03-31,
+ODP,balance_sheet,quarterly,OtherCurrentLiabilities,2024-03-31,
+ODP,balance_sheet,quarterly,CurrentDebtAndCapitalLeaseObligation,2024-03-31,
+ODP,balance_sheet,quarterly,CurrentCapitalLeaseObligation,2024-03-31,
+ODP,balance_sheet,quarterly,CurrentDebt,2024-03-31,10000000.0
+ODP,balance_sheet,quarterly,PayablesAndAccruedExpenses,2024-03-31,
+ODP,balance_sheet,quarterly,CurrentAccruedExpenses,2024-03-31,
+ODP,balance_sheet,quarterly,Payables,2024-03-31,
+ODP,balance_sheet,quarterly,TotalTaxPayable,2024-03-31,
+ODP,balance_sheet,quarterly,IncomeTaxPayable,2024-03-31,
+ODP,balance_sheet,quarterly,AccountsPayable,2024-03-31,
+ODP,balance_sheet,quarterly,TotalAssets,2024-03-31,
+ODP,balance_sheet,quarterly,TotalNonCurrentAssets,2024-03-31,
+ODP,balance_sheet,quarterly,OtherNonCurrentAssets,2024-03-31,
+ODP,balance_sheet,quarterly,NonCurrentDeferredAssets,2024-03-31,
+ODP,balance_sheet,quarterly,NonCurrentDeferredTaxesAssets,2024-03-31,
+ODP,balance_sheet,quarterly,GoodwillAndOtherIntangibleAssets,2024-03-31,
+ODP,balance_sheet,quarterly,OtherIntangibleAssets,2024-03-31,
+ODP,balance_sheet,quarterly,Goodwill,2024-03-31,
+ODP,balance_sheet,quarterly,NetPPE,2024-03-31,
+ODP,balance_sheet,quarterly,AccumulatedDepreciation,2024-03-31,
+ODP,balance_sheet,quarterly,GrossPPE,2024-03-31,
+ODP,balance_sheet,quarterly,Leases,2024-03-31,
+ODP,balance_sheet,quarterly,ConstructionInProgress,2024-03-31,
+ODP,balance_sheet,quarterly,OtherProperties,2024-03-31,
+ODP,balance_sheet,quarterly,MachineryFurnitureEquipment,2024-03-31,
+ODP,balance_sheet,quarterly,BuildingsAndImprovements,2024-03-31,
+ODP,balance_sheet,quarterly,LandAndImprovements,2024-03-31,
+ODP,balance_sheet,quarterly,Properties,2024-03-31,
+ODP,balance_sheet,quarterly,CurrentAssets,2024-03-31,
+ODP,balance_sheet,quarterly,OtherCurrentAssets,2024-03-31,
+ODP,balance_sheet,quarterly,AssetsHeldForSaleCurrent,2024-03-31,
+ODP,balance_sheet,quarterly,Inventory,2024-03-31,
+ODP,balance_sheet,quarterly,Receivables,2024-03-31,
+ODP,balance_sheet,quarterly,OtherReceivables,2024-03-31,
+ODP,balance_sheet,quarterly,AccountsReceivable,2024-03-31,
+ODP,balance_sheet,quarterly,AllowanceForDoubtfulAccountsReceivable,2024-03-31,
+ODP,balance_sheet,quarterly,GrossAccountsReceivable,2024-03-31,
+ODP,balance_sheet,quarterly,CashCashEquivalentsAndShortTermInvestments,2024-03-31,
+ODP,balance_sheet,quarterly,CashAndCashEquivalents,2024-03-31,
+ODP,balance_sheet,annual,Treasury Shares Number,2024-12-31,37599156.0
+ODP,balance_sheet,annual,Ordinary Shares Number,2024-12-31,29814959.0
+ODP,balance_sheet,annual,Share Issued,2024-12-31,67414115.0
+ODP,balance_sheet,annual,Net Debt,2024-12-31,85000000.0
+ODP,balance_sheet,annual,Total Debt,2024-12-31,1058000000.0
+ODP,balance_sheet,annual,Tangible Book Value,2024-12-31,348000000.0
+ODP,balance_sheet,annual,Invested Capital,2024-12-31,1058000000.0
+ODP,balance_sheet,annual,Working Capital,2024-12-31,-105000000.0
+ODP,balance_sheet,annual,Net Tangible Assets,2024-12-31,348000000.0
+ODP,balance_sheet,annual,Capital Lease Obligations,2024-12-31,807000000.0
+ODP,balance_sheet,annual,Common Stock Equity,2024-12-31,807000000.0
+ODP,balance_sheet,annual,Total Capitalization,2024-12-31,1058000000.0
+ODP,balance_sheet,annual,Total Equity Gross Minority Interest,2024-12-31,807000000.0
+ODP,balance_sheet,annual,Stockholders Equity,2024-12-31,807000000.0
+ODP,balance_sheet,annual,Gains Losses Not Affecting Retained Earnings,2024-12-31,-124000000.0
+ODP,balance_sheet,annual,Other Equity Adjustments,2024-12-31,-124000000.0
+ODP,balance_sheet,annual,Treasury Stock,2024-12-31,1526000000.0
+ODP,balance_sheet,annual,Retained Earnings,2024-12-31,-315000000.0
+ODP,balance_sheet,annual,Additional Paid In Capital,2024-12-31,2771000000.0
+ODP,balance_sheet,annual,Capital Stock,2024-12-31,1000000.0
+ODP,balance_sheet,annual,Common Stock,2024-12-31,1000000.0
+ODP,balance_sheet,annual,Total Liabilities Net Minority Interest,2024-12-31,2722000000.0
+ODP,balance_sheet,annual,Total Non Current Liabilities Net Minority Interest,2024-12-31,1179000000.0
+ODP,balance_sheet,annual,Other Non Current Liabilities,2024-12-31,116000000.0
+ODP,balance_sheet,annual,Liabilities Heldfor Sale Non Current,2024-12-31,
+ODP,balance_sheet,annual,Employee Benefits,2024-12-31,14000000.0
+ODP,balance_sheet,annual,Non Current Pension And Other Postretirement Benefit Plans,2024-12-31,14000000.0
+ODP,balance_sheet,annual,Non Current Deferred Liabilities,2024-12-31,
+ODP,balance_sheet,annual,Non Current Deferred Taxes Liabilities,2024-12-31,
+ODP,balance_sheet,annual,Long Term Debt And Capital Lease Obligation,2024-12-31,1049000000.0
+ODP,balance_sheet,annual,Long Term Capital Lease Obligation,2024-12-31,798000000.0
+ODP,balance_sheet,annual,Long Term Debt,2024-12-31,251000000.0
+ODP,balance_sheet,annual,Current Liabilities,2024-12-31,1543000000.0
+ODP,balance_sheet,annual,Other Current Liabilities,2024-12-31,
+ODP,balance_sheet,annual,Current Debt And Capital Lease Obligation,2024-12-31,9000000.0
+ODP,balance_sheet,annual,Current Capital Lease Obligation,2024-12-31,9000000.0
+ODP,balance_sheet,annual,Current Debt,2024-12-31,
+ODP,balance_sheet,annual,Other Current Borrowings,2024-12-31,
+ODP,balance_sheet,annual,Payables And Accrued Expenses,2024-12-31,1534000000.0
+ODP,balance_sheet,annual,Current Accrued Expenses,2024-12-31,835000000.0
+ODP,balance_sheet,annual,Payables,2024-12-31,699000000.0
+ODP,balance_sheet,annual,Total Tax Payable,2024-12-31,2000000.0
+ODP,balance_sheet,annual,Income Tax Payable,2024-12-31,2000000.0
+ODP,balance_sheet,annual,Accounts Payable,2024-12-31,697000000.0
+ODP,balance_sheet,annual,Total Assets,2024-12-31,3529000000.0
+ODP,balance_sheet,annual,Total Non Current Assets,2024-12-31,2091000000.0
+ODP,balance_sheet,annual,Other Non Current Assets,2024-12-31,277000000.0
+ODP,balance_sheet,annual,Non Current Deferred Assets,2024-12-31,102000000.0
+ODP,balance_sheet,annual,Non Current Deferred Taxes Assets,2024-12-31,102000000.0
+ODP,balance_sheet,annual,Goodwill And Other Intangible Assets,2024-12-31,459000000.0
+ODP,balance_sheet,annual,Other Intangible Assets,2024-12-31,48000000.0
+ODP,balance_sheet,annual,Goodwill,2024-12-31,411000000.0
+ODP,balance_sheet,annual,Net PPE,2024-12-31,1253000000.0
+ODP,balance_sheet,annual,Accumulated Depreciation,2024-12-31,-1859000000.0
+ODP,balance_sheet,annual,Gross PPE,2024-12-31,3112000000.0
+ODP,balance_sheet,annual,Leases,2024-12-31,542000000.0
+ODP,balance_sheet,annual,Construction In Progress,2024-12-31,29000000.0
+ODP,balance_sheet,annual,Other Properties,2024-12-31,954000000.0
+ODP,balance_sheet,annual,Machinery Furniture Equipment,2024-12-31,1505000000.0
+ODP,balance_sheet,annual,Buildings And Improvements,2024-12-31,65000000.0
+ODP,balance_sheet,annual,Land And Improvements,2024-12-31,17000000.0
+ODP,balance_sheet,annual,Properties,2024-12-31,0.0
+ODP,balance_sheet,annual,Current Assets,2024-12-31,1438000000.0
+ODP,balance_sheet,annual,Other Current Assets,2024-12-31,30000000.0
+ODP,balance_sheet,annual,Assets Held For Sale Current,2024-12-31,6000000.0
+ODP,balance_sheet,annual,Prepaid Assets,2024-12-31,
+ODP,balance_sheet,annual,Inventory,2024-12-31,770000000.0
+ODP,balance_sheet,annual,Receivables,2024-12-31,466000000.0
+ODP,balance_sheet,annual,Other Receivables,2024-12-31,131000000.0
+ODP,balance_sheet,annual,Notes Receivable,2024-12-31,
+ODP,balance_sheet,annual,Accounts Receivable,2024-12-31,335000000.0
+ODP,balance_sheet,annual,Allowance For Doubtful Accounts Receivable,2024-12-31,-8000000.0
+ODP,balance_sheet,annual,Gross Accounts Receivable,2024-12-31,343000000.0
+ODP,balance_sheet,annual,Cash Cash Equivalents And Short Term Investments,2024-12-31,166000000.0
+ODP,balance_sheet,annual,Cash And Cash Equivalents,2024-12-31,166000000.0
+ODP,balance_sheet,annual,Treasury Shares Number,2023-12-31,29740915.0
+ODP,balance_sheet,annual,Ordinary Shares Number,2023-12-31,36959377.0
+ODP,balance_sheet,annual,Share Issued,2023-12-31,66700292.0
+ODP,balance_sheet,annual,Net Debt,2023-12-31,
+ODP,balance_sheet,annual,Total Debt,2023-12-31,963000000.0
+ODP,balance_sheet,annual,Tangible Book Value,2023-12-31,653000000.0
+ODP,balance_sheet,annual,Invested Capital,2023-12-31,1245000000.0
+ODP,balance_sheet,annual,Working Capital,2023-12-31,42000000.0
+ODP,balance_sheet,annual,Net Tangible Assets,2023-12-31,653000000.0
+ODP,balance_sheet,annual,Capital Lease Obligations,2023-12-31,819000000.0
+ODP,balance_sheet,annual,Common Stock Equity,2023-12-31,1101000000.0
+ODP,balance_sheet,annual,Total Capitalization,2023-12-31,1245000000.0
+ODP,balance_sheet,annual,Total Equity Gross Minority Interest,2023-12-31,1101000000.0
+ODP,balance_sheet,annual,Stockholders Equity,2023-12-31,1101000000.0
+ODP,balance_sheet,annual,Gains Losses Not Affecting Retained Earnings,2023-12-31,-114000000.0
+ODP,balance_sheet,annual,Other Equity Adjustments,2023-12-31,-114000000.0
+ODP,balance_sheet,annual,Treasury Stock,2023-12-31,1226000000.0
+ODP,balance_sheet,annual,Retained Earnings,2023-12-31,-312000000.0
+ODP,balance_sheet,annual,Additional Paid In Capital,2023-12-31,2752000000.0
+ODP,balance_sheet,annual,Capital Stock,2023-12-31,1000000.0
+ODP,balance_sheet,annual,Common Stock,2023-12-31,1000000.0
+ODP,balance_sheet,annual,Total Liabilities Net Minority Interest,2023-12-31,2786000000.0
+ODP,balance_sheet,annual,Total Non Current Liabilities Net Minority Interest,2023-12-31,1089000000.0
+ODP,balance_sheet,annual,Other Non Current Liabilities,2023-12-31,120000000.0
+ODP,balance_sheet,annual,Liabilities Heldfor Sale Non Current,2023-12-31,
+ODP,balance_sheet,annual,Employee Benefits,2023-12-31,15000000.0
+ODP,balance_sheet,annual,Non Current Pension And Other Postretirement Benefit Plans,2023-12-31,15000000.0
+ODP,balance_sheet,annual,Non Current Deferred Liabilities,2023-12-31,
+ODP,balance_sheet,annual,Non Current Deferred Taxes Liabilities,2023-12-31,
+ODP,balance_sheet,annual,Long Term Debt And Capital Lease Obligation,2023-12-31,954000000.0
+ODP,balance_sheet,annual,Long Term Capital Lease Obligation,2023-12-31,810000000.0
+ODP,balance_sheet,annual,Long Term Debt,2023-12-31,144000000.0
+ODP,balance_sheet,annual,Current Liabilities,2023-12-31,1697000000.0
+ODP,balance_sheet,annual,Other Current Liabilities,2023-12-31,12000000.0
+ODP,balance_sheet,annual,Current Debt And Capital Lease Obligation,2023-12-31,9000000.0
+ODP,balance_sheet,annual,Current Capital Lease Obligation,2023-12-31,9000000.0
+ODP,balance_sheet,annual,Current Debt,2023-12-31,
+ODP,balance_sheet,annual,Other Current Borrowings,2023-12-31,
+ODP,balance_sheet,annual,Payables And Accrued Expenses,2023-12-31,1676000000.0
+ODP,balance_sheet,annual,Current Accrued Expenses,2023-12-31,915000000.0
+ODP,balance_sheet,annual,Payables,2023-12-31,761000000.0
+ODP,balance_sheet,annual,Total Tax Payable,2023-12-31,6000000.0
+ODP,balance_sheet,annual,Income Tax Payable,2023-12-31,6000000.0
+ODP,balance_sheet,annual,Accounts Payable,2023-12-31,755000000.0
+ODP,balance_sheet,annual,Total Assets,2023-12-31,3887000000.0
+ODP,balance_sheet,annual,Total Non Current Assets,2023-12-31,2148000000.0
+ODP,balance_sheet,annual,Other Non Current Assets,2023-12-31,278000000.0
+ODP,balance_sheet,annual,Non Current Deferred Assets,2023-12-31,142000000.0
+ODP,balance_sheet,annual,Non Current Deferred Taxes Assets,2023-12-31,142000000.0
+ODP,balance_sheet,annual,Goodwill And Other Intangible Assets,2023-12-31,448000000.0
+ODP,balance_sheet,annual,Other Intangible Assets,2023-12-31,45000000.0
+ODP,balance_sheet,annual,Goodwill,2023-12-31,403000000.0
+ODP,balance_sheet,annual,Net PPE,2023-12-31,1280000000.0
+ODP,balance_sheet,annual,Accumulated Depreciation,2023-12-31,-1854000000.0
+ODP,balance_sheet,annual,Gross PPE,2023-12-31,3134000000.0
+ODP,balance_sheet,annual,Leases,2023-12-31,571000000.0
+ODP,balance_sheet,annual,Construction In Progress,2023-12-31,22000000.0
+ODP,balance_sheet,annual,Other Properties,2023-12-31,983000000.0
+ODP,balance_sheet,annual,Machinery Furniture Equipment,2023-12-31,1472000000.0
+ODP,balance_sheet,annual,Buildings And Improvements,2023-12-31,68000000.0
+ODP,balance_sheet,annual,Land And Improvements,2023-12-31,18000000.0
+ODP,balance_sheet,annual,Properties,2023-12-31,0.0
+ODP,balance_sheet,annual,Current Assets,2023-12-31,1739000000.0
+ODP,balance_sheet,annual,Other Current Assets,2023-12-31,28000000.0
+ODP,balance_sheet,annual,Assets Held For Sale Current,2023-12-31,80000000.0
+ODP,balance_sheet,annual,Prepaid Assets,2023-12-31,
+ODP,balance_sheet,annual,Inventory,2023-12-31,765000000.0
+ODP,balance_sheet,annual,Receivables,2023-12-31,485000000.0
+ODP,balance_sheet,annual,Other Receivables,2023-12-31,118000000.0
+ODP,balance_sheet,annual,Notes Receivable,2023-12-31,
+ODP,balance_sheet,annual,Accounts Receivable,2023-12-31,367000000.0
+ODP,balance_sheet,annual,Allowance For Doubtful Accounts Receivable,2023-12-31,-12000000.0
+ODP,balance_sheet,annual,Gross Accounts Receivable,2023-12-31,379000000.0
+ODP,balance_sheet,annual,Cash Cash Equivalents And Short Term Investments,2023-12-31,381000000.0
+ODP,balance_sheet,annual,Cash And Cash Equivalents,2023-12-31,381000000.0
+ODP,balance_sheet,annual,Treasury Shares Number,2022-12-31,23422969.0
+ODP,balance_sheet,annual,Ordinary Shares Number,2022-12-31,42213046.0
+ODP,balance_sheet,annual,Share Issued,2022-12-31,65636015.0
+ODP,balance_sheet,annual,Net Debt,2022-12-31,
+ODP,balance_sheet,annual,Total Debt,2022-12-31,881000000.0
+ODP,balance_sheet,annual,Tangible Book Value,2022-12-31,777000000.0
+ODP,balance_sheet,annual,Invested Capital,2022-12-31,1437000000.0
+ODP,balance_sheet,annual,Working Capital,2022-12-31,51000000.0
+ODP,balance_sheet,annual,Net Tangible Assets,2022-12-31,777000000.0
+ODP,balance_sheet,annual,Capital Lease Obligations,2022-12-31,731000000.0
+ODP,balance_sheet,annual,Common Stock Equity,2022-12-31,1287000000.0
+ODP,balance_sheet,annual,Total Capitalization,2022-12-31,1435000000.0
+ODP,balance_sheet,annual,Total Equity Gross Minority Interest,2022-12-31,1287000000.0
+ODP,balance_sheet,annual,Stockholders Equity,2022-12-31,1287000000.0
+ODP,balance_sheet,annual,Gains Losses Not Affecting Retained Earnings,2022-12-31,-77000000.0
+ODP,balance_sheet,annual,Other Equity Adjustments,2022-12-31,-77000000.0
+ODP,balance_sheet,annual,Treasury Stock,2022-12-31,928000000.0
+ODP,balance_sheet,annual,Retained Earnings,2022-12-31,-451000000.0
+ODP,balance_sheet,annual,Additional Paid In Capital,2022-12-31,2742000000.0
+ODP,balance_sheet,annual,Capital Stock,2022-12-31,1000000.0
+ODP,balance_sheet,annual,Common Stock,2022-12-31,1000000.0
+ODP,balance_sheet,annual,Total Liabilities Net Minority Interest,2022-12-31,2862000000.0
+ODP,balance_sheet,annual,Total Non Current Liabilities Net Minority Interest,2022-12-31,1003000000.0
+ODP,balance_sheet,annual,Other Non Current Liabilities,2022-12-31,122000000.0
+ODP,balance_sheet,annual,Liabilities Heldfor Sale Non Current,2022-12-31,0.0
+ODP,balance_sheet,annual,Employee Benefits,2022-12-31,16000000.0
+ODP,balance_sheet,annual,Non Current Pension And Other Postretirement Benefit Plans,2022-12-31,16000000.0
+ODP,balance_sheet,annual,Non Current Deferred Liabilities,2022-12-31,122000000.0
+ODP,balance_sheet,annual,Non Current Deferred Taxes Liabilities,2022-12-31,122000000.0
+ODP,balance_sheet,annual,Long Term Debt And Capital Lease Obligation,2022-12-31,865000000.0
+ODP,balance_sheet,annual,Long Term Capital Lease Obligation,2022-12-31,717000000.0
+ODP,balance_sheet,annual,Long Term Debt,2022-12-31,148000000.0
+ODP,balance_sheet,annual,Current Liabilities,2022-12-31,1859000000.0
+ODP,balance_sheet,annual,Other Current Liabilities,2022-12-31,
+ODP,balance_sheet,annual,Current Debt And Capital Lease Obligation,2022-12-31,16000000.0
+ODP,balance_sheet,annual,Current Capital Lease Obligation,2022-12-31,14000000.0
+ODP,balance_sheet,annual,Current Debt,2022-12-31,2000000.0
+ODP,balance_sheet,annual,Other Current Borrowings,2022-12-31,2000000.0
+ODP,balance_sheet,annual,Payables And Accrued Expenses,2022-12-31,1843000000.0
+ODP,balance_sheet,annual,Current Accrued Expenses,2022-12-31,1005000000.0
+ODP,balance_sheet,annual,Payables,2022-12-31,838000000.0
+ODP,balance_sheet,annual,Total Tax Payable,2022-12-31,17000000.0
+ODP,balance_sheet,annual,Income Tax Payable,2022-12-31,17000000.0
+ODP,balance_sheet,annual,Accounts Payable,2022-12-31,821000000.0
+ODP,balance_sheet,annual,Total Assets,2022-12-31,4149000000.0
+ODP,balance_sheet,annual,Total Non Current Assets,2022-12-31,2239000000.0
+ODP,balance_sheet,annual,Other Non Current Assets,2022-12-31,321000000.0
+ODP,balance_sheet,annual,Non Current Deferred Assets,2022-12-31,182000000.0
+ODP,balance_sheet,annual,Non Current Deferred Taxes Assets,2022-12-31,182000000.0
+ODP,balance_sheet,annual,Goodwill And Other Intangible Assets,2022-12-31,510000000.0
+ODP,balance_sheet,annual,Other Intangible Assets,2022-12-31,46000000.0
+ODP,balance_sheet,annual,Goodwill,2022-12-31,464000000.0
+ODP,balance_sheet,annual,Net PPE,2022-12-31,1226000000.0
+ODP,balance_sheet,annual,Accumulated Depreciation,2022-12-31,-1856000000.0
+ODP,balance_sheet,annual,Gross PPE,2022-12-31,3082000000.0
+ODP,balance_sheet,annual,Leases,2022-12-31,565000000.0
+ODP,balance_sheet,annual,Construction In Progress,2022-12-31,17000000.0
+ODP,balance_sheet,annual,Other Properties,2022-12-31,874000000.0
+ODP,balance_sheet,annual,Machinery Furniture Equipment,2022-12-31,1517000000.0
+ODP,balance_sheet,annual,Buildings And Improvements,2022-12-31,79000000.0
+ODP,balance_sheet,annual,Land And Improvements,2022-12-31,30000000.0
+ODP,balance_sheet,annual,Properties,2022-12-31,0.0
+ODP,balance_sheet,annual,Current Assets,2022-12-31,1910000000.0
+ODP,balance_sheet,annual,Other Current Assets,2022-12-31,36000000.0
+ODP,balance_sheet,annual,Assets Held For Sale Current,2022-12-31,107000000.0
+ODP,balance_sheet,annual,Prepaid Assets,2022-12-31,
+ODP,balance_sheet,annual,Inventory,2022-12-31,828000000.0
+ODP,balance_sheet,annual,Receivables,2022-12-31,536000000.0
+ODP,balance_sheet,annual,Other Receivables,2022-12-31,123000000.0
+ODP,balance_sheet,annual,Notes Receivable,2022-12-31,
+ODP,balance_sheet,annual,Accounts Receivable,2022-12-31,413000000.0
+ODP,balance_sheet,annual,Allowance For Doubtful Accounts Receivable,2022-12-31,-8000000.0
+ODP,balance_sheet,annual,Gross Accounts Receivable,2022-12-31,421000000.0
+ODP,balance_sheet,annual,Cash Cash Equivalents And Short Term Investments,2022-12-31,403000000.0
+ODP,balance_sheet,annual,Cash And Cash Equivalents,2022-12-31,403000000.0
+ODP,cashflow_statement,quarterly,FreeCashFlow,2025-06-30,4000000.0
+ODP,cashflow_statement,quarterly,RepurchaseOfCapitalStock,2025-06-30,-3000000.0
+ODP,cashflow_statement,quarterly,RepaymentOfDebt,2025-06-30,-210000000.0
+ODP,cashflow_statement,quarterly,IssuanceOfDebt,2025-06-30,191000000.0
+ODP,cashflow_statement,quarterly,CapitalExpenditure,2025-06-30,-12000000.0
+ODP,cashflow_statement,quarterly,InterestPaidSupplementalData,2025-06-30,7000000.0
+ODP,cashflow_statement,quarterly,IncomeTaxPaidSupplementalData,2025-06-30,9000000.0
+ODP,cashflow_statement,quarterly,EndCashPosition,2025-06-30,182000000.0
+ODP,cashflow_statement,quarterly,BeginningCashPosition,2025-06-30,190000000.0
+ODP,cashflow_statement,quarterly,EffectOfExchangeRateChanges,2025-06-30,2000000.0
+ODP,cashflow_statement,quarterly,ChangesInCash,2025-06-30,-10000000.0
+ODP,cashflow_statement,quarterly,FinancingCashFlow,2025-06-30,-21000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedFinancingActivities,2025-06-30,0.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingFinancingActivities,2025-06-30,-21000000.0
+ODP,cashflow_statement,quarterly,NetOtherFinancingCharges,2025-06-30,
+ODP,cashflow_statement,quarterly,NetCommonStockIssuance,2025-06-30,-3000000.0
+ODP,cashflow_statement,quarterly,CommonStockPayments,2025-06-30,-3000000.0
+ODP,cashflow_statement,quarterly,NetIssuancePaymentsOfDebt,2025-06-30,-19000000.0
+ODP,cashflow_statement,quarterly,NetLongTermDebtIssuance,2025-06-30,-19000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtPayments,2025-06-30,-210000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtIssuance,2025-06-30,191000000.0
+ODP,cashflow_statement,quarterly,InvestingCashFlow,2025-06-30,-5000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedInvestingActivities,2025-06-30,0.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingInvestingActivities,2025-06-30,-5000000.0
+ODP,cashflow_statement,quarterly,NetOtherInvestingChanges,2025-06-30,7000000.0
+ODP,cashflow_statement,quarterly,NetBusinessPurchaseAndSale,2025-06-30,
+ODP,cashflow_statement,quarterly,PurchaseOfBusiness,2025-06-30,
+ODP,cashflow_statement,quarterly,CapitalExpenditureReported,2025-06-30,-12000000.0
+ODP,cashflow_statement,quarterly,OperatingCashFlow,2025-06-30,16000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedOperatingActivities,2025-06-30,0.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingOperatingActivities,2025-06-30,16000000.0
+ODP,cashflow_statement,quarterly,ChangeInWorkingCapital,2025-06-30,-21000000.0
+ODP,cashflow_statement,quarterly,OtherNonCashItems,2025-06-30,5000000.0
+ODP,cashflow_statement,quarterly,StockBasedCompensation,2025-06-30,5000000.0
+ODP,cashflow_statement,quarterly,AssetImpairmentCharge,2025-06-30,3000000.0
+ODP,cashflow_statement,quarterly,DeferredTax,2025-06-30,-5000000.0
+ODP,cashflow_statement,quarterly,DeferredIncomeTax,2025-06-30,-5000000.0
+ODP,cashflow_statement,quarterly,DepreciationAmortizationDepletion,2025-06-30,29000000.0
+ODP,cashflow_statement,quarterly,DepreciationAndAmortization,2025-06-30,29000000.0
+ODP,cashflow_statement,quarterly,OperatingGainsLosses,2025-06-30,
+ODP,cashflow_statement,quarterly,NetIncomeFromContinuingOperations,2025-06-30,0.0
+ODP,cashflow_statement,quarterly,FreeCashFlow,2025-03-31,36000000.0
+ODP,cashflow_statement,quarterly,RepurchaseOfCapitalStock,2025-03-31,-2000000.0
+ODP,cashflow_statement,quarterly,RepaymentOfDebt,2025-03-31,-222000000.0
+ODP,cashflow_statement,quarterly,IssuanceOfDebt,2025-03-31,201000000.0
+ODP,cashflow_statement,quarterly,CapitalExpenditure,2025-03-31,-21000000.0
+ODP,cashflow_statement,quarterly,InterestPaidSupplementalData,2025-03-31,5000000.0
+ODP,cashflow_statement,quarterly,IncomeTaxPaidSupplementalData,2025-03-31,4000000.0
+ODP,cashflow_statement,quarterly,EndCashPosition,2025-03-31,190000000.0
+ODP,cashflow_statement,quarterly,BeginningCashPosition,2025-03-31,171000000.0
+ODP,cashflow_statement,quarterly,EffectOfExchangeRateChanges,2025-03-31,0.0
+ODP,cashflow_statement,quarterly,ChangesInCash,2025-03-31,19000000.0
+ODP,cashflow_statement,quarterly,FinancingCashFlow,2025-03-31,-24000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedFinancingActivities,2025-03-31,0.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingFinancingActivities,2025-03-31,-24000000.0
+ODP,cashflow_statement,quarterly,NetOtherFinancingCharges,2025-03-31,-1000000.0
+ODP,cashflow_statement,quarterly,NetCommonStockIssuance,2025-03-31,-2000000.0
+ODP,cashflow_statement,quarterly,CommonStockPayments,2025-03-31,-2000000.0
+ODP,cashflow_statement,quarterly,NetIssuancePaymentsOfDebt,2025-03-31,-21000000.0
+ODP,cashflow_statement,quarterly,NetLongTermDebtIssuance,2025-03-31,-21000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtPayments,2025-03-31,-222000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtIssuance,2025-03-31,201000000.0
+ODP,cashflow_statement,quarterly,InvestingCashFlow,2025-03-31,-14000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedInvestingActivities,2025-03-31,-2000000.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingInvestingActivities,2025-03-31,-12000000.0
+ODP,cashflow_statement,quarterly,NetOtherInvestingChanges,2025-03-31,9000000.0
+ODP,cashflow_statement,quarterly,NetBusinessPurchaseAndSale,2025-03-31,
+ODP,cashflow_statement,quarterly,PurchaseOfBusiness,2025-03-31,
+ODP,cashflow_statement,quarterly,CapitalExpenditureReported,2025-03-31,-21000000.0
+ODP,cashflow_statement,quarterly,OperatingCashFlow,2025-03-31,57000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedOperatingActivities,2025-03-31,0.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingOperatingActivities,2025-03-31,57000000.0
+ODP,cashflow_statement,quarterly,ChangeInWorkingCapital,2025-03-31,25000000.0
+ODP,cashflow_statement,quarterly,OtherNonCashItems,2025-03-31,4000000.0
+ODP,cashflow_statement,quarterly,StockBasedCompensation,2025-03-31,7000000.0
+ODP,cashflow_statement,quarterly,AssetImpairmentCharge,2025-03-31,38000000.0
+ODP,cashflow_statement,quarterly,DeferredTax,2025-03-31,-15000000.0
+ODP,cashflow_statement,quarterly,DeferredIncomeTax,2025-03-31,-15000000.0
+ODP,cashflow_statement,quarterly,DepreciationAmortizationDepletion,2025-03-31,27000000.0
+ODP,cashflow_statement,quarterly,DepreciationAndAmortization,2025-03-31,27000000.0
+ODP,cashflow_statement,quarterly,OperatingGainsLosses,2025-03-31,
+ODP,cashflow_statement,quarterly,NetIncomeFromContinuingOperations,2025-03-31,-29000000.0
+ODP,cashflow_statement,quarterly,FreeCashFlow,2024-12-31,2000000.0
+ODP,cashflow_statement,quarterly,RepurchaseOfCapitalStock,2024-12-31,-46000000.0
+ODP,cashflow_statement,quarterly,RepaymentOfDebt,2024-12-31,-161000000.0
+ODP,cashflow_statement,quarterly,IssuanceOfDebt,2024-12-31,195000000.0
+ODP,cashflow_statement,quarterly,CapitalExpenditure,2024-12-31,-26000000.0
+ODP,cashflow_statement,quarterly,InterestPaidSupplementalData,2024-12-31,6000000.0
+ODP,cashflow_statement,quarterly,IncomeTaxPaidSupplementalData,2024-12-31,-6000000.0
+ODP,cashflow_statement,quarterly,EndCashPosition,2024-12-31,171000000.0
+ODP,cashflow_statement,quarterly,BeginningCashPosition,2024-12-31,197000000.0
+ODP,cashflow_statement,quarterly,EffectOfExchangeRateChanges,2024-12-31,-2000000.0
+ODP,cashflow_statement,quarterly,ChangesInCash,2024-12-31,-24000000.0
+ODP,cashflow_statement,quarterly,FinancingCashFlow,2024-12-31,-11000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedFinancingActivities,2024-12-31,0.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingFinancingActivities,2024-12-31,-11000000.0
+ODP,cashflow_statement,quarterly,NetOtherFinancingCharges,2024-12-31,1000000.0
+ODP,cashflow_statement,quarterly,NetCommonStockIssuance,2024-12-31,-46000000.0
+ODP,cashflow_statement,quarterly,CommonStockPayments,2024-12-31,-46000000.0
+ODP,cashflow_statement,quarterly,NetIssuancePaymentsOfDebt,2024-12-31,34000000.0
+ODP,cashflow_statement,quarterly,NetLongTermDebtIssuance,2024-12-31,34000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtPayments,2024-12-31,-161000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtIssuance,2024-12-31,195000000.0
+ODP,cashflow_statement,quarterly,InvestingCashFlow,2024-12-31,-41000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedInvestingActivities,2024-12-31,-17000000.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingInvestingActivities,2024-12-31,-24000000.0
+ODP,cashflow_statement,quarterly,NetOtherInvestingChanges,2024-12-31,2000000.0
+ODP,cashflow_statement,quarterly,NetBusinessPurchaseAndSale,2024-12-31,0.0
+ODP,cashflow_statement,quarterly,PurchaseOfBusiness,2024-12-31,0.0
+ODP,cashflow_statement,quarterly,CapitalExpenditureReported,2024-12-31,-26000000.0
+ODP,cashflow_statement,quarterly,OperatingCashFlow,2024-12-31,28000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedOperatingActivities,2024-12-31,-6000000.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingOperatingActivities,2024-12-31,34000000.0
+ODP,cashflow_statement,quarterly,ChangeInWorkingCapital,2024-12-31,-54000000.0
+ODP,cashflow_statement,quarterly,OtherNonCashItems,2024-12-31,7000000.0
+ODP,cashflow_statement,quarterly,StockBasedCompensation,2024-12-31,9000000.0
+ODP,cashflow_statement,quarterly,AssetImpairmentCharge,2024-12-31,12000000.0
+ODP,cashflow_statement,quarterly,DeferredTax,2024-12-31,25000000.0
+ODP,cashflow_statement,quarterly,DeferredIncomeTax,2024-12-31,25000000.0
+ODP,cashflow_statement,quarterly,DepreciationAmortizationDepletion,2024-12-31,24000000.0
+ODP,cashflow_statement,quarterly,DepreciationAndAmortization,2024-12-31,24000000.0
+ODP,cashflow_statement,quarterly,OperatingGainsLosses,2024-12-31,0.0
+ODP,cashflow_statement,quarterly,NetIncomeFromContinuingOperations,2024-12-31,11000000.0
+ODP,cashflow_statement,quarterly,FreeCashFlow,2024-09-30,53000000.0
+ODP,cashflow_statement,quarterly,RepurchaseOfCapitalStock,2024-09-30,-101000000.0
+ODP,cashflow_statement,quarterly,RepaymentOfDebt,2024-09-30,-213000000.0
+ODP,cashflow_statement,quarterly,IssuanceOfDebt,2024-09-30,274000000.0
+ODP,cashflow_statement,quarterly,CapitalExpenditure,2024-09-30,-22000000.0
+ODP,cashflow_statement,quarterly,InterestPaidSupplementalData,2024-09-30,5000000.0
+ODP,cashflow_statement,quarterly,IncomeTaxPaidSupplementalData,2024-09-30,3000000.0
+ODP,cashflow_statement,quarterly,EndCashPosition,2024-09-30,197000000.0
+ODP,cashflow_statement,quarterly,BeginningCashPosition,2024-09-30,193000000.0
+ODP,cashflow_statement,quarterly,EffectOfExchangeRateChanges,2024-09-30,1000000.0
+ODP,cashflow_statement,quarterly,ChangesInCash,2024-09-30,3000000.0
+ODP,cashflow_statement,quarterly,FinancingCashFlow,2024-09-30,-40000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedFinancingActivities,2024-09-30,0.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingFinancingActivities,2024-09-30,-40000000.0
+ODP,cashflow_statement,quarterly,NetOtherFinancingCharges,2024-09-30,0.0
+ODP,cashflow_statement,quarterly,NetCommonStockIssuance,2024-09-30,-101000000.0
+ODP,cashflow_statement,quarterly,CommonStockPayments,2024-09-30,-101000000.0
+ODP,cashflow_statement,quarterly,NetIssuancePaymentsOfDebt,2024-09-30,61000000.0
+ODP,cashflow_statement,quarterly,NetLongTermDebtIssuance,2024-09-30,61000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtPayments,2024-09-30,-213000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtIssuance,2024-09-30,274000000.0
+ODP,cashflow_statement,quarterly,InvestingCashFlow,2024-09-30,-32000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedInvestingActivities,2024-09-30,-2000000.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingInvestingActivities,2024-09-30,-30000000.0
+ODP,cashflow_statement,quarterly,NetOtherInvestingChanges,2024-09-30,3000000.0
+ODP,cashflow_statement,quarterly,NetBusinessPurchaseAndSale,2024-09-30,-11000000.0
+ODP,cashflow_statement,quarterly,PurchaseOfBusiness,2024-09-30,-11000000.0
+ODP,cashflow_statement,quarterly,CapitalExpenditureReported,2024-09-30,-22000000.0
+ODP,cashflow_statement,quarterly,OperatingCashFlow,2024-09-30,75000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedOperatingActivities,2024-09-30,-7000000.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingOperatingActivities,2024-09-30,82000000.0
+ODP,cashflow_statement,quarterly,ChangeInWorkingCapital,2024-09-30,-56000000.0
+ODP,cashflow_statement,quarterly,OtherNonCashItems,2024-09-30,5000000.0
+ODP,cashflow_statement,quarterly,StockBasedCompensation,2024-09-30,3000000.0
+ODP,cashflow_statement,quarterly,AssetImpairmentCharge,2024-09-30,7000000.0
+ODP,cashflow_statement,quarterly,DeferredTax,2024-09-30,31000000.0
+ODP,cashflow_statement,quarterly,DeferredIncomeTax,2024-09-30,31000000.0
+ODP,cashflow_statement,quarterly,DepreciationAmortizationDepletion,2024-09-30,24000000.0
+ODP,cashflow_statement,quarterly,DepreciationAndAmortization,2024-09-30,24000000.0
+ODP,cashflow_statement,quarterly,OperatingGainsLosses,2024-09-30,0.0
+ODP,cashflow_statement,quarterly,NetIncomeFromContinuingOperations,2024-09-30,68000000.0
+ODP,cashflow_statement,quarterly,FreeCashFlow,2024-06-30,-30000000.0
+ODP,cashflow_statement,quarterly,RepurchaseOfCapitalStock,2024-06-30,-112000000.0
+ODP,cashflow_statement,quarterly,RepaymentOfDebt,2024-06-30,-114000000.0
+ODP,cashflow_statement,quarterly,IssuanceOfDebt,2024-06-30,171000000.0
+ODP,cashflow_statement,quarterly,CapitalExpenditure,2024-06-30,-19000000.0
+ODP,cashflow_statement,quarterly,InterestPaidSupplementalData,2024-06-30,5000000.0
+ODP,cashflow_statement,quarterly,IncomeTaxPaidSupplementalData,2024-06-30,10000000.0
+ODP,cashflow_statement,quarterly,EndCashPosition,2024-06-30,193000000.0
+ODP,cashflow_statement,quarterly,BeginningCashPosition,2024-06-30,285000000.0
+ODP,cashflow_statement,quarterly,EffectOfExchangeRateChanges,2024-06-30,-1000000.0
+ODP,cashflow_statement,quarterly,ChangesInCash,2024-06-30,-91000000.0
+ODP,cashflow_statement,quarterly,FinancingCashFlow,2024-06-30,-61000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedFinancingActivities,2024-06-30,0.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingFinancingActivities,2024-06-30,-61000000.0
+ODP,cashflow_statement,quarterly,NetOtherFinancingCharges,2024-06-30,-6000000.0
+ODP,cashflow_statement,quarterly,NetCommonStockIssuance,2024-06-30,-112000000.0
+ODP,cashflow_statement,quarterly,CommonStockPayments,2024-06-30,-112000000.0
+ODP,cashflow_statement,quarterly,NetIssuancePaymentsOfDebt,2024-06-30,57000000.0
+ODP,cashflow_statement,quarterly,NetLongTermDebtIssuance,2024-06-30,57000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtPayments,2024-06-30,-114000000.0
+ODP,cashflow_statement,quarterly,LongTermDebtIssuance,2024-06-30,171000000.0
+ODP,cashflow_statement,quarterly,InvestingCashFlow,2024-06-30,-19000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedInvestingActivities,2024-06-30,-1000000.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingInvestingActivities,2024-06-30,-18000000.0
+ODP,cashflow_statement,quarterly,NetOtherInvestingChanges,2024-06-30,1000000.0
+ODP,cashflow_statement,quarterly,NetBusinessPurchaseAndSale,2024-06-30,0.0
+ODP,cashflow_statement,quarterly,PurchaseOfBusiness,2024-06-30,0.0
+ODP,cashflow_statement,quarterly,CapitalExpenditureReported,2024-06-30,-19000000.0
+ODP,cashflow_statement,quarterly,OperatingCashFlow,2024-06-30,-11000000.0
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedOperatingActivities,2024-06-30,-10000000.0
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingOperatingActivities,2024-06-30,-1000000.0
+ODP,cashflow_statement,quarterly,ChangeInWorkingCapital,2024-06-30,-32000000.0
+ODP,cashflow_statement,quarterly,OtherNonCashItems,2024-06-30,3000000.0
+ODP,cashflow_statement,quarterly,StockBasedCompensation,2024-06-30,11000000.0
+ODP,cashflow_statement,quarterly,AssetImpairmentCharge,2024-06-30,8000000.0
+ODP,cashflow_statement,quarterly,DeferredTax,2024-06-30,-10000000.0
+ODP,cashflow_statement,quarterly,DeferredIncomeTax,2024-06-30,-10000000.0
+ODP,cashflow_statement,quarterly,DepreciationAmortizationDepletion,2024-06-30,24000000.0
+ODP,cashflow_statement,quarterly,DepreciationAndAmortization,2024-06-30,24000000.0
+ODP,cashflow_statement,quarterly,OperatingGainsLosses,2024-06-30,
+ODP,cashflow_statement,quarterly,NetIncomeFromContinuingOperations,2024-06-30,-4000000.0
+ODP,cashflow_statement,quarterly,FreeCashFlow,2024-03-31,
+ODP,cashflow_statement,quarterly,RepurchaseOfCapitalStock,2024-03-31,
+ODP,cashflow_statement,quarterly,RepaymentOfDebt,2024-03-31,
+ODP,cashflow_statement,quarterly,IssuanceOfDebt,2024-03-31,
+ODP,cashflow_statement,quarterly,CapitalExpenditure,2024-03-31,
+ODP,cashflow_statement,quarterly,InterestPaidSupplementalData,2024-03-31,
+ODP,cashflow_statement,quarterly,IncomeTaxPaidSupplementalData,2024-03-31,
+ODP,cashflow_statement,quarterly,EndCashPosition,2024-03-31,
+ODP,cashflow_statement,quarterly,BeginningCashPosition,2024-03-31,
+ODP,cashflow_statement,quarterly,EffectOfExchangeRateChanges,2024-03-31,
+ODP,cashflow_statement,quarterly,ChangesInCash,2024-03-31,
+ODP,cashflow_statement,quarterly,FinancingCashFlow,2024-03-31,
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedFinancingActivities,2024-03-31,
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingFinancingActivities,2024-03-31,
+ODP,cashflow_statement,quarterly,NetOtherFinancingCharges,2024-03-31,-1000000.0
+ODP,cashflow_statement,quarterly,NetCommonStockIssuance,2024-03-31,
+ODP,cashflow_statement,quarterly,CommonStockPayments,2024-03-31,
+ODP,cashflow_statement,quarterly,NetIssuancePaymentsOfDebt,2024-03-31,
+ODP,cashflow_statement,quarterly,NetLongTermDebtIssuance,2024-03-31,
+ODP,cashflow_statement,quarterly,LongTermDebtPayments,2024-03-31,
+ODP,cashflow_statement,quarterly,LongTermDebtIssuance,2024-03-31,
+ODP,cashflow_statement,quarterly,InvestingCashFlow,2024-03-31,
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedInvestingActivities,2024-03-31,
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingInvestingActivities,2024-03-31,
+ODP,cashflow_statement,quarterly,NetOtherInvestingChanges,2024-03-31,
+ODP,cashflow_statement,quarterly,NetBusinessPurchaseAndSale,2024-03-31,0.0
+ODP,cashflow_statement,quarterly,PurchaseOfBusiness,2024-03-31,0.0
+ODP,cashflow_statement,quarterly,CapitalExpenditureReported,2024-03-31,
+ODP,cashflow_statement,quarterly,OperatingCashFlow,2024-03-31,
+ODP,cashflow_statement,quarterly,CashFromDiscontinuedOperatingActivities,2024-03-31,
+ODP,cashflow_statement,quarterly,CashFlowFromContinuingOperatingActivities,2024-03-31,
+ODP,cashflow_statement,quarterly,ChangeInWorkingCapital,2024-03-31,
+ODP,cashflow_statement,quarterly,OtherNonCashItems,2024-03-31,
+ODP,cashflow_statement,quarterly,StockBasedCompensation,2024-03-31,
+ODP,cashflow_statement,quarterly,AssetImpairmentCharge,2024-03-31,
+ODP,cashflow_statement,quarterly,DeferredTax,2024-03-31,
+ODP,cashflow_statement,quarterly,DeferredIncomeTax,2024-03-31,
+ODP,cashflow_statement,quarterly,DepreciationAmortizationDepletion,2024-03-31,
+ODP,cashflow_statement,quarterly,DepreciationAndAmortization,2024-03-31,
+ODP,cashflow_statement,quarterly,OperatingGainsLosses,2024-03-31,
+ODP,cashflow_statement,quarterly,NetIncomeFromContinuingOperations,2024-03-31,
+ODP,cashflow_statement,annual,Free Cash Flow,2024-12-31,32000000.0
+ODP,cashflow_statement,annual,Repurchase Of Capital Stock,2024-12-31,-315000000.0
+ODP,cashflow_statement,annual,Repayment Of Debt,2024-12-31,-619000000.0
+ODP,cashflow_statement,annual,Issuance Of Debt,2024-12-31,715000000.0
+ODP,cashflow_statement,annual,Capital Expenditure,2024-12-31,-98000000.0
+ODP,cashflow_statement,annual,Interest Paid Supplemental Data,2024-12-31,19000000.0
+ODP,cashflow_statement,annual,Income Tax Paid Supplemental Data,2024-12-31,8000000.0
+ODP,cashflow_statement,annual,End Cash Position,2024-12-31,171000000.0
+ODP,cashflow_statement,annual,Beginning Cash Position,2024-12-31,395000000.0
+ODP,cashflow_statement,annual,Effect Of Exchange Rate Changes,2024-12-31,-3000000.0
+ODP,cashflow_statement,annual,Changes In Cash,2024-12-31,-221000000.0
+ODP,cashflow_statement,annual,Financing Cash Flow,2024-12-31,-225000000.0
+ODP,cashflow_statement,annual,Cash From Discontinued Financing Activities,2024-12-31,0.0
+ODP,cashflow_statement,annual,Cash Flow From Continuing Financing Activities,2024-12-31,-225000000.0
+ODP,cashflow_statement,annual,Net Other Financing Charges,2024-12-31,-6000000.0
+ODP,cashflow_statement,annual,Cash Dividends Paid,2024-12-31,
+ODP,cashflow_statement,annual,Common Stock Dividend Paid,2024-12-31,
+ODP,cashflow_statement,annual,Net Common Stock Issuance,2024-12-31,-315000000.0
+ODP,cashflow_statement,annual,Common Stock Payments,2024-12-31,-315000000.0
+ODP,cashflow_statement,annual,Net Issuance Payments Of Debt,2024-12-31,96000000.0
+ODP,cashflow_statement,annual,Net Long Term Debt Issuance,2024-12-31,96000000.0
+ODP,cashflow_statement,annual,Long Term Debt Payments,2024-12-31,-619000000.0
+ODP,cashflow_statement,annual,Long Term Debt Issuance,2024-12-31,715000000.0
+ODP,cashflow_statement,annual,Investing Cash Flow,2024-12-31,-126000000.0
+ODP,cashflow_statement,annual,Cash From Discontinued Investing Activities,2024-12-31,-24000000.0
+ODP,cashflow_statement,annual,Cash Flow From Continuing Investing Activities,2024-12-31,-102000000.0
+ODP,cashflow_statement,annual,Net Other Investing Changes,2024-12-31,7000000.0
+ODP,cashflow_statement,annual,Net Business Purchase And Sale,2024-12-31,-11000000.0
+ODP,cashflow_statement,annual,Purchase Of Business,2024-12-31,-11000000.0
+ODP,cashflow_statement,annual,Capital Expenditure Reported,2024-12-31,-98000000.0
+ODP,cashflow_statement,annual,Operating Cash Flow,2024-12-31,130000000.0
+ODP,cashflow_statement,annual,Cash From Discontinued Operating Activities,2024-12-31,-29000000.0
+ODP,cashflow_statement,annual,Cash Flow From Continuing Operating Activities,2024-12-31,159000000.0
+ODP,cashflow_statement,annual,Change In Working Capital,2024-12-31,-171000000.0
+ODP,cashflow_statement,annual,Change In Other Working Capital,2024-12-31,
+ODP,cashflow_statement,annual,Change In Payables And Accrued Expense,2024-12-31,-406000000.0
+ODP,cashflow_statement,annual,Change In Payable,2024-12-31,-406000000.0
+ODP,cashflow_statement,annual,Change In Account Payable,2024-12-31,-406000000.0
+ODP,cashflow_statement,annual,Change In Prepaid Assets,2024-12-31,240000000.0
+ODP,cashflow_statement,annual,Change In Inventory,2024-12-31,-24000000.0
+ODP,cashflow_statement,annual,Change In Receivables,2024-12-31,19000000.0
+ODP,cashflow_statement,annual,Other Non Cash Items,2024-12-31,25000000.0
+ODP,cashflow_statement,annual,Stock Based Compensation,2024-12-31,32000000.0
+ODP,cashflow_statement,annual,Asset Impairment Charge,2024-12-31,33000000.0
+ODP,cashflow_statement,annual,Deferred Tax,2024-12-31,38000000.0
+ODP,cashflow_statement,annual,Deferred Income Tax,2024-12-31,38000000.0
+ODP,cashflow_statement,annual,Depreciation Amortization Depletion,2024-12-31,97000000.0
+ODP,cashflow_statement,annual,Depreciation And Amortization,2024-12-31,97000000.0
+ODP,cashflow_statement,annual,Operating Gains Losses,2024-12-31,-1000000.0
+ODP,cashflow_statement,annual,Net Income From Continuing Operations,2024-12-31,106000000.0
+ODP,cashflow_statement,annual,Free Cash Flow,2023-12-31,250000000.0
+ODP,cashflow_statement,annual,Repurchase Of Capital Stock,2023-12-31,-321000000.0
+ODP,cashflow_statement,annual,Repayment Of Debt,2023-12-31,-219000000.0
+ODP,cashflow_statement,annual,Issuance Of Debt,2023-12-31,200000000.0
+ODP,cashflow_statement,annual,Capital Expenditure,2023-12-31,-81000000.0
+ODP,cashflow_statement,annual,Interest Paid Supplemental Data,2023-12-31,16000000.0
+ODP,cashflow_statement,annual,Income Tax Paid Supplemental Data,2023-12-31,35000000.0
+ODP,cashflow_statement,annual,End Cash Position,2023-12-31,395000000.0
+ODP,cashflow_statement,annual,Beginning Cash Position,2023-12-31,404000000.0
+ODP,cashflow_statement,annual,Effect Of Exchange Rate Changes,2023-12-31,2000000.0
+ODP,cashflow_statement,annual,Changes In Cash,2023-12-31,-11000000.0
+ODP,cashflow_statement,annual,Financing Cash Flow,2023-12-31,-340000000.0
+ODP,cashflow_statement,annual,Cash From Discontinued Financing Activities,2023-12-31,0.0
+ODP,cashflow_statement,annual,Cash Flow From Continuing Financing Activities,2023-12-31,-340000000.0
+ODP,cashflow_statement,annual,Net Other Financing Charges,2023-12-31,
+ODP,cashflow_statement,annual,Cash Dividends Paid,2023-12-31,
+ODP,cashflow_statement,annual,Common Stock Dividend Paid,2023-12-31,
+ODP,cashflow_statement,annual,Net Common Stock Issuance,2023-12-31,-321000000.0
+ODP,cashflow_statement,annual,Common Stock Payments,2023-12-31,-321000000.0
+ODP,cashflow_statement,annual,Net Issuance Payments Of Debt,2023-12-31,-19000000.0
+ODP,cashflow_statement,annual,Net Long Term Debt Issuance,2023-12-31,-19000000.0
+ODP,cashflow_statement,annual,Long Term Debt Payments,2023-12-31,-219000000.0
+ODP,cashflow_statement,annual,Long Term Debt Issuance,2023-12-31,200000000.0
+ODP,cashflow_statement,annual,Investing Cash Flow,2023-12-31,-2000000.0
+ODP,cashflow_statement,annual,Cash From Discontinued Investing Activities,2023-12-31,-19000000.0
+ODP,cashflow_statement,annual,Cash Flow From Continuing Investing Activities,2023-12-31,17000000.0
+ODP,cashflow_statement,annual,Net Other Investing Changes,2023-12-31,114000000.0
+ODP,cashflow_statement,annual,Net Business Purchase And Sale,2023-12-31,-16000000.0
+ODP,cashflow_statement,annual,Purchase Of Business,2023-12-31,-16000000.0
+ODP,cashflow_statement,annual,Capital Expenditure Reported,2023-12-31,-81000000.0
+ODP,cashflow_statement,annual,Operating Cash Flow,2023-12-31,331000000.0
+ODP,cashflow_statement,annual,Cash From Discontinued Operating Activities,2023-12-31,-29000000.0
+ODP,cashflow_statement,annual,Cash Flow From Continuing Operating Activities,2023-12-31,360000000.0
+ODP,cashflow_statement,annual,Change In Working Capital,2023-12-31,-98000000.0
+ODP,cashflow_statement,annual,Change In Other Working Capital,2023-12-31,-1000000.0
+ODP,cashflow_statement,annual,Change In Payables And Accrued Expense,2023-12-31,-462000000.0
+ODP,cashflow_statement,annual,Change In Payable,2023-12-31,-462000000.0
+ODP,cashflow_statement,annual,Change In Account Payable,2023-12-31,-462000000.0
+ODP,cashflow_statement,annual,Change In Prepaid Assets,2023-12-31,276000000.0
+ODP,cashflow_statement,annual,Change In Inventory,2023-12-31,47000000.0
+ODP,cashflow_statement,annual,Change In Receivables,2023-12-31,42000000.0
+ODP,cashflow_statement,annual,Other Non Cash Items,2023-12-31,30000000.0
+ODP,cashflow_statement,annual,Stock Based Compensation,2023-12-31,29000000.0
+ODP,cashflow_statement,annual,Asset Impairment Charge,2023-12-31,17000000.0
+ODP,cashflow_statement,annual,Deferred Tax,2023-12-31,40000000.0
+ODP,cashflow_statement,annual,Deferred Income Tax,2023-12-31,40000000.0
+ODP,cashflow_statement,annual,Depreciation Amortization Depletion,2023-12-31,99000000.0
+ODP,cashflow_statement,annual,Depreciation And Amortization,2023-12-31,99000000.0
+ODP,cashflow_statement,annual,Operating Gains Losses,2023-12-31,-4000000.0
+ODP,cashflow_statement,annual,Net Income From Continuing Operations,2023-12-31,247000000.0
+ODP,cashflow_statement,annual,Free Cash Flow,2022-12-31,182000000.0
+ODP,cashflow_statement,annual,Repurchase Of Capital Stock,2022-12-31,-286000000.0
+ODP,cashflow_statement,annual,Repayment Of Debt,2022-12-31,-64000000.0
+ODP,cashflow_statement,annual,Issuance Of Debt,2022-12-31,0.0
+ODP,cashflow_statement,annual,Capital Expenditure,2022-12-31,-55000000.0
+ODP,cashflow_statement,annual,Interest Paid Supplemental Data,2022-12-31,16000000.0
+ODP,cashflow_statement,annual,Income Tax Paid Supplemental Data,2022-12-31,17000000.0
+ODP,cashflow_statement,annual,End Cash Position,2022-12-31,404000000.0
+ODP,cashflow_statement,annual,Beginning Cash Position,2022-12-31,537000000.0
+ODP,cashflow_statement,annual,Effect Of Exchange Rate Changes,2022-12-31,-5000000.0
+ODP,cashflow_statement,annual,Changes In Cash,2022-12-31,-128000000.0
+ODP,cashflow_statement,annual,Financing Cash Flow,2022-12-31,-355000000.0
+ODP,cashflow_statement,annual,Cash From Discontinued Financing Activities,2022-12-31,0.0
+ODP,cashflow_statement,annual,Cash Flow From Continuing Financing Activities,2022-12-31,-355000000.0
+ODP,cashflow_statement,annual,Net Other Financing Charges,2022-12-31,-5000000.0
+ODP,cashflow_statement,annual,Cash Dividends Paid,2022-12-31,0.0
+ODP,cashflow_statement,annual,Common Stock Dividend Paid,2022-12-31,0.0
+ODP,cashflow_statement,annual,Net Common Stock Issuance,2022-12-31,-286000000.0
+ODP,cashflow_statement,annual,Common Stock Payments,2022-12-31,-286000000.0
+ODP,cashflow_statement,annual,Net Issuance Payments Of Debt,2022-12-31,-64000000.0
+ODP,cashflow_statement,annual,Net Long Term Debt Issuance,2022-12-31,-64000000.0
+ODP,cashflow_statement,annual,Long Term Debt Payments,2022-12-31,-64000000.0
+ODP,cashflow_statement,annual,Long Term Debt Issuance,2022-12-31,0.0
+ODP,cashflow_statement,annual,Investing Cash Flow,2022-12-31,-10000000.0
+ODP,cashflow_statement,annual,Cash From Discontinued Investing Activities,2022-12-31,32000000.0
+ODP,cashflow_statement,annual,Cash Flow From Continuing Investing Activities,2022-12-31,-42000000.0
+ODP,cashflow_statement,annual,Net Other Investing Changes,2022-12-31,13000000.0
+ODP,cashflow_statement,annual,Net Business Purchase And Sale,2022-12-31,0.0
+ODP,cashflow_statement,annual,Purchase Of Business,2022-12-31,0.0
+ODP,cashflow_statement,annual,Capital Expenditure Reported,2022-12-31,-55000000.0
+ODP,cashflow_statement,annual,Operating Cash Flow,2022-12-31,237000000.0
+ODP,cashflow_statement,annual,Cash From Discontinued Operating Activities,2022-12-31,-14000000.0
+ODP,cashflow_statement,annual,Cash Flow From Continuing Operating Activities,2022-12-31,251000000.0
+ODP,cashflow_statement,annual,Change In Working Capital,2022-12-31,-199000000.0
+ODP,cashflow_statement,annual,Change In Other Working Capital,2022-12-31,
+ODP,cashflow_statement,annual,Change In Payables And Accrued Expense,2022-12-31,-452000000.0
+ODP,cashflow_statement,annual,Change In Payable,2022-12-31,-452000000.0
+ODP,cashflow_statement,annual,Change In Account Payable,2022-12-31,-452000000.0
+ODP,cashflow_statement,annual,Change In Prepaid Assets,2022-12-31,282000000.0
+ODP,cashflow_statement,annual,Change In Inventory,2022-12-31,13000000.0
+ODP,cashflow_statement,annual,Change In Receivables,2022-12-31,-42000000.0
+ODP,cashflow_statement,annual,Other Non Cash Items,2022-12-31,21000000.0
+ODP,cashflow_statement,annual,Stock Based Compensation,2022-12-31,35000000.0
+ODP,cashflow_statement,annual,Asset Impairment Charge,2022-12-31,14000000.0
+ODP,cashflow_statement,annual,Deferred Tax,2022-12-31,40000000.0
+ODP,cashflow_statement,annual,Deferred Income Tax,2022-12-31,40000000.0
+ODP,cashflow_statement,annual,Depreciation Amortization Depletion,2022-12-31,118000000.0
+ODP,cashflow_statement,annual,Depreciation And Amortization,2022-12-31,118000000.0
+ODP,cashflow_statement,annual,Operating Gains Losses,2022-12-31,-4000000.0
+ODP,cashflow_statement,annual,Net Income From Continuing Operations,2022-12-31,226000000.0

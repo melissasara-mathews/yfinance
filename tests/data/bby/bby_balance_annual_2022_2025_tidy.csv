@@ -1,0 +1,257 @@
+ticker,statement,period,date,metric,value
+BBY,balance_sheet,annual,2025-01-31,Ordinary Shares Number,211400000.0
+BBY,balance_sheet,annual,2024-01-31,Ordinary Shares Number,215395970.0
+BBY,balance_sheet,annual,2023-01-31,Ordinary Shares Number,218100000.0
+BBY,balance_sheet,annual,2022-01-31,Ordinary Shares Number,227400000.0
+BBY,balance_sheet,annual,2025-01-31,Share Issued,211400000.0
+BBY,balance_sheet,annual,2024-01-31,Share Issued,215395970.0
+BBY,balance_sheet,annual,2023-01-31,Share Issued,218100000.0
+BBY,balance_sheet,annual,2022-01-31,Share Issued,227400000.0
+BBY,balance_sheet,annual,2025-01-31,Total Debt,4053000000.0
+BBY,balance_sheet,annual,2024-01-31,Total Debt,3982000000.0
+BBY,balance_sheet,annual,2023-01-31,Total Debt,3978000000.0
+BBY,balance_sheet,annual,2022-01-31,Total Debt,3938000000.0
+BBY,balance_sheet,annual,2025-01-31,Tangible Book Value,1809000000.0
+BBY,balance_sheet,annual,2024-01-31,Tangible Book Value,1542000000.0
+BBY,balance_sheet,annual,2023-01-31,Tangible Book Value,1223000000.0
+BBY,balance_sheet,annual,2022-01-31,Tangible Book Value,1361000000.0
+BBY,balance_sheet,annual,2025-01-31,Invested Capital,3952000000.0
+BBY,balance_sheet,annual,2024-01-31,Invested Capital,4205000000.0
+BBY,balance_sheet,annual,2023-01-31,Invested Capital,3955000000.0
+BBY,balance_sheet,annual,2022-01-31,Invested Capital,4236000000.0
+BBY,balance_sheet,annual,2025-01-31,Working Capital,208000000.0
+BBY,balance_sheet,annual,2024-01-31,Working Capital,-12000000.0
+BBY,balance_sheet,annual,2023-01-31,Working Capital,-177000000.0
+BBY,balance_sheet,annual,2022-01-31,Working Capital,-135000000.0
+BBY,balance_sheet,annual,2025-01-31,Net Tangible Assets,1809000000.0
+BBY,balance_sheet,annual,2024-01-31,Net Tangible Assets,1542000000.0
+BBY,balance_sheet,annual,2023-01-31,Net Tangible Assets,1223000000.0
+BBY,balance_sheet,annual,2022-01-31,Net Tangible Assets,1361000000.0
+BBY,balance_sheet,annual,2025-01-31,Capital Lease Obligations,2909000000.0
+BBY,balance_sheet,annual,2024-01-31,Capital Lease Obligations,2830000000.0
+BBY,balance_sheet,annual,2023-01-31,Capital Lease Obligations,2818000000.0
+BBY,balance_sheet,annual,2022-01-31,Capital Lease Obligations,2722000000.0
+BBY,balance_sheet,annual,2025-01-31,Common Stock Equity,2808000000.0
+BBY,balance_sheet,annual,2024-01-31,Common Stock Equity,3053000000.0
+BBY,balance_sheet,annual,2023-01-31,Common Stock Equity,2795000000.0
+BBY,balance_sheet,annual,2022-01-31,Common Stock Equity,3020000000.0
+BBY,balance_sheet,annual,2025-01-31,Total Capitalization,3952000000.0
+BBY,balance_sheet,annual,2024-01-31,Total Capitalization,4205000000.0
+BBY,balance_sheet,annual,2023-01-31,Total Capitalization,3955000000.0
+BBY,balance_sheet,annual,2022-01-31,Total Capitalization,4236000000.0
+BBY,balance_sheet,annual,2025-01-31,Total Equity Gross Minority Interest,2808000000.0
+BBY,balance_sheet,annual,2024-01-31,Total Equity Gross Minority Interest,3053000000.0
+BBY,balance_sheet,annual,2023-01-31,Total Equity Gross Minority Interest,2795000000.0
+BBY,balance_sheet,annual,2022-01-31,Total Equity Gross Minority Interest,3020000000.0
+BBY,balance_sheet,annual,2025-01-31,Stockholders Equity,2808000000.0
+BBY,balance_sheet,annual,2024-01-31,Stockholders Equity,3053000000.0
+BBY,balance_sheet,annual,2023-01-31,Stockholders Equity,2795000000.0
+BBY,balance_sheet,annual,2022-01-31,Stockholders Equity,3020000000.0
+BBY,balance_sheet,annual,2025-01-31,Gains Losses Not Affecting Retained Earnings,300000000.0
+BBY,balance_sheet,annual,2024-01-31,Gains Losses Not Affecting Retained Earnings,317000000.0
+BBY,balance_sheet,annual,2023-01-31,Gains Losses Not Affecting Retained Earnings,322000000.0
+BBY,balance_sheet,annual,2022-01-31,Gains Losses Not Affecting Retained Earnings,329000000.0
+BBY,balance_sheet,annual,2025-01-31,Other Equity Adjustments,300000000.0
+BBY,balance_sheet,annual,2024-01-31,Other Equity Adjustments,317000000.0
+BBY,balance_sheet,annual,2023-01-31,Other Equity Adjustments,322000000.0
+BBY,balance_sheet,annual,2022-01-31,Other Equity Adjustments,329000000.0
+BBY,balance_sheet,annual,2025-01-31,Retained Earnings,2486000000.0
+BBY,balance_sheet,annual,2024-01-31,Retained Earnings,2683000000.0
+BBY,balance_sheet,annual,2023-01-31,Retained Earnings,2430000000.0
+BBY,balance_sheet,annual,2022-01-31,Retained Earnings,2668000000.0
+BBY,balance_sheet,annual,2025-01-31,Additional Paid In Capital,0.0
+BBY,balance_sheet,annual,2024-01-31,Additional Paid In Capital,31000000.0
+BBY,balance_sheet,annual,2023-01-31,Additional Paid In Capital,21000000.0
+BBY,balance_sheet,annual,2022-01-31,Additional Paid In Capital,0.0
+BBY,balance_sheet,annual,2025-01-31,Capital Stock,22000000.0
+BBY,balance_sheet,annual,2024-01-31,Capital Stock,22000000.0
+BBY,balance_sheet,annual,2023-01-31,Capital Stock,22000000.0
+BBY,balance_sheet,annual,2022-01-31,Capital Stock,23000000.0
+BBY,balance_sheet,annual,2025-01-31,Common Stock,22000000.0
+BBY,balance_sheet,annual,2024-01-31,Common Stock,22000000.0
+BBY,balance_sheet,annual,2023-01-31,Common Stock,22000000.0
+BBY,balance_sheet,annual,2022-01-31,Common Stock,23000000.0
+BBY,balance_sheet,annual,2025-01-31,Preferred Stock,0.0
+BBY,balance_sheet,annual,2024-01-31,Preferred Stock,0.0
+BBY,balance_sheet,annual,2023-01-31,Preferred Stock,0.0
+BBY,balance_sheet,annual,2022-01-31,Preferred Stock,0.0
+BBY,balance_sheet,annual,2025-01-31,Total Liabilities Net Minority Interest,11974000000.0
+BBY,balance_sheet,annual,2024-01-31,Total Liabilities Net Minority Interest,11914000000.0
+BBY,balance_sheet,annual,2023-01-31,Total Liabilities Net Minority Interest,13008000000.0
+BBY,balance_sheet,annual,2022-01-31,Total Liabilities Net Minority Interest,14484000000.0
+BBY,balance_sheet,annual,2025-01-31,Total Non Current Liabilities Net Minority Interest,3958000000.0
+BBY,balance_sheet,annual,2024-01-31,Total Non Current Liabilities Net Minority Interest,4005000000.0
+BBY,balance_sheet,annual,2023-01-31,Total Non Current Liabilities Net Minority Interest,4029000000.0
+BBY,balance_sheet,annual,2022-01-31,Total Non Current Liabilities Net Minority Interest,3810000000.0
+BBY,balance_sheet,annual,2025-01-31,Other Non Current Liabilities,532000000.0
+BBY,balance_sheet,annual,2024-01-31,Other Non Current Liabilities,654000000.0
+BBY,balance_sheet,annual,2023-01-31,Other Non Current Liabilities,705000000.0
+BBY,balance_sheet,annual,2022-01-31,Other Non Current Liabilities,533000000.0
+BBY,balance_sheet,annual,2025-01-31,Derivative Product Liabilities,
+BBY,balance_sheet,annual,2024-01-31,Derivative Product Liabilities,
+BBY,balance_sheet,annual,2023-01-31,Derivative Product Liabilities,
+BBY,balance_sheet,annual,2022-01-31,Derivative Product Liabilities,50000000.0
+BBY,balance_sheet,annual,2025-01-31,Long Term Debt And Capital Lease Obligation,3426000000.0
+BBY,balance_sheet,annual,2024-01-31,Long Term Debt And Capital Lease Obligation,3351000000.0
+BBY,balance_sheet,annual,2023-01-31,Long Term Debt And Capital Lease Obligation,3324000000.0
+BBY,balance_sheet,annual,2022-01-31,Long Term Debt And Capital Lease Obligation,3277000000.0
+BBY,balance_sheet,annual,2025-01-31,Long Term Capital Lease Obligation,2282000000.0
+BBY,balance_sheet,annual,2024-01-31,Long Term Capital Lease Obligation,2199000000.0
+BBY,balance_sheet,annual,2023-01-31,Long Term Capital Lease Obligation,2164000000.0
+BBY,balance_sheet,annual,2022-01-31,Long Term Capital Lease Obligation,2061000000.0
+BBY,balance_sheet,annual,2025-01-31,Long Term Debt,1144000000.0
+BBY,balance_sheet,annual,2024-01-31,Long Term Debt,1152000000.0
+BBY,balance_sheet,annual,2023-01-31,Long Term Debt,1160000000.0
+BBY,balance_sheet,annual,2022-01-31,Long Term Debt,1216000000.0
+BBY,balance_sheet,annual,2025-01-31,Current Liabilities,8016000000.0
+BBY,balance_sheet,annual,2024-01-31,Current Liabilities,7909000000.0
+BBY,balance_sheet,annual,2023-01-31,Current Liabilities,8979000000.0
+BBY,balance_sheet,annual,2022-01-31,Current Liabilities,10674000000.0
+BBY,balance_sheet,annual,2025-01-31,Current Deferred Liabilities,1204000000.0
+BBY,balance_sheet,annual,2024-01-31,Current Deferred Liabilities,1253000000.0
+BBY,balance_sheet,annual,2023-01-31,Current Deferred Liabilities,1390000000.0
+BBY,balance_sheet,annual,2022-01-31,Current Deferred Liabilities,1419000000.0
+BBY,balance_sheet,annual,2025-01-31,Current Deferred Revenue,1204000000.0
+BBY,balance_sheet,annual,2024-01-31,Current Deferred Revenue,1253000000.0
+BBY,balance_sheet,annual,2023-01-31,Current Deferred Revenue,1390000000.0
+BBY,balance_sheet,annual,2022-01-31,Current Deferred Revenue,1419000000.0
+BBY,balance_sheet,annual,2025-01-31,Current Debt And Capital Lease Obligation,627000000.0
+BBY,balance_sheet,annual,2024-01-31,Current Debt And Capital Lease Obligation,631000000.0
+BBY,balance_sheet,annual,2023-01-31,Current Debt And Capital Lease Obligation,654000000.0
+BBY,balance_sheet,annual,2022-01-31,Current Debt And Capital Lease Obligation,661000000.0
+BBY,balance_sheet,annual,2025-01-31,Current Capital Lease Obligation,627000000.0
+BBY,balance_sheet,annual,2024-01-31,Current Capital Lease Obligation,631000000.0
+BBY,balance_sheet,annual,2023-01-31,Current Capital Lease Obligation,654000000.0
+BBY,balance_sheet,annual,2022-01-31,Current Capital Lease Obligation,661000000.0
+BBY,balance_sheet,annual,2025-01-31,Current Debt,
+BBY,balance_sheet,annual,2024-01-31,Current Debt,
+BBY,balance_sheet,annual,2023-01-31,Current Debt,
+BBY,balance_sheet,annual,2022-01-31,Current Debt,
+BBY,balance_sheet,annual,2025-01-31,Other Current Borrowings,
+BBY,balance_sheet,annual,2024-01-31,Other Current Borrowings,
+BBY,balance_sheet,annual,2023-01-31,Other Current Borrowings,
+BBY,balance_sheet,annual,2022-01-31,Other Current Borrowings,
+BBY,balance_sheet,annual,2025-01-31,Pensionand Other Post Retirement Benefit Plans Current,464000000.0
+BBY,balance_sheet,annual,2024-01-31,Pensionand Other Post Retirement Benefit Plans Current,486000000.0
+BBY,balance_sheet,annual,2023-01-31,Pensionand Other Post Retirement Benefit Plans Current,405000000.0
+BBY,balance_sheet,annual,2022-01-31,Pensionand Other Post Retirement Benefit Plans Current,845000000.0
+BBY,balance_sheet,annual,2025-01-31,Payables And Accrued Expenses,5721000000.0
+BBY,balance_sheet,annual,2024-01-31,Payables And Accrued Expenses,5539000000.0
+BBY,balance_sheet,annual,2023-01-31,Payables And Accrued Expenses,6530000000.0
+BBY,balance_sheet,annual,2022-01-31,Payables And Accrued Expenses,7749000000.0
+BBY,balance_sheet,annual,2025-01-31,Current Accrued Expenses,741000000.0
+BBY,balance_sheet,annual,2024-01-31,Current Accrued Expenses,902000000.0
+BBY,balance_sheet,annual,2023-01-31,Current Accrued Expenses,843000000.0
+BBY,balance_sheet,annual,2022-01-31,Current Accrued Expenses,946000000.0
+BBY,balance_sheet,annual,2025-01-31,Payables,4980000000.0
+BBY,balance_sheet,annual,2024-01-31,Payables,4637000000.0
+BBY,balance_sheet,annual,2023-01-31,Payables,5687000000.0
+BBY,balance_sheet,annual,2022-01-31,Payables,6803000000.0
+BBY,balance_sheet,annual,2025-01-31,Accounts Payable,4980000000.0
+BBY,balance_sheet,annual,2024-01-31,Accounts Payable,4637000000.0
+BBY,balance_sheet,annual,2023-01-31,Accounts Payable,5687000000.0
+BBY,balance_sheet,annual,2022-01-31,Accounts Payable,6803000000.0
+BBY,balance_sheet,annual,2025-01-31,Total Assets,14782000000.0
+BBY,balance_sheet,annual,2024-01-31,Total Assets,14967000000.0
+BBY,balance_sheet,annual,2023-01-31,Total Assets,15803000000.0
+BBY,balance_sheet,annual,2022-01-31,Total Assets,17504000000.0
+BBY,balance_sheet,annual,2025-01-31,Total Non Current Assets,6558000000.0
+BBY,balance_sheet,annual,2024-01-31,Total Non Current Assets,7070000000.0
+BBY,balance_sheet,annual,2023-01-31,Total Non Current Assets,7001000000.0
+BBY,balance_sheet,annual,2022-01-31,Total Non Current Assets,6965000000.0
+BBY,balance_sheet,annual,2025-01-31,Other Non Current Assets,604000000.0
+BBY,balance_sheet,annual,2024-01-31,Other Non Current Assets,541000000.0
+BBY,balance_sheet,annual,2023-01-31,Other Non Current Assets,331000000.0
+BBY,balance_sheet,annual,2022-01-31,Other Non Current Assets,402000000.0
+BBY,balance_sheet,annual,2025-01-31,Goodwill And Other Intangible Assets,999000000.0
+BBY,balance_sheet,annual,2024-01-31,Goodwill And Other Intangible Assets,1511000000.0
+BBY,balance_sheet,annual,2023-01-31,Goodwill And Other Intangible Assets,1572000000.0
+BBY,balance_sheet,annual,2022-01-31,Goodwill And Other Intangible Assets,1659000000.0
+BBY,balance_sheet,annual,2025-01-31,Other Intangible Assets,91000000.0
+BBY,balance_sheet,annual,2024-01-31,Other Intangible Assets,128000000.0
+BBY,balance_sheet,annual,2023-01-31,Other Intangible Assets,189000000.0
+BBY,balance_sheet,annual,2022-01-31,Other Intangible Assets,275000000.0
+BBY,balance_sheet,annual,2025-01-31,Goodwill,908000000.0
+BBY,balance_sheet,annual,2024-01-31,Goodwill,1383000000.0
+BBY,balance_sheet,annual,2023-01-31,Goodwill,1383000000.0
+BBY,balance_sheet,annual,2022-01-31,Goodwill,1384000000.0
+BBY,balance_sheet,annual,2025-01-31,Net PPE,4955000000.0
+BBY,balance_sheet,annual,2024-01-31,Net PPE,5018000000.0
+BBY,balance_sheet,annual,2023-01-31,Net PPE,5098000000.0
+BBY,balance_sheet,annual,2022-01-31,Net PPE,4904000000.0
+BBY,balance_sheet,annual,2025-01-31,Accumulated Depreciation,-4930000000.0
+BBY,balance_sheet,annual,2024-01-31,Accumulated Depreciation,-4816000000.0
+BBY,balance_sheet,annual,2023-01-31,Accumulated Depreciation,-4624000000.0
+BBY,balance_sheet,annual,2022-01-31,Accumulated Depreciation,-6091000000.0
+BBY,balance_sheet,annual,2025-01-31,Gross PPE,9885000000.0
+BBY,balance_sheet,annual,2024-01-31,Gross PPE,9834000000.0
+BBY,balance_sheet,annual,2023-01-31,Gross PPE,9722000000.0
+BBY,balance_sheet,annual,2022-01-31,Gross PPE,10995000000.0
+BBY,balance_sheet,annual,2025-01-31,Leases,2458000000.0
+BBY,balance_sheet,annual,2024-01-31,Leases,2372000000.0
+BBY,balance_sheet,annual,2023-01-31,Leases,2360000000.0
+BBY,balance_sheet,annual,2022-01-31,Leases,2251000000.0
+BBY,balance_sheet,annual,2025-01-31,Other Properties,2833000000.0
+BBY,balance_sheet,annual,2024-01-31,Other Properties,2758000000.0
+BBY,balance_sheet,annual,2023-01-31,Other Properties,2746000000.0
+BBY,balance_sheet,annual,2022-01-31,Other Properties,2654000000.0
+BBY,balance_sheet,annual,2025-01-31,Machinery Furniture Equipment,3872000000.0
+BBY,balance_sheet,annual,2024-01-31,Machinery Furniture Equipment,4002000000.0
+BBY,balance_sheet,annual,2023-01-31,Machinery Furniture Equipment,3928000000.0
+BBY,balance_sheet,annual,2022-01-31,Machinery Furniture Equipment,5419000000.0
+BBY,balance_sheet,annual,2025-01-31,Land And Improvements,722000000.0
+BBY,balance_sheet,annual,2024-01-31,Land And Improvements,702000000.0
+BBY,balance_sheet,annual,2023-01-31,Land And Improvements,688000000.0
+BBY,balance_sheet,annual,2022-01-31,Land And Improvements,671000000.0
+BBY,balance_sheet,annual,2025-01-31,Properties,0.0
+BBY,balance_sheet,annual,2024-01-31,Properties,0.0
+BBY,balance_sheet,annual,2023-01-31,Properties,0.0
+BBY,balance_sheet,annual,2022-01-31,Properties,0.0
+BBY,balance_sheet,annual,2025-01-31,Current Assets,8224000000.0
+BBY,balance_sheet,annual,2024-01-31,Current Assets,7897000000.0
+BBY,balance_sheet,annual,2023-01-31,Current Assets,8802000000.0
+BBY,balance_sheet,annual,2022-01-31,Current Assets,10539000000.0
+BBY,balance_sheet,annual,2025-01-31,Other Current Assets,517000000.0
+BBY,balance_sheet,annual,2024-01-31,Other Current Assets,553000000.0
+BBY,balance_sheet,annual,2023-01-31,Other Current Assets,647000000.0
+BBY,balance_sheet,annual,2022-01-31,Other Current Assets,596000000.0
+BBY,balance_sheet,annual,2025-01-31,Inventory,5085000000.0
+BBY,balance_sheet,annual,2024-01-31,Inventory,4958000000.0
+BBY,balance_sheet,annual,2023-01-31,Inventory,5140000000.0
+BBY,balance_sheet,annual,2022-01-31,Inventory,5965000000.0
+BBY,balance_sheet,annual,2025-01-31,Finished Goods,5085000000.0
+BBY,balance_sheet,annual,2024-01-31,Finished Goods,4958000000.0
+BBY,balance_sheet,annual,2023-01-31,Finished Goods,5140000000.0
+BBY,balance_sheet,annual,2022-01-31,Finished Goods,5965000000.0
+BBY,balance_sheet,annual,2025-01-31,Receivables,1044000000.0
+BBY,balance_sheet,annual,2024-01-31,Receivables,939000000.0
+BBY,balance_sheet,annual,2023-01-31,Receivables,1141000000.0
+BBY,balance_sheet,annual,2022-01-31,Receivables,1042000000.0
+BBY,balance_sheet,annual,2025-01-31,Accounts Receivable,1044000000.0
+BBY,balance_sheet,annual,2024-01-31,Accounts Receivable,939000000.0
+BBY,balance_sheet,annual,2023-01-31,Accounts Receivable,1141000000.0
+BBY,balance_sheet,annual,2022-01-31,Accounts Receivable,1042000000.0
+BBY,balance_sheet,annual,2025-01-31,Allowance For Doubtful Accounts Receivable,-26000000.0
+BBY,balance_sheet,annual,2024-01-31,Allowance For Doubtful Accounts Receivable,-32000000.0
+BBY,balance_sheet,annual,2023-01-31,Allowance For Doubtful Accounts Receivable,-30000000.0
+BBY,balance_sheet,annual,2022-01-31,Allowance For Doubtful Accounts Receivable,-39000000.0
+BBY,balance_sheet,annual,2025-01-31,Gross Accounts Receivable,1070000000.0
+BBY,balance_sheet,annual,2024-01-31,Gross Accounts Receivable,971000000.0
+BBY,balance_sheet,annual,2023-01-31,Gross Accounts Receivable,1171000000.0
+BBY,balance_sheet,annual,2022-01-31,Gross Accounts Receivable,1081000000.0
+BBY,balance_sheet,annual,2025-01-31,Cash Cash Equivalents And Short Term Investments,1578000000.0
+BBY,balance_sheet,annual,2024-01-31,Cash Cash Equivalents And Short Term Investments,1447000000.0
+BBY,balance_sheet,annual,2023-01-31,Cash Cash Equivalents And Short Term Investments,1874000000.0
+BBY,balance_sheet,annual,2022-01-31,Cash Cash Equivalents And Short Term Investments,2936000000.0
+BBY,balance_sheet,annual,2025-01-31,Cash And Cash Equivalents,1578000000.0
+BBY,balance_sheet,annual,2024-01-31,Cash And Cash Equivalents,1447000000.0
+BBY,balance_sheet,annual,2023-01-31,Cash And Cash Equivalents,1874000000.0
+BBY,balance_sheet,annual,2022-01-31,Cash And Cash Equivalents,2936000000.0
+BBY,balance_sheet,annual,2025-01-31,Cash Equivalents,
+BBY,balance_sheet,annual,2024-01-31,Cash Equivalents,
+BBY,balance_sheet,annual,2023-01-31,Cash Equivalents,
+BBY,balance_sheet,annual,2022-01-31,Cash Equivalents,1584000000.0
+BBY,balance_sheet,annual,2025-01-31,Cash Financial,
+BBY,balance_sheet,annual,2024-01-31,Cash Financial,
+BBY,balance_sheet,annual,2023-01-31,Cash Financial,
+BBY,balance_sheet,annual,2022-01-31,Cash Financial,1352000000.0

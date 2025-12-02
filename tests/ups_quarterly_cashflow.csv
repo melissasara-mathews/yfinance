@@ -1,0 +1,271 @@
+ticker,statement,metric,date,value
+UPS,quarterly_cashflow,Free Cash Flow,2025-06-30,-775000000.0
+UPS,quarterly_cashflow,Repurchase Of Capital Stock,2025-06-30,0.0
+UPS,quarterly_cashflow,Repayment Of Debt,2025-06-30,-1030000000.0
+UPS,quarterly_cashflow,Issuance Of Debt,2025-06-30,4128000000.0
+UPS,quarterly_cashflow,Issuance Of Capital Stock,2025-06-30,47000000.0
+UPS,quarterly_cashflow,Capital Expenditure,2025-06-30,-1123000000.0
+UPS,quarterly_cashflow,End Cash Position,2025-06-30,6194000000.0
+UPS,quarterly_cashflow,Beginning Cash Position,2025-06-30,4802000000.0
+UPS,quarterly_cashflow,Effect Of Exchange Rate Changes,2025-06-30,173000000.0
+UPS,quarterly_cashflow,Changes In Cash,2025-06-30,1219000000.0
+UPS,quarterly_cashflow,Financing Cash Flow,2025-06-30,1794000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Financing Activities,2025-06-30,1794000000.0
+UPS,quarterly_cashflow,Net Other Financing Charges,2025-06-30,-2000000.0
+UPS,quarterly_cashflow,Cash Dividends Paid,2025-06-30,-1349000000.0
+UPS,quarterly_cashflow,Common Stock Dividend Paid,2025-06-30,-1349000000.0
+UPS,quarterly_cashflow,Net Common Stock Issuance,2025-06-30,47000000.0
+UPS,quarterly_cashflow,Common Stock Payments,2025-06-30,0.0
+UPS,quarterly_cashflow,Common Stock Issuance,2025-06-30,47000000.0
+UPS,quarterly_cashflow,Net Issuance Payments Of Debt,2025-06-30,3098000000.0
+UPS,quarterly_cashflow,Net Short Term Debt Issuance,2025-06-30,0.0
+UPS,quarterly_cashflow,Net Long Term Debt Issuance,2025-06-30,3098000000.0
+UPS,quarterly_cashflow,Long Term Debt Payments,2025-06-30,-1030000000.0
+UPS,quarterly_cashflow,Long Term Debt Issuance,2025-06-30,4128000000.0
+UPS,quarterly_cashflow,Investing Cash Flow,2025-06-30,-923000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Investing Activities,2025-06-30,-923000000.0
+UPS,quarterly_cashflow,Net Other Investing Changes,2025-06-30,4000000.0
+UPS,quarterly_cashflow,Net Investment Purchase And Sale,2025-06-30,171000000.0
+UPS,quarterly_cashflow,Sale Of Investment,2025-06-30,171000000.0
+UPS,quarterly_cashflow,Purchase Of Investment,2025-06-30,0.0
+UPS,quarterly_cashflow,Net Business Purchase And Sale,2025-06-30,25000000.0
+UPS,quarterly_cashflow,Sale Of Business,2025-06-30,26000000.0
+UPS,quarterly_cashflow,Purchase Of Business,2025-06-30,-1000000.0
+UPS,quarterly_cashflow,Capital Expenditure Reported,2025-06-30,-1123000000.0
+UPS,quarterly_cashflow,Operating Cash Flow,2025-06-30,348000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Operating Activities,2025-06-30,348000000.0
+UPS,quarterly_cashflow,Change In Working Capital,2025-06-30,-1390000000.0
+UPS,quarterly_cashflow,Change In Other Current Liabilities,2025-06-30,-1210000000.0
+UPS,quarterly_cashflow,Change In Other Current Assets,2025-06-30,-147000000.0
+UPS,quarterly_cashflow,Change In Payables And Accrued Expense,2025-06-30,387000000.0
+UPS,quarterly_cashflow,Change In Accrued Expense,2025-06-30,-77000000.0
+UPS,quarterly_cashflow,Change In Payable,2025-06-30,464000000.0
+UPS,quarterly_cashflow,Change In Account Payable,2025-06-30,464000000.0
+UPS,quarterly_cashflow,Change In Receivables,2025-06-30,-420000000.0
+UPS,quarterly_cashflow,Changes In Account Receivables,2025-06-30,-420000000.0
+UPS,quarterly_cashflow,Other Non Cash Items,2025-06-30,-3000000.0
+UPS,quarterly_cashflow,Stock Based Compensation,2025-06-30,-5000000.0
+UPS,quarterly_cashflow,Provisionand Write Offof Assets,2025-06-30,168000000.0
+UPS,quarterly_cashflow,Deferred Tax,2025-06-30,-44000000.0
+UPS,quarterly_cashflow,Deferred Income Tax,2025-06-30,-44000000.0
+UPS,quarterly_cashflow,Depreciation Amortization Depletion,2025-06-30,936000000.0
+UPS,quarterly_cashflow,Depreciation And Amortization,2025-06-30,936000000.0
+UPS,quarterly_cashflow,Operating Gains Losses,2025-06-30,-597000000.0
+UPS,quarterly_cashflow,Pension And Employee Benefit Expense,2025-06-30,-597000000.0
+UPS,quarterly_cashflow,Net Income From Continuing Operations,2025-06-30,1283000000.0
+UPS,quarterly_cashflow,Free Cash Flow,2025-03-31,1442000000.0
+UPS,quarterly_cashflow,Repurchase Of Capital Stock,2025-03-31,-1000000000.0
+UPS,quarterly_cashflow,Repayment Of Debt,2025-03-31,-32000000.0
+UPS,quarterly_cashflow,Issuance Of Debt,2025-03-31,25000000.0
+UPS,quarterly_cashflow,Issuance Of Capital Stock,2025-03-31,55000000.0
+UPS,quarterly_cashflow,Capital Expenditure,2025-03-31,-876000000.0
+UPS,quarterly_cashflow,End Cash Position,2025-03-31,4802000000.0
+UPS,quarterly_cashflow,Beginning Cash Position,2025-03-31,6112000000.0
+UPS,quarterly_cashflow,Effect Of Exchange Rate Changes,2025-03-31,40000000.0
+UPS,quarterly_cashflow,Changes In Cash,2025-03-31,-1350000000.0
+UPS,quarterly_cashflow,Financing Cash Flow,2025-03-31,-2313000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Financing Activities,2025-03-31,-2313000000.0
+UPS,quarterly_cashflow,Net Other Financing Charges,2025-03-31,-13000000.0
+UPS,quarterly_cashflow,Cash Dividends Paid,2025-03-31,-1348000000.0
+UPS,quarterly_cashflow,Common Stock Dividend Paid,2025-03-31,-1348000000.0
+UPS,quarterly_cashflow,Net Common Stock Issuance,2025-03-31,-945000000.0
+UPS,quarterly_cashflow,Common Stock Payments,2025-03-31,-1000000000.0
+UPS,quarterly_cashflow,Common Stock Issuance,2025-03-31,55000000.0
+UPS,quarterly_cashflow,Net Issuance Payments Of Debt,2025-03-31,-7000000.0
+UPS,quarterly_cashflow,Net Short Term Debt Issuance,2025-03-31,0.0
+UPS,quarterly_cashflow,Net Long Term Debt Issuance,2025-03-31,-7000000.0
+UPS,quarterly_cashflow,Long Term Debt Payments,2025-03-31,-32000000.0
+UPS,quarterly_cashflow,Long Term Debt Issuance,2025-03-31,25000000.0
+UPS,quarterly_cashflow,Investing Cash Flow,2025-03-31,-1355000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Investing Activities,2025-03-31,-1355000000.0
+UPS,quarterly_cashflow,Net Other Investing Changes,2025-03-31,-10000000.0
+UPS,quarterly_cashflow,Net Investment Purchase And Sale,2025-03-31,-56000000.0
+UPS,quarterly_cashflow,Sale Of Investment,2025-03-31,34000000.0
+UPS,quarterly_cashflow,Purchase Of Investment,2025-03-31,-90000000.0
+UPS,quarterly_cashflow,Net Business Purchase And Sale,2025-03-31,-413000000.0
+UPS,quarterly_cashflow,Sale Of Business,2025-03-31,65000000.0
+UPS,quarterly_cashflow,Purchase Of Business,2025-03-31,-478000000.0
+UPS,quarterly_cashflow,Capital Expenditure Reported,2025-03-31,-876000000.0
+UPS,quarterly_cashflow,Operating Cash Flow,2025-03-31,2318000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Operating Activities,2025-03-31,2318000000.0
+UPS,quarterly_cashflow,Change In Working Capital,2025-03-31,-8000000.0
+UPS,quarterly_cashflow,Change In Other Current Liabilities,2025-03-31,301000000.0
+UPS,quarterly_cashflow,Change In Other Current Assets,2025-03-31,7000000.0
+UPS,quarterly_cashflow,Change In Payables And Accrued Expense,2025-03-31,-1276000000.0
+UPS,quarterly_cashflow,Change In Accrued Expense,2025-03-31,-370000000.0
+UPS,quarterly_cashflow,Change In Payable,2025-03-31,-906000000.0
+UPS,quarterly_cashflow,Change In Account Payable,2025-03-31,-906000000.0
+UPS,quarterly_cashflow,Change In Receivables,2025-03-31,960000000.0
+UPS,quarterly_cashflow,Changes In Account Receivables,2025-03-31,960000000.0
+UPS,quarterly_cashflow,Other Non Cash Items,2025-03-31,55000000.0
+UPS,quarterly_cashflow,Stock Based Compensation,2025-03-31,21000000.0
+UPS,quarterly_cashflow,Provisionand Write Offof Assets,2025-03-31,1000000.0
+UPS,quarterly_cashflow,Deferred Tax,2025-03-31,-40000000.0
+UPS,quarterly_cashflow,Deferred Income Tax,2025-03-31,-40000000.0
+UPS,quarterly_cashflow,Depreciation Amortization Depletion,2025-03-31,912000000.0
+UPS,quarterly_cashflow,Depreciation And Amortization,2025-03-31,912000000.0
+UPS,quarterly_cashflow,Operating Gains Losses,2025-03-31,190000000.0
+UPS,quarterly_cashflow,Pension And Employee Benefit Expense,2025-03-31,190000000.0
+UPS,quarterly_cashflow,Net Income From Continuing Operations,2025-03-31,1187000000.0
+UPS,quarterly_cashflow,Free Cash Flow,2024-12-31,2217000000.0
+UPS,quarterly_cashflow,Repurchase Of Capital Stock,2024-12-31,0.0
+UPS,quarterly_cashflow,Repayment Of Debt,2024-12-31,-543000000.0
+UPS,quarterly_cashflow,Issuance Of Debt,2024-12-31,0.0
+UPS,quarterly_cashflow,Issuance Of Capital Stock,2024-12-31,48000000.0
+UPS,quarterly_cashflow,Capital Expenditure,2024-12-31,-1098000000.0
+UPS,quarterly_cashflow,End Cash Position,2024-12-31,6112000000.0
+UPS,quarterly_cashflow,Beginning Cash Position,2024-12-31,5855000000.0
+UPS,quarterly_cashflow,Effect Of Exchange Rate Changes,2024-12-31,-154000000.0
+UPS,quarterly_cashflow,Changes In Cash,2024-12-31,411000000.0
+UPS,quarterly_cashflow,Financing Cash Flow,2024-12-31,-1847000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Financing Activities,2024-12-31,-1847000000.0
+UPS,quarterly_cashflow,Net Other Financing Charges,2024-12-31,-2000000.0
+UPS,quarterly_cashflow,Cash Dividends Paid,2024-12-31,-1350000000.0
+UPS,quarterly_cashflow,Common Stock Dividend Paid,2024-12-31,-1350000000.0
+UPS,quarterly_cashflow,Net Common Stock Issuance,2024-12-31,48000000.0
+UPS,quarterly_cashflow,Common Stock Payments,2024-12-31,0.0
+UPS,quarterly_cashflow,Common Stock Issuance,2024-12-31,48000000.0
+UPS,quarterly_cashflow,Net Issuance Payments Of Debt,2024-12-31,-543000000.0
+UPS,quarterly_cashflow,Net Short Term Debt Issuance,2024-12-31,0.0
+UPS,quarterly_cashflow,Net Long Term Debt Issuance,2024-12-31,-543000000.0
+UPS,quarterly_cashflow,Long Term Debt Payments,2024-12-31,-543000000.0
+UPS,quarterly_cashflow,Long Term Debt Issuance,2024-12-31,0.0
+UPS,quarterly_cashflow,Investing Cash Flow,2024-12-31,-1057000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Investing Activities,2024-12-31,-1057000000.0
+UPS,quarterly_cashflow,Net Other Investing Changes,2024-12-31,2000000.0
+UPS,quarterly_cashflow,Net Investment Purchase And Sale,2024-12-31,-1000000.0
+UPS,quarterly_cashflow,Sale Of Investment,2024-12-31,23000000.0
+UPS,quarterly_cashflow,Purchase Of Investment,2024-12-31,-24000000.0
+UPS,quarterly_cashflow,Net Business Purchase And Sale,2024-12-31,40000000.0
+UPS,quarterly_cashflow,Sale Of Business,2024-12-31,45000000.0
+UPS,quarterly_cashflow,Purchase Of Business,2024-12-31,-5000000.0
+UPS,quarterly_cashflow,Capital Expenditure Reported,2024-12-31,-1098000000.0
+UPS,quarterly_cashflow,Operating Cash Flow,2024-12-31,3315000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Operating Activities,2024-12-31,3315000000.0
+UPS,quarterly_cashflow,Change In Working Capital,2024-12-31,-439000000.0
+UPS,quarterly_cashflow,Change In Other Current Liabilities,2024-12-31,324000000.0
+UPS,quarterly_cashflow,Change In Other Current Assets,2024-12-31,-46000000.0
+UPS,quarterly_cashflow,Change In Payables And Accrued Expense,2024-12-31,1244000000.0
+UPS,quarterly_cashflow,Change In Accrued Expense,2024-12-31,153000000.0
+UPS,quarterly_cashflow,Change In Payable,2024-12-31,1091000000.0
+UPS,quarterly_cashflow,Change In Account Payable,2024-12-31,1091000000.0
+UPS,quarterly_cashflow,Change In Receivables,2024-12-31,-1961000000.0
+UPS,quarterly_cashflow,Changes In Account Receivables,2024-12-31,-1961000000.0
+UPS,quarterly_cashflow,Other Non Cash Items,2024-12-31,244000000.0
+UPS,quarterly_cashflow,Stock Based Compensation,2024-12-31,45000000.0
+UPS,quarterly_cashflow,Provisionand Write Offof Assets,2024-12-31,30000000.0
+UPS,quarterly_cashflow,Deferred Tax,2024-12-31,-39000000.0
+UPS,quarterly_cashflow,Deferred Income Tax,2024-12-31,-39000000.0
+UPS,quarterly_cashflow,Depreciation Amortization Depletion,2024-12-31,919000000.0
+UPS,quarterly_cashflow,Depreciation And Amortization,2024-12-31,919000000.0
+UPS,quarterly_cashflow,Operating Gains Losses,2024-12-31,834000000.0
+UPS,quarterly_cashflow,Pension And Employee Benefit Expense,2024-12-31,834000000.0
+UPS,quarterly_cashflow,Net Income From Continuing Operations,2024-12-31,1721000000.0
+UPS,quarterly_cashflow,Free Cash Flow,2024-09-30,655000000.0
+UPS,quarterly_cashflow,Repurchase Of Capital Stock,2024-09-30,-500000000.0
+UPS,quarterly_cashflow,Repayment Of Debt,2024-09-30,-436000000.0
+UPS,quarterly_cashflow,Issuance Of Debt,2024-09-30,0.0
+UPS,quarterly_cashflow,Issuance Of Capital Stock,2024-09-30,53000000.0
+UPS,quarterly_cashflow,Capital Expenditure,2024-09-30,-843000000.0
+UPS,quarterly_cashflow,End Cash Position,2024-09-30,5855000000.0
+UPS,quarterly_cashflow,Beginning Cash Position,2024-09-30,6319000000.0
+UPS,quarterly_cashflow,Effect Of Exchange Rate Changes,2024-09-30,77000000.0
+UPS,quarterly_cashflow,Changes In Cash,2024-09-30,-551000000.0
+UPS,quarterly_cashflow,Financing Cash Flow,2024-09-30,-2236000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Financing Activities,2024-09-30,-2236000000.0
+UPS,quarterly_cashflow,Net Other Financing Charges,2024-09-30,-5000000.0
+UPS,quarterly_cashflow,Cash Dividends Paid,2024-09-30,-1348000000.0
+UPS,quarterly_cashflow,Common Stock Dividend Paid,2024-09-30,-1348000000.0
+UPS,quarterly_cashflow,Net Common Stock Issuance,2024-09-30,-447000000.0
+UPS,quarterly_cashflow,Common Stock Payments,2024-09-30,-500000000.0
+UPS,quarterly_cashflow,Common Stock Issuance,2024-09-30,53000000.0
+UPS,quarterly_cashflow,Net Issuance Payments Of Debt,2024-09-30,-436000000.0
+UPS,quarterly_cashflow,Net Short Term Debt Issuance,2024-09-30,0.0
+UPS,quarterly_cashflow,Net Long Term Debt Issuance,2024-09-30,-436000000.0
+UPS,quarterly_cashflow,Long Term Debt Payments,2024-09-30,-436000000.0
+UPS,quarterly_cashflow,Long Term Debt Issuance,2024-09-30,0.0
+UPS,quarterly_cashflow,Investing Cash Flow,2024-09-30,187000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Investing Activities,2024-09-30,187000000.0
+UPS,quarterly_cashflow,Net Other Investing Changes,2024-09-30,-22000000.0
+UPS,quarterly_cashflow,Net Investment Purchase And Sale,2024-09-30,10000000.0
+UPS,quarterly_cashflow,Sale Of Investment,2024-09-30,10000000.0
+UPS,quarterly_cashflow,Purchase Of Investment,2024-09-30,0.0
+UPS,quarterly_cashflow,Net Business Purchase And Sale,2024-09-30,1042000000.0
+UPS,quarterly_cashflow,Sale Of Business,2024-09-30,1042000000.0
+UPS,quarterly_cashflow,Purchase Of Business,2024-09-30,0.0
+UPS,quarterly_cashflow,Capital Expenditure Reported,2024-09-30,-843000000.0
+UPS,quarterly_cashflow,Operating Cash Flow,2024-09-30,1498000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Operating Activities,2024-09-30,1498000000.0
+UPS,quarterly_cashflow,Change In Working Capital,2024-09-30,263000000.0
+UPS,quarterly_cashflow,Change In Other Current Liabilities,2024-09-30,284000000.0
+UPS,quarterly_cashflow,Change In Other Current Assets,2024-09-30,43000000.0
+UPS,quarterly_cashflow,Change In Payables And Accrued Expense,2024-09-30,67000000.0
+UPS,quarterly_cashflow,Change In Accrued Expense,2024-09-30,211000000.0
+UPS,quarterly_cashflow,Change In Payable,2024-09-30,-144000000.0
+UPS,quarterly_cashflow,Change In Account Payable,2024-09-30,-144000000.0
+UPS,quarterly_cashflow,Change In Receivables,2024-09-30,-131000000.0
+UPS,quarterly_cashflow,Changes In Account Receivables,2024-09-30,-131000000.0
+UPS,quarterly_cashflow,Other Non Cash Items,2024-09-30,-162000000.0
+UPS,quarterly_cashflow,Stock Based Compensation,2024-09-30,-24000000.0
+UPS,quarterly_cashflow,Provisionand Write Offof Assets,2024-09-30,53000000.0
+UPS,quarterly_cashflow,Deferred Tax,2024-09-30,-48000000.0
+UPS,quarterly_cashflow,Deferred Income Tax,2024-09-30,-48000000.0
+UPS,quarterly_cashflow,Depreciation Amortization Depletion,2024-09-30,905000000.0
+UPS,quarterly_cashflow,Depreciation And Amortization,2024-09-30,905000000.0
+UPS,quarterly_cashflow,Operating Gains Losses,2024-09-30,-1028000000.0
+UPS,quarterly_cashflow,Pension And Employee Benefit Expense,2024-09-30,-1028000000.0
+UPS,quarterly_cashflow,Net Income From Continuing Operations,2024-09-30,1539000000.0
+UPS,quarterly_cashflow,Free Cash Flow,2024-06-30,1060000000.0
+UPS,quarterly_cashflow,Repurchase Of Capital Stock,2024-06-30,0.0
+UPS,quarterly_cashflow,Repayment Of Debt,2024-06-30,-582000000.0
+UPS,quarterly_cashflow,Issuance Of Debt,2024-06-30,2785000000.0
+UPS,quarterly_cashflow,Issuance Of Capital Stock,2024-06-30,77000000.0
+UPS,quarterly_cashflow,Capital Expenditure,2024-06-30,-933000000.0
+UPS,quarterly_cashflow,End Cash Position,2024-06-30,6319000000.0
+UPS,quarterly_cashflow,Beginning Cash Position,2024-06-30,4374000000.0
+UPS,quarterly_cashflow,Effect Of Exchange Rate Changes,2024-06-30,-24000000.0
+UPS,quarterly_cashflow,Changes In Cash,2024-06-30,1979000000.0
+UPS,quarterly_cashflow,Financing Cash Flow,2024-06-30,899000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Financing Activities,2024-06-30,899000000.0
+UPS,quarterly_cashflow,Net Other Financing Charges,2024-06-30,-28000000.0
+UPS,quarterly_cashflow,Cash Dividends Paid,2024-06-30,-1353000000.0
+UPS,quarterly_cashflow,Common Stock Dividend Paid,2024-06-30,-1353000000.0
+UPS,quarterly_cashflow,Net Common Stock Issuance,2024-06-30,77000000.0
+UPS,quarterly_cashflow,Common Stock Payments,2024-06-30,0.0
+UPS,quarterly_cashflow,Common Stock Issuance,2024-06-30,77000000.0
+UPS,quarterly_cashflow,Net Issuance Payments Of Debt,2024-06-30,2203000000.0
+UPS,quarterly_cashflow,Net Short Term Debt Issuance,2024-06-30,0.0
+UPS,quarterly_cashflow,Net Long Term Debt Issuance,2024-06-30,2203000000.0
+UPS,quarterly_cashflow,Long Term Debt Payments,2024-06-30,-582000000.0
+UPS,quarterly_cashflow,Long Term Debt Issuance,2024-06-30,2785000000.0
+UPS,quarterly_cashflow,Investing Cash Flow,2024-06-30,-913000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Investing Activities,2024-06-30,-913000000.0
+UPS,quarterly_cashflow,Net Other Investing Changes,2024-06-30,10000000.0
+UPS,quarterly_cashflow,Net Investment Purchase And Sale,2024-06-30,17000000.0
+UPS,quarterly_cashflow,Sale Of Investment,2024-06-30,19000000.0
+UPS,quarterly_cashflow,Purchase Of Investment,2024-06-30,-2000000.0
+UPS,quarterly_cashflow,Net Business Purchase And Sale,2024-06-30,-7000000.0
+UPS,quarterly_cashflow,Sale Of Business,2024-06-30,15000000.0
+UPS,quarterly_cashflow,Purchase Of Business,2024-06-30,-22000000.0
+UPS,quarterly_cashflow,Capital Expenditure Reported,2024-06-30,-933000000.0
+UPS,quarterly_cashflow,Operating Cash Flow,2024-06-30,1993000000.0
+UPS,quarterly_cashflow,Cash Flow From Continuing Operating Activities,2024-06-30,1993000000.0
+UPS,quarterly_cashflow,Change In Working Capital,2024-06-30,-513000000.0
+UPS,quarterly_cashflow,Change In Other Current Liabilities,2024-06-30,-804000000.0
+UPS,quarterly_cashflow,Change In Other Current Assets,2024-06-30,18000000.0
+UPS,quarterly_cashflow,Change In Payables And Accrued Expense,2024-06-30,239000000.0
+UPS,quarterly_cashflow,Change In Accrued Expense,2024-06-30,125000000.0
+UPS,quarterly_cashflow,Change In Payable,2024-06-30,114000000.0
+UPS,quarterly_cashflow,Change In Account Payable,2024-06-30,114000000.0
+UPS,quarterly_cashflow,Change In Receivables,2024-06-30,34000000.0
+UPS,quarterly_cashflow,Changes In Account Receivables,2024-06-30,34000000.0
+UPS,quarterly_cashflow,Other Non Cash Items,2024-06-30,37000000.0
+UPS,quarterly_cashflow,Stock Based Compensation,2024-06-30,30000000.0
+UPS,quarterly_cashflow,Provisionand Write Offof Assets,2024-06-30,-66000000.0
+UPS,quarterly_cashflow,Deferred Tax,2024-06-30,50000000.0
+UPS,quarterly_cashflow,Deferred Income Tax,2024-06-30,50000000.0
+UPS,quarterly_cashflow,Depreciation Amortization Depletion,2024-06-30,887000000.0
+UPS,quarterly_cashflow,Depreciation And Amortization,2024-06-30,887000000.0
+UPS,quarterly_cashflow,Operating Gains Losses,2024-06-30,159000000.0
+UPS,quarterly_cashflow,Pension And Employee Benefit Expense,2024-06-30,159000000.0
+UPS,quarterly_cashflow,Net Income From Continuing Operations,2024-06-30,1409000000.0

@@ -1,0 +1,139 @@
+ticker,statement,period,date,metric,value
+SMWH.L,cashflow,annual,2022-08-31,Amortization Cash Flow,13000000.0
+SMWH.L,cashflow,annual,2022-08-31,Beginning Cash Position,130000000.0
+SMWH.L,cashflow,annual,2022-08-31,Capital Expenditure,-83000000.0
+SMWH.L,cashflow,annual,2022-08-31,Cash Dividends Paid,
+SMWH.L,cashflow,annual,2022-08-31,Change In Inventory,-56000000.0
+SMWH.L,cashflow,annual,2022-08-31,Change In Other Current Liabilities,-5000000.0
+SMWH.L,cashflow,annual,2022-08-31,Change In Payable,88000000.0
+SMWH.L,cashflow,annual,2022-08-31,Change In Receivables,-42000000.0
+SMWH.L,cashflow,annual,2022-08-31,Change In Working Capital,-10000000.0
+SMWH.L,cashflow,annual,2022-08-31,Changes In Cash,0.0
+SMWH.L,cashflow,annual,2022-08-31,Common Stock Dividend Paid,0.0
+SMWH.L,cashflow,annual,2022-08-31,Common Stock Issuance,-7000000.0
+SMWH.L,cashflow,annual,2022-08-31,Common Stock Payments,-7000000.0
+SMWH.L,cashflow,annual,2022-08-31,Depreciation,118000000.0
+SMWH.L,cashflow,annual,2022-08-31,Depreciation And Amortization,131000000.0
+SMWH.L,cashflow,annual,2022-08-31,Effect Of Exchange Rate Changes,2000000.0
+SMWH.L,cashflow,annual,2022-08-31,End Cash Position,132000000.0
+SMWH.L,cashflow,annual,2022-08-31,Financing Cash Flow,-104000000.0
+SMWH.L,cashflow,annual,2022-08-31,Free Cash Flow,104000000.0
+SMWH.L,cashflow,annual,2022-08-31,Interest Paid Cfo,-26000000.0
+SMWH.L,cashflow,annual,2022-08-31,Investing Cash Flow,-83000000.0
+SMWH.L,cashflow,annual,2022-08-31,Issuance Of Capital Stock,-7000000.0
+SMWH.L,cashflow,annual,2022-08-31,Issuance Of Debt,0.0
+SMWH.L,cashflow,annual,2022-08-31,Long Term Debt Issuance,0.0
+SMWH.L,cashflow,annual,2022-08-31,Long Term Debt Payments,0.0
+SMWH.L,cashflow,annual,2022-08-31,Net Business Purchase And Sale,0.0
+SMWH.L,cashflow,annual,2022-08-31,Net Common Stock Issuance,-7000000.0
+SMWH.L,cashflow,annual,2022-08-31,Net Income From Continuing Operations,97000000.0
+SMWH.L,cashflow,annual,2022-08-31,Net Intangibles Purchase And Sale,-13000000.0
+SMWH.L,cashflow,annual,2022-08-31,Net Issuance Payments Of Debt,0.0
+SMWH.L,cashflow,annual,2022-08-31,Net Long Term Debt Issuance,0.0
+SMWH.L,cashflow,annual,2022-08-31,Net PPE Purchase And Sale,-70000000.0
+SMWH.L,cashflow,annual,2022-08-31,Net Short Term Debt Issuance,0.0
+SMWH.L,cashflow,annual,2022-08-31,Operating Cash Flow,187000000.0
+SMWH.L,cashflow,annual,2022-08-31,Other Non Cash Items,-16000000.0
+SMWH.L,cashflow,annual,2022-08-31,Pension And Employee Benefit Expense,
+SMWH.L,cashflow,annual,2022-08-31,Provisionand Write Offof Assets,-1000000.0
+SMWH.L,cashflow,annual,2022-08-31,Purchase Of Business,
+SMWH.L,cashflow,annual,2022-08-31,Purchase Of Intangibles,-13000000.0
+SMWH.L,cashflow,annual,2022-08-31,Purchase Of PPE,-70000000.0
+SMWH.L,cashflow,annual,2022-08-31,Repayment Of Debt,0.0
+SMWH.L,cashflow,annual,2022-08-31,Repurchase Of Capital Stock,-7000000.0
+SMWH.L,cashflow,annual,2022-08-31,Sale Of Business,0.0
+SMWH.L,cashflow,annual,2022-08-31,Short Term Debt Issuance,0.0
+SMWH.L,cashflow,annual,2022-08-31,Stock Based Compensation,9000000.0
+SMWH.L,cashflow,annual,2022-08-31,Taxes Refund Paid,-6000000.0
+SMWH.L,cashflow,annual,2023-08-31,Amortization Cash Flow,14000000.0
+SMWH.L,cashflow,annual,2023-08-31,Beginning Cash Position,132000000.0
+SMWH.L,cashflow,annual,2023-08-31,Capital Expenditure,-122000000.0
+SMWH.L,cashflow,annual,2023-08-31,Cash Dividends Paid,-22000000.0
+SMWH.L,cashflow,annual,2023-08-31,Change In Inventory,-12000000.0
+SMWH.L,cashflow,annual,2023-08-31,Change In Other Current Liabilities,0.0
+SMWH.L,cashflow,annual,2023-08-31,Change In Payable,-15000000.0
+SMWH.L,cashflow,annual,2023-08-31,Change In Receivables,-22000000.0
+SMWH.L,cashflow,annual,2023-08-31,Change In Working Capital,-49000000.0
+SMWH.L,cashflow,annual,2023-08-31,Changes In Cash,-74000000.0
+SMWH.L,cashflow,annual,2023-08-31,Common Stock Dividend Paid,-22000000.0
+SMWH.L,cashflow,annual,2023-08-31,Common Stock Issuance,-8000000.0
+SMWH.L,cashflow,annual,2023-08-31,Common Stock Payments,
+SMWH.L,cashflow,annual,2023-08-31,Depreciation,146000000.0
+SMWH.L,cashflow,annual,2023-08-31,Depreciation And Amortization,160000000.0
+SMWH.L,cashflow,annual,2023-08-31,Effect Of Exchange Rate Changes,-2000000.0
+SMWH.L,cashflow,annual,2023-08-31,End Cash Position,56000000.0
+SMWH.L,cashflow,annual,2023-08-31,Financing Cash Flow,-203000000.0
+SMWH.L,cashflow,annual,2023-08-31,Free Cash Flow,129000000.0
+SMWH.L,cashflow,annual,2023-08-31,Interest Paid Cfo,-35000000.0
+SMWH.L,cashflow,annual,2023-08-31,Investing Cash Flow,-122000000.0
+SMWH.L,cashflow,annual,2023-08-31,Issuance Of Capital Stock,-8000000.0
+SMWH.L,cashflow,annual,2023-08-31,Issuance Of Debt,84000000.0
+SMWH.L,cashflow,annual,2023-08-31,Long Term Debt Issuance,
+SMWH.L,cashflow,annual,2023-08-31,Long Term Debt Payments,-133000000.0
+SMWH.L,cashflow,annual,2023-08-31,Net Business Purchase And Sale,0.0
+SMWH.L,cashflow,annual,2023-08-31,Net Common Stock Issuance,-8000000.0
+SMWH.L,cashflow,annual,2023-08-31,Net Income From Continuing Operations,156000000.0
+SMWH.L,cashflow,annual,2023-08-31,Net Intangibles Purchase And Sale,-16000000.0
+SMWH.L,cashflow,annual,2023-08-31,Net Issuance Payments Of Debt,-49000000.0
+SMWH.L,cashflow,annual,2023-08-31,Net Long Term Debt Issuance,-133000000.0
+SMWH.L,cashflow,annual,2023-08-31,Net PPE Purchase And Sale,-106000000.0
+SMWH.L,cashflow,annual,2023-08-31,Net Short Term Debt Issuance,84000000.0
+SMWH.L,cashflow,annual,2023-08-31,Operating Cash Flow,251000000.0
+SMWH.L,cashflow,annual,2023-08-31,Other Non Cash Items,2000000.0
+SMWH.L,cashflow,annual,2023-08-31,Pension And Employee Benefit Expense,0.0
+SMWH.L,cashflow,annual,2023-08-31,Provisionand Write Offof Assets,2000000.0
+SMWH.L,cashflow,annual,2023-08-31,Purchase Of Business,0.0
+SMWH.L,cashflow,annual,2023-08-31,Purchase Of Intangibles,-16000000.0
+SMWH.L,cashflow,annual,2023-08-31,Purchase Of PPE,-106000000.0
+SMWH.L,cashflow,annual,2023-08-31,Repayment Of Debt,-133000000.0
+SMWH.L,cashflow,annual,2023-08-31,Repurchase Of Capital Stock,
+SMWH.L,cashflow,annual,2023-08-31,Sale Of Business,
+SMWH.L,cashflow,annual,2023-08-31,Short Term Debt Issuance,84000000.0
+SMWH.L,cashflow,annual,2023-08-31,Stock Based Compensation,12000000.0
+SMWH.L,cashflow,annual,2023-08-31,Taxes Refund Paid,-13000000.0
+SMWH.L,cashflow,annual,2024-08-31,Amortization Cash Flow,15000000.0
+SMWH.L,cashflow,annual,2024-08-31,Beginning Cash Position,56000000.0
+SMWH.L,cashflow,annual,2024-08-31,Capital Expenditure,-131000000.0
+SMWH.L,cashflow,annual,2024-08-31,Cash Dividends Paid,-41000000.0
+SMWH.L,cashflow,annual,2024-08-31,Change In Inventory,-15000000.0
+SMWH.L,cashflow,annual,2024-08-31,Change In Other Current Liabilities,-3000000.0
+SMWH.L,cashflow,annual,2024-08-31,Change In Payable,10000000.0
+SMWH.L,cashflow,annual,2024-08-31,Change In Receivables,-41000000.0
+SMWH.L,cashflow,annual,2024-08-31,Change In Working Capital,-46000000.0
+SMWH.L,cashflow,annual,2024-08-31,Changes In Cash,0.0
+SMWH.L,cashflow,annual,2024-08-31,Common Stock Dividend Paid,-41000000.0
+SMWH.L,cashflow,annual,2024-08-31,Common Stock Issuance,-12000000.0
+SMWH.L,cashflow,annual,2024-08-31,Common Stock Payments,
+SMWH.L,cashflow,annual,2024-08-31,Depreciation,161000000.0
+SMWH.L,cashflow,annual,2024-08-31,Depreciation And Amortization,176000000.0
+SMWH.L,cashflow,annual,2024-08-31,Effect Of Exchange Rate Changes,0.0
+SMWH.L,cashflow,annual,2024-08-31,End Cash Position,56000000.0
+SMWH.L,cashflow,annual,2024-08-31,Financing Cash Flow,-138000000.0
+SMWH.L,cashflow,annual,2024-08-31,Free Cash Flow,144000000.0
+SMWH.L,cashflow,annual,2024-08-31,Interest Paid Cfo,-42000000.0
+SMWH.L,cashflow,annual,2024-08-31,Investing Cash Flow,-137000000.0
+SMWH.L,cashflow,annual,2024-08-31,Issuance Of Capital Stock,-12000000.0
+SMWH.L,cashflow,annual,2024-08-31,Issuance Of Debt,33000000.0
+SMWH.L,cashflow,annual,2024-08-31,Long Term Debt Issuance,
+SMWH.L,cashflow,annual,2024-08-31,Long Term Debt Payments,0.0
+SMWH.L,cashflow,annual,2024-08-31,Net Business Purchase And Sale,-6000000.0
+SMWH.L,cashflow,annual,2024-08-31,Net Common Stock Issuance,-12000000.0
+SMWH.L,cashflow,annual,2024-08-31,Net Income From Continuing Operations,158000000.0
+SMWH.L,cashflow,annual,2024-08-31,Net Intangibles Purchase And Sale,-16000000.0
+SMWH.L,cashflow,annual,2024-08-31,Net Issuance Payments Of Debt,33000000.0
+SMWH.L,cashflow,annual,2024-08-31,Net Long Term Debt Issuance,0.0
+SMWH.L,cashflow,annual,2024-08-31,Net PPE Purchase And Sale,-115000000.0
+SMWH.L,cashflow,annual,2024-08-31,Net Short Term Debt Issuance,33000000.0
+SMWH.L,cashflow,annual,2024-08-31,Operating Cash Flow,275000000.0
+SMWH.L,cashflow,annual,2024-08-31,Other Non Cash Items,5000000.0
+SMWH.L,cashflow,annual,2024-08-31,Pension And Employee Benefit Expense,1000000.0
+SMWH.L,cashflow,annual,2024-08-31,Provisionand Write Offof Assets,3000000.0
+SMWH.L,cashflow,annual,2024-08-31,Purchase Of Business,-6000000.0
+SMWH.L,cashflow,annual,2024-08-31,Purchase Of Intangibles,-16000000.0
+SMWH.L,cashflow,annual,2024-08-31,Purchase Of PPE,-115000000.0
+SMWH.L,cashflow,annual,2024-08-31,Repayment Of Debt,0.0
+SMWH.L,cashflow,annual,2024-08-31,Repurchase Of Capital Stock,
+SMWH.L,cashflow,annual,2024-08-31,Sale Of Business,
+SMWH.L,cashflow,annual,2024-08-31,Short Term Debt Issuance,33000000.0
+SMWH.L,cashflow,annual,2024-08-31,Stock Based Compensation,11000000.0
+SMWH.L,cashflow,annual,2024-08-31,Taxes Refund Paid,-18000000.0

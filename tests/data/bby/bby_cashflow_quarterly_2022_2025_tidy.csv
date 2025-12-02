@@ -1,0 +1,302 @@
+ticker,statement,period,date,metric,value
+BBY,cashflow,quarterly,2025-07-31,Free Cash Flow,574000000.0
+BBY,cashflow,quarterly,2025-04-30,Free Cash Flow,-132000000.0
+BBY,cashflow,quarterly,2025-01-31,Free Cash Flow,1359000000.0
+BBY,cashflow,quarterly,2024-10-31,Free Cash Flow,-449000000.0
+BBY,cashflow,quarterly,2024-07-31,Free Cash Flow,478000000.0
+BBY,cashflow,quarterly,2024-04-30,Free Cash Flow,
+BBY,cashflow,quarterly,2024-01-31,Free Cash Flow,
+BBY,cashflow,quarterly,2025-07-31,Repurchase Of Capital Stock,-65000000.0
+BBY,cashflow,quarterly,2025-04-30,Repurchase Of Capital Stock,-100000000.0
+BBY,cashflow,quarterly,2025-01-31,Repurchase Of Capital Stock,-215000000.0
+BBY,cashflow,quarterly,2024-10-31,Repurchase Of Capital Stock,-137000000.0
+BBY,cashflow,quarterly,2024-07-31,Repurchase Of Capital Stock,-98000000.0
+BBY,cashflow,quarterly,2024-04-30,Repurchase Of Capital Stock,
+BBY,cashflow,quarterly,2024-01-31,Repurchase Of Capital Stock,
+BBY,cashflow,quarterly,2025-07-31,Capital Expenditure,-175000000.0
+BBY,cashflow,quarterly,2025-04-30,Capital Expenditure,-166000000.0
+BBY,cashflow,quarterly,2025-01-31,Capital Expenditure,-178000000.0
+BBY,cashflow,quarterly,2024-10-31,Capital Expenditure,-193000000.0
+BBY,cashflow,quarterly,2024-07-31,Capital Expenditure,-183000000.0
+BBY,cashflow,quarterly,2024-04-30,Capital Expenditure,
+BBY,cashflow,quarterly,2024-01-31,Capital Expenditure,
+BBY,cashflow,quarterly,2025-07-31,End Cash Position,1713000000.0
+BBY,cashflow,quarterly,2025-04-30,End Cash Position,1435000000.0
+BBY,cashflow,quarterly,2025-01-31,End Cash Position,1868000000.0
+BBY,cashflow,quarterly,2024-10-31,End Cash Position,938000000.0
+BBY,cashflow,quarterly,2024-07-31,End Cash Position,1698000000.0
+BBY,cashflow,quarterly,2024-04-30,End Cash Position,
+BBY,cashflow,quarterly,2024-01-31,End Cash Position,
+BBY,cashflow,quarterly,2025-07-31,Beginning Cash Position,1435000000.0
+BBY,cashflow,quarterly,2025-04-30,Beginning Cash Position,1868000000.0
+BBY,cashflow,quarterly,2025-01-31,Beginning Cash Position,938000000.0
+BBY,cashflow,quarterly,2024-10-31,Beginning Cash Position,1698000000.0
+BBY,cashflow,quarterly,2024-07-31,Beginning Cash Position,1527000000.0
+BBY,cashflow,quarterly,2024-04-30,Beginning Cash Position,
+BBY,cashflow,quarterly,2024-01-31,Beginning Cash Position,
+BBY,cashflow,quarterly,2025-07-31,Effect Of Exchange Rate Changes,1000000.0
+BBY,cashflow,quarterly,2025-04-30,Effect Of Exchange Rate Changes,4000000.0
+BBY,cashflow,quarterly,2025-01-31,Effect Of Exchange Rate Changes,-8000000.0
+BBY,cashflow,quarterly,2024-10-31,Effect Of Exchange Rate Changes,1000000.0
+BBY,cashflow,quarterly,2024-07-31,Effect Of Exchange Rate Changes,0.0
+BBY,cashflow,quarterly,2024-04-30,Effect Of Exchange Rate Changes,
+BBY,cashflow,quarterly,2024-01-31,Effect Of Exchange Rate Changes,
+BBY,cashflow,quarterly,2025-07-31,Changes In Cash,277000000.0
+BBY,cashflow,quarterly,2025-04-30,Changes In Cash,-437000000.0
+BBY,cashflow,quarterly,2025-01-31,Changes In Cash,938000000.0
+BBY,cashflow,quarterly,2024-10-31,Changes In Cash,-761000000.0
+BBY,cashflow,quarterly,2024-07-31,Changes In Cash,171000000.0
+BBY,cashflow,quarterly,2024-04-30,Changes In Cash,
+BBY,cashflow,quarterly,2024-01-31,Changes In Cash,
+BBY,cashflow,quarterly,2025-07-31,Financing Cash Flow,-269000000.0
+BBY,cashflow,quarterly,2025-04-30,Financing Cash Flow,-305000000.0
+BBY,cashflow,quarterly,2025-01-31,Financing Cash Flow,-417000000.0
+BBY,cashflow,quarterly,2024-10-31,Financing Cash Flow,-335000000.0
+BBY,cashflow,quarterly,2024-07-31,Financing Cash Flow,-305000000.0
+BBY,cashflow,quarterly,2024-04-30,Financing Cash Flow,
+BBY,cashflow,quarterly,2024-01-31,Financing Cash Flow,
+BBY,cashflow,quarterly,2025-07-31,Cash Flow From Continuing Financing Activities,-269000000.0
+BBY,cashflow,quarterly,2025-04-30,Cash Flow From Continuing Financing Activities,-305000000.0
+BBY,cashflow,quarterly,2025-01-31,Cash Flow From Continuing Financing Activities,-417000000.0
+BBY,cashflow,quarterly,2024-10-31,Cash Flow From Continuing Financing Activities,-335000000.0
+BBY,cashflow,quarterly,2024-07-31,Cash Flow From Continuing Financing Activities,-305000000.0
+BBY,cashflow,quarterly,2024-04-30,Cash Flow From Continuing Financing Activities,
+BBY,cashflow,quarterly,2024-01-31,Cash Flow From Continuing Financing Activities,
+BBY,cashflow,quarterly,2025-07-31,Net Other Financing Charges,-3000000.0
+BBY,cashflow,quarterly,2025-04-30,Net Other Financing Charges,-3000000.0
+BBY,cashflow,quarterly,2025-01-31,Net Other Financing Charges,
+BBY,cashflow,quarterly,2024-10-31,Net Other Financing Charges,
+BBY,cashflow,quarterly,2024-07-31,Net Other Financing Charges,
+BBY,cashflow,quarterly,2024-04-30,Net Other Financing Charges,
+BBY,cashflow,quarterly,2024-01-31,Net Other Financing Charges,-4000000.0
+BBY,cashflow,quarterly,2025-07-31,Cash Dividends Paid,-201000000.0
+BBY,cashflow,quarterly,2025-04-30,Cash Dividends Paid,-202000000.0
+BBY,cashflow,quarterly,2025-01-31,Cash Dividends Paid,-200000000.0
+BBY,cashflow,quarterly,2024-10-31,Cash Dividends Paid,-202000000.0
+BBY,cashflow,quarterly,2024-07-31,Cash Dividends Paid,-203000000.0
+BBY,cashflow,quarterly,2024-04-30,Cash Dividends Paid,
+BBY,cashflow,quarterly,2024-01-31,Cash Dividends Paid,
+BBY,cashflow,quarterly,2025-07-31,Common Stock Dividend Paid,-201000000.0
+BBY,cashflow,quarterly,2025-04-30,Common Stock Dividend Paid,-202000000.0
+BBY,cashflow,quarterly,2025-01-31,Common Stock Dividend Paid,-200000000.0
+BBY,cashflow,quarterly,2024-10-31,Common Stock Dividend Paid,-202000000.0
+BBY,cashflow,quarterly,2024-07-31,Common Stock Dividend Paid,-203000000.0
+BBY,cashflow,quarterly,2024-04-30,Common Stock Dividend Paid,
+BBY,cashflow,quarterly,2024-01-31,Common Stock Dividend Paid,
+BBY,cashflow,quarterly,2025-07-31,Net Common Stock Issuance,-65000000.0
+BBY,cashflow,quarterly,2025-04-30,Net Common Stock Issuance,-100000000.0
+BBY,cashflow,quarterly,2025-01-31,Net Common Stock Issuance,-198000000.0
+BBY,cashflow,quarterly,2024-10-31,Net Common Stock Issuance,-137000000.0
+BBY,cashflow,quarterly,2024-07-31,Net Common Stock Issuance,-98000000.0
+BBY,cashflow,quarterly,2024-04-30,Net Common Stock Issuance,
+BBY,cashflow,quarterly,2024-01-31,Net Common Stock Issuance,
+BBY,cashflow,quarterly,2025-07-31,Common Stock Payments,-65000000.0
+BBY,cashflow,quarterly,2025-04-30,Common Stock Payments,-100000000.0
+BBY,cashflow,quarterly,2025-01-31,Common Stock Payments,-215000000.0
+BBY,cashflow,quarterly,2024-10-31,Common Stock Payments,-137000000.0
+BBY,cashflow,quarterly,2024-07-31,Common Stock Payments,-98000000.0
+BBY,cashflow,quarterly,2024-04-30,Common Stock Payments,
+BBY,cashflow,quarterly,2024-01-31,Common Stock Payments,
+BBY,cashflow,quarterly,2025-07-31,Investing Cash Flow,-203000000.0
+BBY,cashflow,quarterly,2025-04-30,Investing Cash Flow,-166000000.0
+BBY,cashflow,quarterly,2025-01-31,Investing Cash Flow,-182000000.0
+BBY,cashflow,quarterly,2024-10-31,Investing Cash Flow,-170000000.0
+BBY,cashflow,quarterly,2024-07-31,Investing Cash Flow,-185000000.0
+BBY,cashflow,quarterly,2024-04-30,Investing Cash Flow,
+BBY,cashflow,quarterly,2024-01-31,Investing Cash Flow,
+BBY,cashflow,quarterly,2025-07-31,Cash Flow From Continuing Investing Activities,-203000000.0
+BBY,cashflow,quarterly,2025-04-30,Cash Flow From Continuing Investing Activities,-166000000.0
+BBY,cashflow,quarterly,2025-01-31,Cash Flow From Continuing Investing Activities,-182000000.0
+BBY,cashflow,quarterly,2024-10-31,Cash Flow From Continuing Investing Activities,-170000000.0
+BBY,cashflow,quarterly,2024-07-31,Cash Flow From Continuing Investing Activities,-185000000.0
+BBY,cashflow,quarterly,2024-04-30,Cash Flow From Continuing Investing Activities,
+BBY,cashflow,quarterly,2024-01-31,Cash Flow From Continuing Investing Activities,
+BBY,cashflow,quarterly,2025-07-31,Net Other Investing Changes,
+BBY,cashflow,quarterly,2025-04-30,Net Other Investing Changes,
+BBY,cashflow,quarterly,2025-01-31,Net Other Investing Changes,2000000.0
+BBY,cashflow,quarterly,2024-10-31,Net Other Investing Changes,23000000.0
+BBY,cashflow,quarterly,2024-07-31,Net Other Investing Changes,-2000000.0
+BBY,cashflow,quarterly,2024-04-30,Net Other Investing Changes,-15000000.0
+BBY,cashflow,quarterly,2024-01-31,Net Other Investing Changes,-3000000.0
+BBY,cashflow,quarterly,2025-07-31,Net Investment Purchase And Sale,
+BBY,cashflow,quarterly,2025-04-30,Net Investment Purchase And Sale,
+BBY,cashflow,quarterly,2025-01-31,Net Investment Purchase And Sale,
+BBY,cashflow,quarterly,2024-10-31,Net Investment Purchase And Sale,
+BBY,cashflow,quarterly,2024-07-31,Net Investment Purchase And Sale,
+BBY,cashflow,quarterly,2024-04-30,Net Investment Purchase And Sale,
+BBY,cashflow,quarterly,2024-01-31,Net Investment Purchase And Sale,5000000.0
+BBY,cashflow,quarterly,2025-07-31,Purchase Of Investment,
+BBY,cashflow,quarterly,2025-04-30,Purchase Of Investment,
+BBY,cashflow,quarterly,2025-01-31,Purchase Of Investment,
+BBY,cashflow,quarterly,2024-10-31,Purchase Of Investment,
+BBY,cashflow,quarterly,2024-07-31,Purchase Of Investment,
+BBY,cashflow,quarterly,2024-04-30,Purchase Of Investment,
+BBY,cashflow,quarterly,2024-01-31,Purchase Of Investment,-2000000.0
+BBY,cashflow,quarterly,2025-07-31,Net Business Purchase And Sale,
+BBY,cashflow,quarterly,2025-04-30,Net Business Purchase And Sale,
+BBY,cashflow,quarterly,2025-01-31,Net Business Purchase And Sale,0.0
+BBY,cashflow,quarterly,2024-10-31,Net Business Purchase And Sale,0.0
+BBY,cashflow,quarterly,2024-07-31,Net Business Purchase And Sale,
+BBY,cashflow,quarterly,2024-04-30,Net Business Purchase And Sale,
+BBY,cashflow,quarterly,2024-01-31,Net Business Purchase And Sale,0.0
+BBY,cashflow,quarterly,2025-07-31,Sale Of Business,
+BBY,cashflow,quarterly,2025-04-30,Sale Of Business,
+BBY,cashflow,quarterly,2025-01-31,Sale Of Business,0.0
+BBY,cashflow,quarterly,2024-10-31,Sale Of Business,0.0
+BBY,cashflow,quarterly,2024-07-31,Sale Of Business,
+BBY,cashflow,quarterly,2024-04-30,Sale Of Business,
+BBY,cashflow,quarterly,2024-01-31,Sale Of Business,0.0
+BBY,cashflow,quarterly,2025-07-31,Net PPE Purchase And Sale,-175000000.0
+BBY,cashflow,quarterly,2025-04-30,Net PPE Purchase And Sale,-166000000.0
+BBY,cashflow,quarterly,2025-01-31,Net PPE Purchase And Sale,-178000000.0
+BBY,cashflow,quarterly,2024-10-31,Net PPE Purchase And Sale,-193000000.0
+BBY,cashflow,quarterly,2024-07-31,Net PPE Purchase And Sale,-183000000.0
+BBY,cashflow,quarterly,2024-04-30,Net PPE Purchase And Sale,
+BBY,cashflow,quarterly,2024-01-31,Net PPE Purchase And Sale,
+BBY,cashflow,quarterly,2025-07-31,Purchase Of PPE,-175000000.0
+BBY,cashflow,quarterly,2025-04-30,Purchase Of PPE,-166000000.0
+BBY,cashflow,quarterly,2025-01-31,Purchase Of PPE,-178000000.0
+BBY,cashflow,quarterly,2024-10-31,Purchase Of PPE,-193000000.0
+BBY,cashflow,quarterly,2024-07-31,Purchase Of PPE,-183000000.0
+BBY,cashflow,quarterly,2024-04-30,Purchase Of PPE,
+BBY,cashflow,quarterly,2024-01-31,Purchase Of PPE,
+BBY,cashflow,quarterly,2025-07-31,Operating Cash Flow,749000000.0
+BBY,cashflow,quarterly,2025-04-30,Operating Cash Flow,34000000.0
+BBY,cashflow,quarterly,2025-01-31,Operating Cash Flow,1537000000.0
+BBY,cashflow,quarterly,2024-10-31,Operating Cash Flow,-256000000.0
+BBY,cashflow,quarterly,2024-07-31,Operating Cash Flow,661000000.0
+BBY,cashflow,quarterly,2024-04-30,Operating Cash Flow,
+BBY,cashflow,quarterly,2024-01-31,Operating Cash Flow,
+BBY,cashflow,quarterly,2025-07-31,Cash Flow From Continuing Operating Activities,749000000.0
+BBY,cashflow,quarterly,2025-04-30,Cash Flow From Continuing Operating Activities,34000000.0
+BBY,cashflow,quarterly,2025-01-31,Cash Flow From Continuing Operating Activities,1537000000.0
+BBY,cashflow,quarterly,2024-10-31,Cash Flow From Continuing Operating Activities,-256000000.0
+BBY,cashflow,quarterly,2024-07-31,Cash Flow From Continuing Operating Activities,661000000.0
+BBY,cashflow,quarterly,2024-04-30,Cash Flow From Continuing Operating Activities,
+BBY,cashflow,quarterly,2024-01-31,Cash Flow From Continuing Operating Activities,
+BBY,cashflow,quarterly,2025-07-31,Change In Working Capital,97000000.0
+BBY,cashflow,quarterly,2025-04-30,Change In Working Capital,-475000000.0
+BBY,cashflow,quarterly,2025-01-31,Change In Working Capital,755000000.0
+BBY,cashflow,quarterly,2024-10-31,Change In Working Capital,-763000000.0
+BBY,cashflow,quarterly,2024-07-31,Change In Working Capital,123000000.0
+BBY,cashflow,quarterly,2024-04-30,Change In Working Capital,
+BBY,cashflow,quarterly,2024-01-31,Change In Working Capital,
+BBY,cashflow,quarterly,2025-07-31,Change In Other Working Capital,-174000000.0
+BBY,cashflow,quarterly,2025-04-30,Change In Other Working Capital,7000000.0
+BBY,cashflow,quarterly,2025-01-31,Change In Other Working Capital,7000000.0
+BBY,cashflow,quarterly,2024-10-31,Change In Other Working Capital,-36000000.0
+BBY,cashflow,quarterly,2024-07-31,Change In Other Working Capital,-196000000.0
+BBY,cashflow,quarterly,2024-04-30,Change In Other Working Capital,
+BBY,cashflow,quarterly,2024-01-31,Change In Other Working Capital,
+BBY,cashflow,quarterly,2025-07-31,Change In Other Current Liabilities,76000000.0
+BBY,cashflow,quarterly,2025-04-30,Change In Other Current Liabilities,-362000000.0
+BBY,cashflow,quarterly,2025-01-31,Change In Other Current Liabilities,247000000.0
+BBY,cashflow,quarterly,2024-10-31,Change In Other Current Liabilities,-131000000.0
+BBY,cashflow,quarterly,2024-07-31,Change In Other Current Liabilities,51000000.0
+BBY,cashflow,quarterly,2024-04-30,Change In Other Current Liabilities,
+BBY,cashflow,quarterly,2024-01-31,Change In Other Current Liabilities,
+BBY,cashflow,quarterly,2025-07-31,Change In Other Current Assets,-31000000.0
+BBY,cashflow,quarterly,2025-04-30,Change In Other Current Assets,7000000.0
+BBY,cashflow,quarterly,2025-01-31,Change In Other Current Assets,27000000.0
+BBY,cashflow,quarterly,2024-10-31,Change In Other Current Assets,-5000000.0
+BBY,cashflow,quarterly,2024-07-31,Change In Other Current Assets,-3000000.0
+BBY,cashflow,quarterly,2024-04-30,Change In Other Current Assets,
+BBY,cashflow,quarterly,2024-01-31,Change In Other Current Assets,
+BBY,cashflow,quarterly,2025-07-31,Change In Payables And Accrued Expense,1023000000.0
+BBY,cashflow,quarterly,2025-04-30,Change In Payables And Accrued Expense,-330000000.0
+BBY,cashflow,quarterly,2025-01-31,Change In Payables And Accrued Expense,-2125000000.0
+BBY,cashflow,quarterly,2024-10-31,Change In Payables And Accrued Expense,1579000000.0
+BBY,cashflow,quarterly,2024-07-31,Change In Payables And Accrued Expense,861000000.0
+BBY,cashflow,quarterly,2024-04-30,Change In Payables And Accrued Expense,
+BBY,cashflow,quarterly,2024-01-31,Change In Payables And Accrued Expense,
+BBY,cashflow,quarterly,2025-07-31,Change In Payable,1023000000.0
+BBY,cashflow,quarterly,2025-04-30,Change In Payable,-330000000.0
+BBY,cashflow,quarterly,2025-01-31,Change In Payable,-2125000000.0
+BBY,cashflow,quarterly,2024-10-31,Change In Payable,1579000000.0
+BBY,cashflow,quarterly,2024-07-31,Change In Payable,861000000.0
+BBY,cashflow,quarterly,2024-04-30,Change In Payable,
+BBY,cashflow,quarterly,2024-01-31,Change In Payable,
+BBY,cashflow,quarterly,2025-07-31,Change In Account Payable,1023000000.0
+BBY,cashflow,quarterly,2025-04-30,Change In Account Payable,-330000000.0
+BBY,cashflow,quarterly,2025-01-31,Change In Account Payable,-2125000000.0
+BBY,cashflow,quarterly,2024-10-31,Change In Account Payable,1579000000.0
+BBY,cashflow,quarterly,2024-07-31,Change In Account Payable,861000000.0
+BBY,cashflow,quarterly,2024-04-30,Change In Account Payable,
+BBY,cashflow,quarterly,2024-01-31,Change In Account Payable,
+BBY,cashflow,quarterly,2025-07-31,Change In Inventory,-622000000.0
+BBY,cashflow,quarterly,2025-04-30,Change In Inventory,-95000000.0
+BBY,cashflow,quarterly,2025-01-31,Change In Inventory,2714000000.0
+BBY,cashflow,quarterly,2024-10-31,Change In Inventory,-2108000000.0
+BBY,cashflow,quarterly,2024-07-31,Change In Inventory,-488000000.0
+BBY,cashflow,quarterly,2024-04-30,Change In Inventory,
+BBY,cashflow,quarterly,2024-01-31,Change In Inventory,
+BBY,cashflow,quarterly,2025-07-31,Change In Receivables,-175000000.0
+BBY,cashflow,quarterly,2025-04-30,Change In Receivables,298000000.0
+BBY,cashflow,quarterly,2025-01-31,Change In Receivables,-115000000.0
+BBY,cashflow,quarterly,2024-10-31,Change In Receivables,-62000000.0
+BBY,cashflow,quarterly,2024-07-31,Change In Receivables,-102000000.0
+BBY,cashflow,quarterly,2024-04-30,Change In Receivables,
+BBY,cashflow,quarterly,2024-01-31,Change In Receivables,
+BBY,cashflow,quarterly,2025-07-31,Other Non Cash Items,120000000.0
+BBY,cashflow,quarterly,2025-04-30,Other Non Cash Items,107000000.0
+BBY,cashflow,quarterly,2025-01-31,Other Non Cash Items,2000000.0
+BBY,cashflow,quarterly,2024-10-31,Other Non Cash Items,-3000000.0
+BBY,cashflow,quarterly,2024-07-31,Other Non Cash Items,-3000000.0
+BBY,cashflow,quarterly,2024-04-30,Other Non Cash Items,
+BBY,cashflow,quarterly,2024-01-31,Other Non Cash Items,
+BBY,cashflow,quarterly,2025-07-31,Stock Based Compensation,35000000.0
+BBY,cashflow,quarterly,2025-04-30,Stock Based Compensation,40000000.0
+BBY,cashflow,quarterly,2025-01-31,Stock Based Compensation,31000000.0
+BBY,cashflow,quarterly,2024-10-31,Stock Based Compensation,34000000.0
+BBY,cashflow,quarterly,2024-07-31,Stock Based Compensation,36000000.0
+BBY,cashflow,quarterly,2024-04-30,Stock Based Compensation,
+BBY,cashflow,quarterly,2024-01-31,Stock Based Compensation,
+BBY,cashflow,quarterly,2025-07-31,Deferred Tax,96000000.0
+BBY,cashflow,quarterly,2025-04-30,Deferred Tax,-51000000.0
+BBY,cashflow,quarterly,2025-01-31,Deferred Tax,
+BBY,cashflow,quarterly,2024-10-31,Deferred Tax,
+BBY,cashflow,quarterly,2024-07-31,Deferred Tax,-4000000.0
+BBY,cashflow,quarterly,2024-04-30,Deferred Tax,14000000.0
+BBY,cashflow,quarterly,2024-01-31,Deferred Tax,
+BBY,cashflow,quarterly,2025-07-31,Deferred Income Tax,96000000.0
+BBY,cashflow,quarterly,2025-04-30,Deferred Income Tax,-51000000.0
+BBY,cashflow,quarterly,2025-01-31,Deferred Income Tax,
+BBY,cashflow,quarterly,2024-10-31,Deferred Income Tax,
+BBY,cashflow,quarterly,2024-07-31,Deferred Income Tax,-4000000.0
+BBY,cashflow,quarterly,2024-04-30,Deferred Income Tax,14000000.0
+BBY,cashflow,quarterly,2024-01-31,Deferred Income Tax,
+BBY,cashflow,quarterly,2025-07-31,Depreciation Amortization Depletion,211000000.0
+BBY,cashflow,quarterly,2025-04-30,Depreciation Amortization Depletion,211000000.0
+BBY,cashflow,quarterly,2025-01-31,Depreciation Amortization Depletion,216000000.0
+BBY,cashflow,quarterly,2024-10-31,Depreciation Amortization Depletion,213000000.0
+BBY,cashflow,quarterly,2024-07-31,Depreciation Amortization Depletion,218000000.0
+BBY,cashflow,quarterly,2024-04-30,Depreciation Amortization Depletion,
+BBY,cashflow,quarterly,2024-01-31,Depreciation Amortization Depletion,
+BBY,cashflow,quarterly,2025-07-31,Depreciation And Amortization,211000000.0
+BBY,cashflow,quarterly,2025-04-30,Depreciation And Amortization,211000000.0
+BBY,cashflow,quarterly,2025-01-31,Depreciation And Amortization,216000000.0
+BBY,cashflow,quarterly,2024-10-31,Depreciation And Amortization,213000000.0
+BBY,cashflow,quarterly,2024-07-31,Depreciation And Amortization,218000000.0
+BBY,cashflow,quarterly,2024-04-30,Depreciation And Amortization,
+BBY,cashflow,quarterly,2024-01-31,Depreciation And Amortization,
+BBY,cashflow,quarterly,2025-07-31,Operating Gains Losses,
+BBY,cashflow,quarterly,2025-04-30,Operating Gains Losses,
+BBY,cashflow,quarterly,2025-01-31,Operating Gains Losses,
+BBY,cashflow,quarterly,2024-10-31,Operating Gains Losses,
+BBY,cashflow,quarterly,2024-07-31,Operating Gains Losses,
+BBY,cashflow,quarterly,2024-04-30,Operating Gains Losses,
+BBY,cashflow,quarterly,2024-01-31,Operating Gains Losses,0.0
+BBY,cashflow,quarterly,2025-07-31,Gain Loss On Sale Of Business,
+BBY,cashflow,quarterly,2025-04-30,Gain Loss On Sale Of Business,
+BBY,cashflow,quarterly,2025-01-31,Gain Loss On Sale Of Business,0.0
+BBY,cashflow,quarterly,2024-10-31,Gain Loss On Sale Of Business,0.0
+BBY,cashflow,quarterly,2024-07-31,Gain Loss On Sale Of Business,
+BBY,cashflow,quarterly,2024-04-30,Gain Loss On Sale Of Business,
+BBY,cashflow,quarterly,2024-01-31,Gain Loss On Sale Of Business,0.0
+BBY,cashflow,quarterly,2025-07-31,Net Income From Continuing Operations,186000000.0
+BBY,cashflow,quarterly,2025-04-30,Net Income From Continuing Operations,202000000.0
+BBY,cashflow,quarterly,2025-01-31,Net Income From Continuing Operations,117000000.0
+BBY,cashflow,quarterly,2024-10-31,Net Income From Continuing Operations,273000000.0
+BBY,cashflow,quarterly,2024-07-31,Net Income From Continuing Operations,291000000.0
+BBY,cashflow,quarterly,2024-04-30,Net Income From Continuing Operations,
+BBY,cashflow,quarterly,2024-01-31,Net Income From Continuing Operations,

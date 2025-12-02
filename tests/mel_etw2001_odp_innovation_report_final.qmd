@@ -1,0 +1,373 @@
+---
+title: "ODP: Lack of Product & Service Innovation — Data-Driven Report"
+author: "Group Project — Internal Factor (Melissa)"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    number-sections: true
+execute:
+  warning: false
+  message: false
+editor: 
+  markdown: 
+    wrap: 72
+---```{r setup, include=FALSE}
+# Libraries
+suppressPackageStartupMessages({
+  library(readr); library(dplyr); library(tidyr); library(stringr)
+  library(lubridate); library(ggplot2); library(scales)
+  library(purrr)
+})
+
+# Helper: ensure file exists, otherwise give a friendly stop() with next steps
+need_file <- function(path, label) {
+  if (!file.exists(path)) {
+    stop(paste0("Missing file: '", path, "' for ", label, 
+                ".\nPlease upload it or update params$... to the correct location."), call. = FALSE)
+  }
+  normalizePath(path, mustWork = TRUE)
+}
+
+# Resolve paths from params
+path_office   <- params$path_office
+path_elect    <- params$path_elect
+path_nonstore <- params$path_nonstore
+path_odp      <- params$path_odp
+path_bby      <- params$path_bby
+
+# Validate existence where required by the analysis
+invisible(lapply(list(
+  list(path_office, "Office & Stationery Sales (MRTSSM45321USN)"),
+  list(path_elect, "Electronics & Appliance Sales (MRTSSM443USS)"),
+  list(path_nonstore, "Nonstore Retailers (RSNSR)"),
+  list(path_odp, "ODP consolidated financials tidy"),
+  list(path_bby, "BBY consolidated financials tidy")
+), function(x) {
+  # Only validate if param is non-empty
+  if (!is.null(x[[1]]) && nchar(x[[1]]) > 0) need_file(x[[1]], x[[2]])
+}))
+
+# Ensure output directory for any exports
+if (!dir.exists("output")) dir.create("output", recursive = TRUE)
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, fig.width = 8, fig.height = 5)
+```
+
+
+
+```{r}
+#| label: setup
+need <- c("readr","dplyr","tidyr","lubridate","ggplot2","scales","stringr","broom")
+to_install <- setdiff(need, rownames(installed.packages()))
+if (length(to_install)) install.packages(to_install, dependencies = TRUE)
+invisible(lapply(need, library, character.only = TRUE))
+
+theme_set(theme_minimal(base_size = 12))
+lab_short <- function() scales::label_number(scale_cut = scales::cut_short_scale())
+lab_pct   <- function() scales::label_percent(accuracy = 0.1)
+```
+
+# 1. Executive Summary
+
+**Internal Factor (Melissa):** ODP remains concentrated in **traditional
+office supplies** with limited **product/service innovation** (e.g.,
+tech accessories, hybrid-work bundles, service subscriptions).
+
+**Key variables (Quarterly, 2022–2024):** - **Office_Sales** — legacy
+category (FRED `MRTSSM45321USN`) - **Electronics_Sales** — innovation
+category (FRED `MRTSSM443USS`) - **Nonstore_Sales** — innovation channel
+(FRED `RSNSR`, e-commerce proxy) - **Office_YoY, Elect_YoY,
+Nonstore_YoY** — YoY % changes - **Innovation_Composite_YoY** —
+mean(Elect_YoY, Nonstore_YoY) - **ODP**: Revenue, Rev_YoY, Gross Margin
+(%) - **BBY**: Revenue, Rev_YoY, Gross Margin (%) — innovator peer
+
+**Findings:** - **Legacy category stagnates**: Office_Sales YoY
+flat/negative. - **Innovation demand outperforms**: Electronics &
+Nonstore (e-comm) grow faster. - **BBY outperforms ODP** on YoY revenue
+and margins, consistent with tech + services innovation. - **ODP
+under-indexes to innovation**; its Rev_YoY aligns better with innovation
+proxies than with legacy office supplies. - A modest **innovation
+mix-shift** implies measurable **Rev YoY uplift** for ODP.
+
+------------------------------------------------------------------------
+
+# 2. Paths & Focus Window
+
+```{r}
+# FRED industry CSVs (put in same folder)
+path_office <- params$path_office   # Office-supply & stationery stores (monthly)
+path_elect <- params$path_elect     # Electronics & appliance stores (monthly)
+path_nonstore <- params$path_nonstore            # Nonstore retailers (monthly; e-commerce proxy)
+
+# Company financials (tidy CSVs you generated)
+path_odp <- params$path_odp
+path_bby <- params$path_bby
+
+focus_start <- as.Date("2022-01-01")
+focus_end   <- as.Date("2024-12-31")
+```
+
+------------------------------------------------------------------------
+
+# 3. Load & Clean Data
+
+```{r}
+#| label: loaders
+# Robust FRED reader (handles DATE/VALUE vs observation_date/SERIESID)
+read_fred <- function(path, hint=NULL){
+  df <- readr::read_csv(path, show_col_types = FALSE)
+  date_col <- intersect(names(df), c("observation_date","DATE"))
+  if (length(date_col)==0) stop("No date column in: ", path)
+  date_col <- date_col[1]
+  if (!is.null(hint) && hint %in% names(df)) {
+    val_col <- hint
+  } else if ("VALUE" %in% names(df)) {
+    val_col <- "VALUE"
+  } else {
+    val_col <- setdiff(names(df), date_col)[1]
+  }
+  tibble(
+    Date  = as.Date(lubridate::parse_date_time(df[[date_col]], orders = c('Y-m-d','m-d-y','d-m-y','m/d/y','d/m/y','Ymd'))),
+    Value = suppressWarnings(as.numeric(df[[val_col]]))
+  ) |> arrange(Date)
+}
+
+# Monthly → Quarterly average by period-end
+to_quarter <- function(df, col){
+  df |> mutate(Q = quarter(Date, with_year = TRUE)) |>
+    group_by(Q) |>
+    summarise(Value = mean(.data[[col]], na.rm = TRUE), .groups="drop") |>
+    mutate(Date = yq(Q) + months(3) - days(1)) |>
+    select(Date, Value) |> arrange(Date)
+}
+```
+
+```{r}
+#| label: industry
+# Industry demand proxies
+office_q <- read_fred(path_office,   "MRTSSM45321USN") |> 
+            rename(Office_Sales = Value) |> to_quarter("Office_Sales") |> rename(Office_Sales = Value)
+elect_q  <- read_fred(path_elect,    "MRTSSM443USS")   |>
+            rename(Electronics_Sales = Value) |> to_quarter("Electronics_Sales") |> rename(Electronics_Sales = Value)
+nonst_q  <- read_fred(path_nonstore, "RSNSR")          |>
+            rename(Nonstore_Sales = Value) |> to_quarter("Nonstore_Sales") |> rename(Nonstore_Sales = Value)
+
+industry_q <- office_q |>
+  left_join(elect_q,  by="Date") |>
+  left_join(nonst_q,  by="Date") |>
+  filter(Date >= as.Date("2021-01-01"), Date <= focus_end) |>
+  arrange(Date) |>
+  mutate(
+    Office_YoY   = 100*(Office_Sales/lag(Office_Sales,4)-1),
+    Elect_YoY    = 100*(Electronics_Sales/lag(Electronics_Sales,4)-1),
+    Nonstore_YoY = 100*(Nonstore_Sales/lag(Nonstore_Sales,4)-1),
+    Innovation_Composite_YoY = rowMeans(across(c(Elect_YoY, Nonstore_YoY)), na.rm = TRUE)
+  )
+```
+
+```{r}
+#| label: companies
+# Company financials (tidy long): ticker, statement, period, date, metric, value
+stopifnot(file.exists(path_odp), file.exists(path_bby))
+odp_all <- readr::read_csv(path_odp, show_col_types = FALSE) |> mutate(date = as.Date(date))
+bby_all <- readr::read_csv(path_bby, show_col_types = FALSE) |> mutate(date = as.Date(date))
+
+mk_q <- function(df, tag){
+  rev_q <- df |> filter(statement=="income_statement", period=="quarterly", metric=="Total Revenue") |>
+    transmute(Date = as.Date(date), Revenue = as.numeric(value), Company = tag) |>
+    arrange(Date) |>
+    filter(Date >= as.Date("2021-01-01"), Date <= focus_end) |>
+    mutate(Rev_YoY = 100*(Revenue/lag(Revenue,4)-1))
+
+  gp_q  <- df |> filter(statement=="income_statement", period=="quarterly",
+                        metric %in% c("Gross Profit","GrossProfit")) |>
+    transmute(Date = as.Date(date), GrossProfit = as.numeric(value)) |>
+    arrange(Date)
+
+  rev_q |>
+    left_join(gp_q, by="Date") |>
+    mutate(GMargin = ifelse(!is.na(GrossProfit), 100*(GrossProfit/Revenue), NA_real_)) |>
+    arrange(Date)
+}
+
+odp_q <- mk_q(odp_all, "ODP")
+bby_q <- mk_q(bby_all, "BBY")
+
+cmp_q <- bind_rows(odp_q, bby_q) |>
+  filter(Date >= focus_start, Date <= focus_end)
+```
+
+------------------------------------------------------------------------
+
+# 4. Descriptive Evidence: Legacy vs Innovation Demand
+
+```{r}
+# Visualization 1: Category levels (quarterly)
+ind_levels <- industry_q |>
+  filter(Date >= focus_start, Date <= focus_end) |>
+  select(Date, Office_Sales, Electronics_Sales, Nonstore_Sales) |>
+  pivot_longer(-Date, names_to="Series", values_to="Value")
+
+ggplot(ind_levels, aes(Date, Value, color = Series)) +
+  geom_line(linewidth=1.05) +
+  scale_y_continuous(labels = lab_short()) +
+  labs(title = "Industry Demand — Levels (2022–2024)",
+       subtitle = "Legacy office-supply sales lag electronics and nonstore (e-comm) retailers",
+       x = NULL, y = "Sales (USD, quarterly avg)", color = NULL)
+```
+
+```{r}
+# Visualization 2: YoY growth series
+ind_yoy <- industry_q |>
+  filter(Date >= focus_start, Date <= focus_end) |>
+  select(Date, Office_YoY, Elect_YoY, Nonstore_YoY, Innovation_Composite_YoY) |>
+  pivot_longer(-Date, names_to="Series", values_to="YoY")
+
+ggplot(ind_yoy, aes(Date, YoY, color = Series)) +
+  geom_line(linewidth=1.05) +
+  geom_hline(yintercept = 0, linetype="dashed") +
+  labs(title = "Industry Demand — YoY Growth (2022–2024)",
+       subtitle = "Legacy category stagnates; innovation proxies show stronger momentum",
+       x = NULL, y = "YoY Change (%)", color = NULL)
+```
+
+**Insight:** **Office_YoY** is flat/negative; **Elect_YoY** and
+**Nonstore_YoY** are stronger. Growth is in **innovation-aligned**
+segments — not in ODP’s legacy base.
+
+------------------------------------------------------------------------
+
+# 5. Benchmark: ODP vs Best Buy (Innovator Peer)
+
+```{r}
+# Visualization 3: Revenue growth YoY — ODP vs BBY
+ggplot(cmp_q, aes(Date, Rev_YoY, color = Company)) +
+  geom_line(linewidth=1.05) +
+  geom_hline(yintercept = 0, linetype="dashed") +
+  labs(title = "Revenue Growth YoY — ODP vs BBY (2022–2024)",
+       subtitle = "BBY's tech + services orientation supports better top-line resilience",
+       x = NULL, y = "YoY Revenue (%)", color = NULL)
+```
+
+```{r}
+# Visualization 4: Gross Margin — ODP vs BBY
+gm_cmp <- cmp_q |> select(Date, Company, GMargin) |> filter(!is.na(GMargin))
+
+ggplot(gm_cmp, aes(Date, GMargin, color = Company)) +
+  geom_line(linewidth=1.05) +
+  labs(title = "Gross Margin (%) — ODP vs BBY",
+       subtitle = "Service-rich, tech-heavy assortments stabilize margins vs commoditized supplies",
+       x = NULL, y = "Gross Margin (%)", color = NULL)
+```
+
+**Insight:** **BBY** shows **stronger Rev_YoY and margins** than
+**ODP**, consistent with BBY’s **product + service innovation**
+(install/support/memberships, hybrid-work assortments) vs ODP’s
+commodity focus.
+
+------------------------------------------------------------------------
+
+# 6. Linking Innovation Demand to ODP Outcomes
+
+```{r}
+# Merge ODP with industry innovation measures
+link_odp <- odp_q |>
+  left_join(industry_q |> select(Date, Office_YoY, Elect_YoY, Nonstore_YoY, Innovation_Composite_YoY),
+            by="Date") |>
+  filter(Date >= focus_start, Date <= focus_end)
+
+# Visualization 5: ODP Rev_YoY vs Innovation Composite YoY
+ggplot(link_odp, aes(Innovation_Composite_YoY, Rev_YoY)) +
+  geom_point(size=2, alpha=0.8) +
+  geom_smooth(method="lm", se=TRUE) +
+  labs(title = "ODP Revenue Growth vs Innovation Demand",
+       subtitle = "Positive slope ⇒ ODP grows when innovation segments are stronger (currently under-exposed)",
+       x = "Innovation Composite YoY (Electronics & Nonstore avg, %)",
+       y = "ODP Revenue YoY (%)")
+```
+
+```{r}
+# Directional correlations
+summ_cor <- link_odp |>
+  summarise(
+    cor_Rev_Office   = cor(Rev_YoY, Office_YoY,   use="pairwise.complete.obs"),
+    cor_Rev_Elect    = cor(Rev_YoY, Elect_YoY,    use="pairwise.complete.obs"),
+    cor_Rev_Nonstore = cor(Rev_YoY, Nonstore_YoY, use="pairwise.complete.obs"),
+    cor_Rev_Innov    = cor(Rev_YoY, Innovation_Composite_YoY, use="pairwise.complete.obs")
+  )
+summ_cor
+```
+
+**Insight:** Expect **weak/negative** alignment with **Office_YoY**, and
+**positive** alignment with **Innovation_Composite_YoY** — evidence that
+**ODP’s results co-move with innovation demand** when present, implying
+**under-exposure** today.
+
+------------------------------------------------------------------------
+
+# 7. What-If Scenario: Innovation Mix-Shift for ODP
+
+```{r}
+# Translate correlation into a simple uplift indicator (transparent, conservative)
+w_innov <- summ_cor$cor_Rev_Innov %>% tidyr::replace_na(0) %>% pmin(1) %>% pmax(-1)
+
+assumed_lift_pp <- 4   # assume ODP executes initiatives that add ~4pp innovation exposure
+predicted_uplift_pp <- as.numeric(w_innov * assumed_lift_pp)
+
+tibble(
+  Assumed_Innovation_Exposure_Lift_pp = assumed_lift_pp,
+  Weight_from_Historical_Link         = round(w_innov, 2),
+  Predicted_RevYoY_Uplift_pp          = round(predicted_uplift_pp, 2)
+)
+```
+
+**Interpretation:** A modest **+4pp** push toward innovation-aligned
+segments (hybrid-work tech assortments + service bundles) yields an
+estimated **Rev YoY uplift** (pp) based on historical co-movement — a
+clear business case to pivot.
+
+------------------------------------------------------------------------
+
+# 8. Recommendations (Product & Service Innovation)
+
+-   **Hybrid-Work Assortment Bundles**: webcams, monitors, docking,
+    routers, ergonomic furniture — packaged for SMB/remote teams.\
+-   **Services & Memberships**: onsite/remote setup, device imaging,
+    repair/support tiers, replacement guarantees, **subscription**
+    membership for priority service.\
+-   **B2B “Remote Office in a Box”**: monthly package combining
+    devices + furniture + managed print + IT support.\
+-   **E-commerce as a Service Platform**: beyond checkout — configure
+    kits, schedule installs, attach services online.\
+-   **Dashboard KPIs**: Innovation Mix %, Service Attach Rate,
+    Membership Penetration, Repeat Purchases, SMB Cohort Revenue, AOV,
+    Margin per Cohort.
+
+------------------------------------------------------------------------
+
+# 9. Appendix — Diagnostics & Export
+
+```{r}
+list(
+  industry_rows = nrow(industry_q),
+  odp_rows = nrow(odp_q),
+  bby_rows = nrow(bby_q),
+  cmp_rows = nrow(cmp_q)
+)
+```
+
+```{r}
+head(industry_q); head(odp_q); head(bby_q)
+```
+
+```{r}
+# Save joined dataset for Shiny if needed
+dashboard_df <- cmp_q |>
+  left_join(industry_q |> select(Date, Office_YoY, Elect_YoY, Nonstore_YoY, Innovation_Composite_YoY),
+            by="Date") |>
+  filter(Date >= focus_start, Date <= focus_end)
+
+readr::write_csv(dashboard_df, file.path("output", "dashboard_innovation_join_2022_2024.csv"))
+```
